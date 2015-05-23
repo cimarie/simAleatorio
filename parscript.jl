@@ -1,0 +1,2 @@
+include("paralleleq.jl")
+main()

@@ -1,0 +1,2 @@
+include("cim.jl")
+main()

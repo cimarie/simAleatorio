@@ -1,0 +1,2 @@
+include("eq.jl")
+main()
