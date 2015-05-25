@@ -31,15 +31,3 @@ if np.count_nonzero(v)>0:
     media = sum(w)/len(w)
     print "Em media, a populacao de altruistas acaba em %.3f iteracoes" %media
 
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-

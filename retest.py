@@ -1,4 +1,5 @@
 # coding: utf-8
+import logging
 import click
 import numpy as np
 import numpy.random
@@ -9,29 +10,32 @@ from scipy import sparse
 from collections import Counter
 from itertools import chain,izip
 
-@click.group()
-def cli():
-    pass
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-@click.command()
-@click.option('--N', default=5000, help='numero de grupos')
-@click.option('--n', default=26, help='numero de individuos por grupos')
-@click.option('--freqa', default=1., help='fracao de altruistas na pop inicial')
-@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes')
-@click.option('--c', default=10., help='custo a que o altruista incorre')
-@click.option('--deltaf', default=0.01, help='forca de selecao nas interacoes intragrupo')
-#@click.option('--deltac', default=0.01, help='forca de selecao nos conflitos intergrupos')
-@click.option('--mutacao', default=0.0001, help='taxa de mutacao')
-@click.option('--alpha', default=2., help='prevalencia do altruista em batalhas')
-@click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra')
-@click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos')
-def func(N, n, freqa, b, c, deltaf, mutacao, alpha, beta, pmig):
+#@click.command()
+#@click.option('--gnum', default=5000, help='numero de grupos')
+#@click.option('--inum', default=26, help='numero de individuos por grupos')
+#@click.option('--pa', default=1., help='fracao de altruistas na pop inicial')
+#@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes')
+#@click.option('--c', default=10., help='custo a que o altruista incorre')
+#@click.option('--delta', default=0.01, help='forca de selecao')
+#@click.option('--mutacao', default=0.0001, help='taxa de mutacao')
+#@click.option('--alpha', default=2., help='prevalencia do altruista em batalhas')
+#@click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra')
+#@click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos')
+def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
 
-    A = N*n*freqa
-    grupos,lfit,lfit_m,mpvencer = initSim(N,n,A,b,c,delta,alpha)
-    print simula(N,n,mutacao,beta,pmig,grupos,lfit,lfit_m,mpvencer)
+    logger.info(u"Começando a simulação")
+    logger.info(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
+        \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f, pmig=%.2f" \
+        %(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig))
 
-# Faz a simulacao
+    A = gnum*inum*pa
+    grupos,lfit,lfit_m,mpvencer = initSim(gnum,inum,A,b,c,delta,alpha)
+    x = time.time()+random.random()
+    return simula(gnum,inum,mutacao,beta,pmig,grupos,lfit,lfit_m,mpvencer,x)
+
 def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer, x):
 
     random.seed(time.time()+random.random()+x)
@@ -187,5 +191,5 @@ def migracao(N, n, grupos, pmig):
 
     return grupos
 
-if __name__ == "__main__":
-    func()
+#if __name__ == "__main__":
+#    gera_simulacao()
