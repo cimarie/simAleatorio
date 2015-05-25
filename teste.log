@@ -1,0 +1,10 @@
+2015-05-25 16:12:14,363 - __main__ - INFO - ....Calculando c = 0.03.....
+2015-05-25 16:12:14,382 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol
+2015-05-25 16:12:14,382 - __main__ - INFO - Para pmig = 1.000 - acima do valor de m_c
+2015-05-25 16:24:08,063 - __main__ - INFO - Teste inconclusivo
+2015-05-25 16:24:08,063 - __main__ - INFO - Para pmig = 0.900 - acima do valor de m_c
+2015-05-25 16:35:52,693 - __main__ - INFO - Teste inconclusivo
+2015-05-25 16:35:52,693 - __main__ - INFO - Para pmig = 0.800 - acima do valor de m_c
+2015-05-25 16:36:06,548 - __main__ - INFO - ....Calculando c = 0.03.....
+2015-05-25 16:36:06,567 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol
+2015-05-25 16:36:06,567 - __main__ - INFO - Para pmig = 1.000 - acima do valor de m_c

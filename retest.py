@@ -40,7 +40,7 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
 
     random.seed(time.time()+random.random()+x)
 
-    IT = 5000
+    IT = 5002
     precisao = 0.01
 
     AL = [] 
