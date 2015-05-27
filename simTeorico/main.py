@@ -152,18 +152,15 @@ def m_critico2(w0,b,c,n,deltaf,deltac,beta):
     vec_m = [0.,1.]
     fp = map(lambda i: rho(i,w0,b,c,n,deltaf,deltac,beta), vec_m)
     npt = 100
-    ind = 0
-    while fp[ind]*fp[ind+1] < 0:
+    ind = 0 
+    while ind < len(fp)-1 and fp[ind]*fp[ind+1] < 0:
         vec_m = np.arange(vec_m[ind],vec_m[ind+1]+1./npt,1./npt)
-        print vec_m
         fp = map(lambda i: rho(i,w0,b,c,n,deltaf,deltac,beta), vec_m)
         fp = np.array(fp)
-        aux = np.argwhere(fp>0)
-        aux = aux.reshape(1,len(aux))
-        ind = aux[0][-1]
+        ind = np.where(fp>0)[0][-1]
         npt = 10*npt
 
-    return vec_m[ind+1] 
+    return vec_m[ind] 
 
 def encontra_mc(w0,beta,b,c,opcao):
 

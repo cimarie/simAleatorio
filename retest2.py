@@ -10,25 +10,14 @@ from scipy import sparse
 from collections import Counter
 from itertools import chain,izip
 
-#logging.basicConfig(level=logging.INFO)
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-@click.command()
-@click.option('--gnum', default=5000, help='numero de grupos')
-@click.option('--inum', default=26, help='numero de individuos por grupos')
-@click.option('--pa', default=1., help='fracao de altruistas na pop inicial')
-@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes')
-@click.option('--c', default=10., help='custo a que o altruista incorre')
-@click.option('--delta', default=0.01, help='forca de selecao')
-@click.option('--mutacao', default=0.0001, help='taxa de mutacao')
-@click.option('--alpha', default=2., help='prevalencia do altruista em batalhas')
-@click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra')
-@click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos')
 def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
 
-    logger.info(u"Começando a simulação")
-    logger.info(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
+    logger.debug(u"Começando a simulação")
+    logger.debug(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f, pmig=%.2f" \
         %(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig))
 
@@ -45,7 +34,7 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     np.random.seed(s)
     
-    IT = 5002
+    IT = 5001
     precisao = 0.01
 
     AL = [] 
@@ -54,9 +43,9 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
 
     # Para cada periodo, os grupos entram em conflito e se reproduzem, e
     # os individuos sofrem mutacao e migram entre os grupos
-    for it in xrange(1,IT):
+    for it in range(1,IT):
         if abs(AL[it-1]-crit)<precisao:
-            print "Acabou na geracao ", it -1
+            #print "Acabou na geracao ", it -1
             break
         # 
         knums = [np.count_nonzero(line) for line in grupos]
@@ -101,10 +90,10 @@ def mutacao(N, n, PM, grupos):
     return (grupos+flips)%2
 
 def cria_listaf(b, c, n, delta):
-    return [fitness(0,n,k,b,c,delta) for k in xrange(0,int(n)+1)] 
+    return [fitness(0,n,k,b,c,delta) for k in range(0,int(n)+1)] 
 
 def cria_listafm(b, c, n, delta):
-    return [fitness_m(n,k,b,c,delta) for k in xrange(0,int(n)+1)]
+    return [fitness_m(n,k,b,c,delta) for k in range(0,int(n)+1)]
 
 def fitness(tipo, n, k, b, c, delta):
     return 1 + delta*(b*float(k)/n - (1-tipo)*c)
@@ -134,7 +123,7 @@ def reproducao_ind(N, n, lfit, lfitm, glabels):
     # Reproducao individual
     aux = np.zeros((N,n))
 
-    for i in xrange(N):
+    for i in range(N):
         k = glabels[i] 
         wA = lfit[k] 
         wm = lfitm[k]
@@ -184,11 +173,11 @@ def migracao(N, n, grupos, pmig):
         nmigs = numpy.random.binomial(n,pmig,N) 
 
         # Lista com os migrantes
-        migs = list(chain.from_iterable([grupos[i][0:nmigs[i]] for i in xrange(N)]))
+        migs = list(chain.from_iterable([grupos[i][0:nmigs[i]] for i in range(N)]))
         numpy.random.shuffle(migs)
 
         cont = 0
-        for i in xrange(N):
+        for i in range(N):
             grupos[i][0:nmigs[i]] = migs[cont:cont+nmigs[i]]
             cont += nmigs[i]
 
@@ -196,5 +185,3 @@ def migracao(N, n, grupos, pmig):
 
     return grupos
 
-if __name__ == "__main__":
-    gera_simulacao()

@@ -7,7 +7,7 @@
 # Valores padrao: N=5000, n=26, pA=1., b=0., c=10., deltaf=0.01, deltac=0.01, mutacao=0.0001, alpha=2., beta=0., pmig=0. #
 
 from joblib import Parallel, delayed
-from retest import simula, initSim
+from retest2 import simula, initSim
 import multiprocessing as mp
 import numpy as np
 
