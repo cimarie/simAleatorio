@@ -54,9 +54,9 @@ def testa(b, cvalores, numpt):
         m_c2 = m_critico2(1,b,c,n,delta,delta,beta)
         #logger.info(u"A taxa de migração crítica é %.3f (ou %.3f - interpol" %(m_c, m_c2))
         #logger.info(u"Logo: abaixo de mig = %.3f, há chance de emergência de altruísmo. Para taxas de migrações mais altas, a emergência se torna implausível" %m_c)
-        vec_m1 = np.arange(0.,m_c,1./npt)
+        vec_m1 = np.arange(0.,m_c,1./numpt)
         ini2 = 0. if vec_m1.size == 0 else vec_m1[-1]
-        vec_m2 = np.arange(ini2+1./npt, 1.+1./(10*npt), 1./npt)[::-1]
+        vec_m2 = np.arange(ini2+1./numpt, 1.+1./(10*numpt), 1./numpt)[::-1]
 
         nc = 6
         res1 = Parallel(n_jobs=nc)(delayed(bobo)(0.,b,c,pmig) for pmig in vec_m1)
