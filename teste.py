@@ -38,7 +38,7 @@ def bobo(pA, b, c, pmig):
     l_its = [gera_simulacao(N, n, pA, b, c, delta, mu, alpha, beta, pmig) for i in xrange(5)]
 
     # Mostra quantas simulacoes acabaram antes do maximo e a media de iteracoes que elas levaram
-    v = np.array(l_its)<5001
+    v = np.array(l_its)<5000
     if np.count_nonzero(v)>0:
         w = np.take(l_its, np.nonzero(v)[0])
         n_geracoes = sum(w)/len(w)
@@ -93,22 +93,22 @@ def testa(b, cvalores, numpt):
 
 def main():
 
-    logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
-            \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
-            %(N, n, pA, delta, mu, alpha, beta))
+   # logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
+   #         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
+   #         %(N, n, pA, delta, mu, alpha, beta))
     
     # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
-    benefit = 0.
-    vcost = [0.03, 0.15, 0.5, 1., 2.]
+    #benefit = 0.
+    benefit = 2.
+    vcost = [0.3, 1., 2., 3., 4., 5.]
     # Numero de pontos por intervalo [0,1] 
     npt = 10
 
     testa(benefit,vcost,npt)
 
     # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
-    b = 2.
-    cvalores = [0.03, 0.15, 0.5, 1., 2.]
-
+    benefit = 5.
+    vcost = [0.3, 1., 2., 3., 4., 5.]
     testa(benefit,vcost,npt)
 
 if __name__ == '__main__':

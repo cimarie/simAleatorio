@@ -36,7 +36,7 @@ def sim(b, c, pmig, i):
     return gera_simulacao(N, n, pA, b, c, delta, mu, alpha, beta, pmig)
 
 def bobo(pA, b, c, pmig):
-    l_its = Parallel(n_jobs=5)(delayed(sim)(b,c,pmig,i) for i in xrange(10))
+    l_its = Parallel(n_jobs=6)(delayed(sim)(b,c,pmig,i) for i in xrange(10))
 
     # Mostra quantas simulacoes acabaram antes do maximo e a media de iteracoes que elas levaram
     v = np.array(l_its)<5001
@@ -45,7 +45,7 @@ def bobo(pA, b, c, pmig):
         n_geracoes = sum(w)/len(w)
     else:
         n_geracoes = 0 
-    return n_geracoes
+    return np.count_nonzero(v), n_geracoes
 
 def testa(b, cvalores, npt):
     for c in cvalores:
@@ -59,14 +59,16 @@ def testa(b, cvalores, npt):
         vec_m2 = np.arange(ini2+1./npt, 1.+1./(10*npt), 1./npt)[::-1]
 
         for pmig in vec_m1:
-            n_geracoes = bobo(0.,b,c,pmig)
+            n_fim, n_geracoes = bobo(0.,b,c,pmig)
+            logger.info(u"O numero de simulacoes concluidas é: %d" %n_fim)
             if n_geracoes == 0:
                 logger.info(u"Teste inconclusivo")
                 break
             else:
                 logger.info(u"O numero de geracoes foi: %d" %n_geracoes)
         for pmig in vec_m2:
-            n_geracoes = bobo(1.,b,c,pmig)
+            n_fim, n_geracoes = bobo(1.,b,c,pmig)
+            logger.info(u"O numero de simulacoes concluidas é: %d" %n_fim)
             if n_geracoes == 0:
                 logger.info(u"Teste inconclusivo")
                 break
@@ -75,16 +77,16 @@ def testa(b, cvalores, npt):
 
 def main():
 
-    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
-    benefit = 2.
-    vcost = [0.03, 0.15, 0.5, 1., 2.][::-1]
-
-    # Numero de pontos por intervalo [0,1] 
-    numpt = 10
-
     logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
             \n\t\t mu=%.4f, alpha=%.1f, beta=%.2f"\
             %(N, n, pA, delta, mu, alpha, beta))
+    
+    # Numero de pontos por intervalo [0,1] 
+    numpt = 10
+
+    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
+    benefit = 2.
+    vcost = [0.03, 0.15, 0.5, 1., 2.][::-1]
 
     testa(benefit, vcost, numpt)
 

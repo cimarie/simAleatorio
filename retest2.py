@@ -34,7 +34,7 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     np.random.seed(s)
     
-    IT = 5001
+    IT = 5000
     precisao = 0.01
 
     AL = [] 
@@ -43,11 +43,10 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
 
     # Para cada periodo, os grupos entram em conflito e se reproduzem, e
     # os individuos sofrem mutacao e migram entre os grupos
-    for it in range(1,IT):
+    for it in range(1,IT+1):
         if abs(AL[it-1]-crit)<precisao:
             #print "Acabou na geracao ", it -1
-            break
-        # 
+            return it-1
         knums = [np.count_nonzero(line) for line in grupos]
         glabels = conflito(N,knums,beta,listafitness_m, mpvencer) if N>1 \
                     else knums
@@ -59,7 +58,7 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
 
         logger.debug("%d \t----------->\t %f" %(it,freqA))
 
-    return it-1
+    return it
 
 def initSim(N, n, A, b, c, delta, alpha):    
 
