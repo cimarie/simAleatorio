@@ -1,0 +1,112 @@
+2015-05-27 15:12:03,887 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,        
+		mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 15:12:03,888 - __main__ - INFO - ....Calculando b = 0.00, c = 0.03.....
+2015-05-27 15:12:03,923 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol
+2015-05-27 16:04:38,706 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		 mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 16:04:38,706 - __main__ - INFO - ....Calculando b = 0.00, c = 2.00.....
+2015-05-27 16:04:38,745 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-27 16:05:16,086 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		 mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 16:05:16,087 - __main__ - INFO - ....Calculando b = 0.00, c = 2.00.....
+2015-05-27 16:05:16,123 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-27 16:07:29,881 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		 mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 16:07:29,882 - __main__ - INFO - ....Calculando b = 0.00, c = 2.00.....
+2015-05-27 16:07:29,918 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-27 16:08:24,082 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		 mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 16:08:24,082 - __main__ - INFO - ....Calculando b = 2.00, c = 2.00.....
+2015-05-27 16:08:24,151 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-27 16:58:19,363 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		 mu=0.0001, alpha=1.0, beta=0.00
+2015-05-27 16:58:19,363 - __main__ - INFO - ....Calculando b = 2.00, c = 2.00.....
+2015-05-27 16:58:19,403 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-27 17:02:33,455 - __main__ - INFO - O numero de geracoes foi: 544
+2015-05-27 17:07:13,408 - __main__ - INFO - O numero de geracoes foi: 550
+2015-05-27 17:12:07,802 - __main__ - INFO - O numero de geracoes foi: 561
+2015-05-27 17:16:00,309 - __main__ - INFO - O numero de geracoes foi: 543
+2015-05-27 17:20:13,718 - __main__ - INFO - O numero de geracoes foi: 557
+2015-05-27 17:24:12,908 - __main__ - INFO - O numero de geracoes foi: 566
+2015-05-27 17:28:17,016 - __main__ - INFO - O numero de geracoes foi: 564
+2015-05-27 17:31:48,150 - __main__ - INFO - O numero de geracoes foi: 562
+2015-05-27 17:36:08,970 - __main__ - INFO - O numero de geracoes foi: 578
+2015-05-27 17:40:24,651 - __main__ - INFO - O numero de geracoes foi: 614
+2015-05-27 17:40:24,651 - __main__ - INFO - ....Calculando b = 2.00, c = 1.00.....
+2015-05-27 17:40:26,206 - __main__ - INFO - A taxa de migração crítica é 0.020 (ou 0.020 - interpol)
+2015-05-27 18:05:31,730 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-27 18:17:41,551 - __main__ - INFO - O numero de geracoes foi: 1191
+2015-05-27 18:32:11,655 - __main__ - INFO - O numero de geracoes foi: 1316
+2015-05-27 18:45:10,450 - __main__ - INFO - O numero de geracoes foi: 1322
+2015-05-27 18:56:30,647 - __main__ - INFO - O numero de geracoes foi: 1245
+2015-05-27 19:06:30,714 - __main__ - INFO - O numero de geracoes foi: 1197
+2015-05-27 19:18:36,840 - __main__ - INFO - O numero de geracoes foi: 1405
+2015-05-27 19:28:35,787 - __main__ - INFO - O numero de geracoes foi: 1261
+2015-05-27 19:38:08,511 - __main__ - INFO - O numero de geracoes foi: 1293
+2015-05-27 19:46:33,642 - __main__ - INFO - O numero de geracoes foi: 1305
+2015-05-27 19:57:54,795 - __main__ - INFO - O numero de geracoes foi: 1671
+2015-05-27 19:57:54,795 - __main__ - INFO - ....Calculando b = 2.00, c = 0.50.....
+2015-05-27 19:57:56,262 - __main__ - INFO - A taxa de migração crítica é 0.062 (ou 0.062 - interpol)
+2015-05-27 20:20:08,250 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-27 21:04:30,149 - __main__ - INFO - O numero de geracoes foi: 4747
+2015-05-27 21:45:41,330 - __main__ - INFO - O numero de geracoes foi: 4232
+2015-05-27 22:22:28,872 - __main__ - INFO - O numero de geracoes foi: 4844
+2015-05-27 22:59:22,897 - __main__ - INFO - O numero de geracoes foi: 4797
+2015-05-27 23:38:27,700 - __main__ - INFO - O numero de geracoes foi: 4582
+2015-05-28 00:18:18,018 - __main__ - INFO - O numero de geracoes foi: 4080
+2015-05-28 00:58:50,372 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 01:34:14,712 - __main__ - INFO - O numero de geracoes foi: 4385
+2015-05-28 01:57:04,992 - __main__ - INFO - O numero de geracoes foi: 4874
+2015-05-28 02:19:19,746 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 02:19:19,746 - __main__ - INFO - ....Calculando b = 2.00, c = 0.15.....
+2015-05-28 02:19:20,938 - __main__ - INFO - A taxa de migração crítica é 0.288 (ou 0.288 - interpol)
+2015-05-28 02:35:52,502 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 02:57:39,691 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 03:20:47,564 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 03:55:42,701 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 04:27:41,568 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 05:12:43,774 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 05:57:00,676 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 06:38:03,521 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 07:14:39,094 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 07:55:06,413 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 08:33:59,411 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 08:33:59,411 - __main__ - INFO - ....Calculando b = 2.00, c = 0.03.....
+2015-05-28 08:33:59,446 - __main__ - INFO - A taxa de migração crítica é 1.000 (ou 1.000 - interpol)
+2015-05-28 08:54:45,937 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 09:23:03,670 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 09:46:08,282 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 10:21:58,535 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 10:51:54,960 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 11:14:33,714 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 11:37:55,766 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 12:01:57,360 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 12:26:36,513 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 12:51:56,840 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 13:18:10,564 - __main__ - INFO - O numero de geracoes foi: 4999
+2015-05-28 13:18:10,565 - __main__ - INFO - ....Calculando b = 0.00, c = 2.00.....
+2015-05-28 13:18:10,584 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-28 13:20:56,065 - __main__ - INFO - O numero de geracoes foi: 515
+2015-05-28 13:23:36,638 - __main__ - INFO - O numero de geracoes foi: 516
+2015-05-28 13:26:10,702 - __main__ - INFO - O numero de geracoes foi: 514
+2015-05-28 13:28:42,758 - __main__ - INFO - O numero de geracoes foi: 506
+2015-05-28 13:31:14,415 - __main__ - INFO - O numero de geracoes foi: 525
+2015-05-28 13:33:42,984 - __main__ - INFO - O numero de geracoes foi: 523
+2015-05-28 13:36:09,731 - __main__ - INFO - O numero de geracoes foi: 522
+2015-05-28 13:38:42,783 - __main__ - INFO - O numero de geracoes foi: 549
+2015-05-28 13:40:58,512 - __main__ - INFO - O numero de geracoes foi: 521
+2015-05-28 13:43:05,226 - __main__ - INFO - O numero de geracoes foi: 505
+2015-05-28 13:43:05,226 - __main__ - INFO - ....Calculando b = 0.00, c = 1.00.....
+2015-05-28 13:43:05,246 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
+2015-05-28 13:49:14,349 - __main__ - INFO - O numero de geracoes foi: 1137
+2015-05-28 13:55:07,925 - __main__ - INFO - O numero de geracoes foi: 1088
+2015-05-28 14:01:20,022 - __main__ - INFO - O numero de geracoes foi: 1171
+2015-05-28 14:07:24,909 - __main__ - INFO - O numero de geracoes foi: 1133
+2015-05-28 14:12:56,241 - __main__ - INFO - O numero de geracoes foi: 1072
+2015-05-28 14:18:12,952 - __main__ - INFO - O numero de geracoes foi: 1041
+2015-05-28 14:23:10,233 - __main__ - INFO - O numero de geracoes foi: 1062
+2015-05-28 14:27:48,995 - __main__ - INFO - O numero de geracoes foi: 1030
+2015-05-28 14:32:43,367 - __main__ - INFO - O numero de geracoes foi: 1069
+2015-05-28 14:37:24,812 - __main__ - INFO - O numero de geracoes foi: 1056
+2015-05-28 14:37:24,812 - __main__ - INFO - ....Calculando b = 0.00, c = 0.50.....
+2015-05-28 14:37:24,832 - __main__ - INFO - A taxa de migração crítica é 0.000 (ou 0.000 - interpol)
