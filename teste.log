@@ -23,3 +23,21 @@
 2015-05-28 22:24:56,929 - __main__ - DEBUG - 
 
 
+2015-05-28 22:47:45,778 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		mu=0.0001, alpha=1.0, beta=0.00
+2015-05-28 22:48:25,430 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+		mu=0.0001, alpha=1.0, beta=0.00
+2015-05-28 22:48:29,791 - __main__ - DEBUG - 0.000 esta em vec_m1
+2015-05-28 22:48:29,791 - __main__ - DEBUG - 0.100 esta em vec_m1
+2015-05-28 22:48:29,791 - __main__ - DEBUG - 0.200 esta em vec_m1
+2015-05-28 22:48:29,792 - __main__ - DEBUG - 0.300 esta em vec_m1
+2015-05-28 22:48:29,792 - __main__ - DEBUG - 0.400 esta em vec_m1
+2015-05-28 22:48:29,792 - __main__ - DEBUG - 0.500 esta em vec_m1
+2015-05-28 22:48:29,792 - __main__ - DEBUG - 0.600 esta em vec_m1
+2015-05-28 22:48:29,792 - __main__ - DEBUG - 0.700 esta em vec_m1
+2015-05-28 22:48:29,793 - __main__ - DEBUG - 0.800 esta em vec_m1
+2015-05-28 22:48:29,793 - __main__ - DEBUG - 0.900 esta em vec_m1
+2015-05-28 22:48:29,793 - __main__ - DEBUG - 1.000 esta em vec_m1
+2015-05-28 22:48:29,793 - __main__ - DEBUG - 
+
+

@@ -14,8 +14,8 @@ LOG_FILENAME = 'teste.log'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 fh = logging.FileHandler(LOG_FILENAME)
-#fh.setLevel(logging.INFO)
-fh.setLevel(logging.DEBUG)
+fh.setLevel(logging.INFO)
+#fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
 logger.addHandler(fh)
@@ -35,7 +35,9 @@ pA = 1.0
 pmig = 0.8
 ###############################################################
 
-def bobo(pA, b, c, pmig):
+def bobo(b, c, m_c, pmig):
+
+    pA = 1. if pmig > m_c else 0.
 
     l_its = [gera_simulacao(N, n, pA, b, c, delta, mu, alpha, beta, pmig) for i in xrange(5)]
 
@@ -54,45 +56,25 @@ def testa(b, cvalores, numpt):
         #logger.info(u"....Calculando b = %.2f, c = %.2f....." %(b, c))
         m_c = m_critico(1,b,c,n,delta,delta,beta)
         m_c2 = m_critico2(1,b,c,n,delta,delta,beta)
-        #logger.info(u"A taxa de migração crítica é %.3f (ou %.3f - interpol" %(m_c, m_c2))
+        logger.info(u"A taxa de migração crítica é %.3f (ou %.3f - interpol)" %(m_c, m_c2))
         #logger.info(u"Logo: abaixo de mig = %.3f, há chance de emergência de altruísmo. Para taxas de migrações mais altas, a emergência se torna implausível" %m_c)
-        vec_m1 = np.arange(0.,m_c,1./numpt)
-        ini2 = 0. if vec_m1.size == 0 else vec_m1[-1]
-        vec_m2 = np.arange(ini2+1./numpt, 1.+1./(10*numpt), 1./numpt)[::-1]
 
-        for mm in vec_m1:
+        vec_m = np.arange(0.,1.+1./(10*numpt), 1./numpt)
+        for mm in vec_m:
             logger.debug("%.3f esta em vec_m1" %mm)
 
         logger.debug("\n\n")
-        for mm in vec_m2:
-            logger.debug("%.3f esta em vec_m2" %mm)
-
-        logger.debug("\n\n")
         nc = mp.cpu_count()-1
-        res1 = Parallel(n_jobs=nc)(delayed(bobo)(0.,b,c,pmig) for pmig in vec_m1)
-        res2 = Parallel(n_jobs=nc)(delayed(bobo)(1.,b,c,pmig) for pmig in vec_m2)
+        res1 = Parallel(n_jobs=nc)(delayed(bobo)(b,c,m_c,pmig) for pmig in vec_m)
 
         l1 = np.array(zip(*res1)).T
-        l2 = np.array(zip(*res2)).T
 
         for elem in l1:
             benefit = elem[0]
             cost = elem[1]
             pmig = elem[2]
-            logger.info(u"Para b = %.2f, c = %.2f e pmig = %.3f - abaixo do valor de m_c:" %(benefit, cost, pmig))
-            n_fim = elem[3]
-            logger.info(u"O numero de simulacoes concluidas é: %d" %n_fim)
-            n_geracoes = elem[4]
-            if n_geracoes:
-                logger.info(u"O numero medio de geracoes foi: %d\n" %n_geracoes)
-            else:
-                logger.info(u"Teste inconclusivo\n")
-
-        for elem in l2:
-            benefit = elem[0]
-            cost = elem[1]
-            pmig = elem[2]
-            logger.info(u"Para b = %.2f, c = %.2f e pmig = %.3f - acima do valor de m_c:" %(benefit, cost, pmig))
+            palavra = u"abaixo" if pmig<m_c else u"acima"
+            logger.info(u"Para b = %.2f, c = %.2f e pmig = %.3f - %s do valor de m_c:" %(benefit, cost, palavfa, pmig))
             n_fim = elem[3]
             logger.info(u"O numero de simulacoes concluidas é: %d" %n_fim)
             n_geracoes = elem[4]
