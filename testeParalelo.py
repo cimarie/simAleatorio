@@ -4,6 +4,7 @@
 # Testando o programa TLFW  #
 #############################
 from joblib import Parallel, delayed
+import multiprocessing as mp
 import logging
 import numpy as np
 from retest2 import gera_simulacao
@@ -36,7 +37,8 @@ def sim(b, c, pmig, i):
     return gera_simulacao(N, n, pA, b, c, delta, mu, alpha, beta, pmig)
 
 def bobo(pA, b, c, pmig):
-    l_its = Parallel(n_jobs=6)(delayed(sim)(b,c,pmig,i) for i in xrange(10))
+    nc = mp.cpu_count() -1 
+    l_its = Parallel(n_jobs=nc)(delayed(sim)(b,c,pmig,i) for i in xrange(10))
 
     # Mostra quantas simulacoes acabaram antes do maximo e a media de iteracoes que elas levaram
     v = np.array(l_its)<5001
@@ -56,7 +58,7 @@ def testa(b, cvalores, npt):
         #logger.info(u"Logo: abaixo de mig = %.3f, há chance de emergência de altruísmo. Para taxas de migrações mais altas, a emergência se torna implausível" %m_c)
         vec_m1 = np.arange(0.,m_c,1./npt)
         ini2 = 0. if vec_m1.size == 0 else vec_m1[-1]
-        vec_m2 = np.arange(ini2+1./npt, 1.+1./(10*npt), 1./npt)[::-1]
+        vec_m2 = 0 if list(vec_m1)==[] else np.arange(ini2+1./npt, 1.+1./(10*npt), 1./npt)[::-1]
 
         for pmig in vec_m1:
             n_fim, n_geracoes = bobo(0.,b,c,pmig)

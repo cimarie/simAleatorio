@@ -4,6 +4,7 @@
 # Testando o programa TLFW  #
 #############################
 from joblib import Parallel, delayed
+import multiprocessing as mp
 import logging
 import numpy as np
 from retest2 import gera_simulacao
@@ -13,7 +14,8 @@ LOG_FILENAME = 'teste.log'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 fh = logging.FileHandler(LOG_FILENAME)
-fh.setLevel(logging.INFO)
+#fh.setLevel(logging.INFO)
+fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
 logger.addHandler(fh)
@@ -58,7 +60,15 @@ def testa(b, cvalores, numpt):
         ini2 = 0. if vec_m1.size == 0 else vec_m1[-1]
         vec_m2 = np.arange(ini2+1./numpt, 1.+1./(10*numpt), 1./numpt)[::-1]
 
-        nc = 6
+        for mm in vec_m1:
+            logger.debug("%.3f esta em vec_m1" %mm)
+
+        logger.debug("\n\n")
+        for mm in vec_m2:
+            logger.debug("%.3f esta em vec_m2" %mm)
+
+        logger.debug("\n\n")
+        nc = mp.cpu_count()-1
         res1 = Parallel(n_jobs=nc)(delayed(bobo)(0.,b,c,pmig) for pmig in vec_m1)
         res2 = Parallel(n_jobs=nc)(delayed(bobo)(1.,b,c,pmig) for pmig in vec_m2)
 
@@ -93,9 +103,9 @@ def testa(b, cvalores, numpt):
 
 def main():
 
-   # logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
-   #         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
-   #         %(N, n, pA, delta, mu, alpha, beta))
+    logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
+            \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
+            %(N, n, pA, delta, mu, alpha, beta))
     
     # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
     #benefit = 0.
