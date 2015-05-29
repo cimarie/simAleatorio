@@ -10,8 +10,8 @@ from scipy import sparse
 from collections import Counter
 from itertools import chain,izip
 
-#logging.basicConfig(level=logging.INFO)
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
