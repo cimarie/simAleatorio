@@ -1,8 +1,8 @@
 #coding: utf-8
 
-#############################
-# Testando o programa TLFW  #
-#############################
+################################
+# Testando a simulacao Bowles  #
+################################
 from joblib import Parallel, delayed
 import multiprocessing as mp
 import logging
@@ -10,7 +10,7 @@ import numpy as np
 from retest2 import gera_simulacao
 from simTeorico.main import m_critico, m_critico2
 
-LOG_FILENAME = 'teste.log'
+LOG_FILENAME = 'teste_beta.log'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 fh = logging.FileHandler(LOG_FILENAME)
@@ -21,9 +21,8 @@ fh.setFormatter(formatter)
 logger.addHandler(fh)
 
 ################## PARAMETROS GLOBAIS #########################
-# Como se trata do programa TLFW:
-beta = 0.0
-alpha = 1.0  # nao importa
+beta = 0.3
+alpha = 2.0  
 
 # Para todas as sim: N = 5000 (grupos) e n = 26 (indivíduos)
 # Além disso, mu = 0.0001, delta = 0.01
@@ -89,7 +88,14 @@ def main():
             \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
             %(N, n, pA, delta, mu, alpha, beta))
 
+    # Numero de pontos por intervalo [0,1] 
+    npt = 10
+
     # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
+    benefit = 0.
+    vcost = [0.03, 0.15, 0.5, 1., 2.]
+
+    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
     #benefit = 0.
     benefit = 2.
     vcost = [0.3, 1., 2., 3., 4., 5.]
@@ -98,7 +104,7 @@ def main():
 
     testa(benefit,vcost,npt)
 
-    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
+    # Teste para alpha = 1.0,  b = 5.0 e c variável, conforme cvalores
     benefit = 5.
     vcost = [0.3, 1., 2., 3., 4., 5.]
     testa(benefit,vcost,npt)
