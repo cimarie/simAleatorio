@@ -31,8 +31,6 @@ N = 5000
 n = 26
 mu = 0.0001
 delta = 0.01
-pA = 1.0
-pmig = 0.8
 ###############################################################
 
 def bobo(b, c, m_c, pmig):
@@ -49,7 +47,7 @@ def bobo(b, c, m_c, pmig):
     else:
         n_geracoes = 0 
 
-    return b, c, pmig, np.count_nonzero(v), n_geracoes
+    return b, c, pmig, np.count_nonzero(v), n_geracoes, l_its[0], l_its[1], l_its[2], l_its[3], l_its[4]
 
 def testa(b, cvalores, numpt):
     for c in cvalores:
@@ -80,27 +78,29 @@ def testa(b, cvalores, numpt):
             n_geracoes = elem[4]
             if n_geracoes:
                 logger.info(u"O numero medio de geracoes foi: %d\n" %n_geracoes)
+                logger.info(u"\t%d\t%d\t%d\t%d\t%d\n" %(elem[5],elem[6],elem[7],elem[8],elem[9]))
             else:
                 logger.info(u"Teste inconclusivo\n")
 
 def main():
-
-    logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, pA=%.2f, delta=%.3f,\
+    logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, delta=%.3f,\
             \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f" \
-            %(N, n, pA, delta, mu, alpha, beta))
+            %(N, n, delta, mu, alpha, beta))
 
-    # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
-    #benefit = 0.
-    benefit = 2.
-    vcost = [0.3, 1., 2., 3., 4., 5.]
     # Numero de pontos por intervalo [0,1] 
     npt = 10
 
+    # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
+    benefit = 0.
+    vcost = [0.03, 0.15, 0.5, 1., 2.]
+    testa(benefit,vcost,npt)
+    
+    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
+    benefit = 2.
     testa(benefit,vcost,npt)
 
-    # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
+    # Teste para alpha = 1.0,  b = 5.0 e c variável, conforme cvalores
     benefit = 5.
-    vcost = [0.3, 1., 2., 3., 4., 5.]
     testa(benefit,vcost,npt)
 
 if __name__ == '__main__':
