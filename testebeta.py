@@ -48,7 +48,7 @@ def bobo(b, c, m_c, pmig):
     else:
         n_geracoes = 0 
 
-    return b, c, pmig, np.count_nonzero(v), n_geracoes
+    return b, c, pmig, np.count_nonzero(v), n_geracoes, l_its[0], l_its[1], l_its[2], l_its[3], l_its[4]
 
 def testa(b, cvalores, numpt):
     for c in cvalores:
@@ -78,7 +78,8 @@ def testa(b, cvalores, numpt):
             logger.info(u"O numero de simulacoes concluidas é: %d" %n_fim)
             n_geracoes = elem[4]
             if n_geracoes:
-                logger.info(u"O numero medio de geracoes foi: %d\n" %n_geracoes)
+                logger.info(u"O numero medio de geracoes foi: %d" %n_geracoes)
+                logger.info(u"\t%d\t%d\t%d\t%d\t%d\n" %(elem[5],elem[6],elem[7],elem[8],elem[9]))
             else:
                 logger.info(u"Teste inconclusivo\n")
 
@@ -94,7 +95,8 @@ def main():
     # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
     benefit = 0.
     vcost = [0.03, 0.15, 0.5, 1., 2.]
-
+    testa(benefit,vcost,npt)
+    
     # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores
     #benefit = 0.
     benefit = 2.
