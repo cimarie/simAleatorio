@@ -1,793 +1,707 @@
-2015-05-31 15:15:15,811 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, pA=1.00, delta=0.010,            
+2015-06-01 15:39:48,048 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, delta=0.010,            
 		mu=0.0001, alpha=2.0, beta=0.30
-2015-05-31 15:15:17,050 - __main__ - INFO - A taxa de migração crítica é 0.552 (ou 0.552 - interpol)
-2015-05-31 16:00:15,064 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.000 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,064 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,064 - __main__ - INFO - O numero medio de geracoes foi: 52
-2015-05-31 16:00:15,064 - __main__ - INFO - 	53	55	52	50	53
-
-2015-05-31 16:00:15,064 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.100 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,064 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,064 - __main__ - INFO - O numero medio de geracoes foi: 91
-2015-05-31 16:00:15,064 - __main__ - INFO - 	92	92	89	93	91
-
-2015-05-31 16:00:15,065 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.200 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero medio de geracoes foi: 130
-2015-05-31 16:00:15,065 - __main__ - INFO - 	128	128	131	134	129
-
-2015-05-31 16:00:15,065 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.300 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero medio de geracoes foi: 160
-2015-05-31 16:00:15,065 - __main__ - INFO - 	161	161	160	159	161
-
-2015-05-31 16:00:15,065 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.400 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,065 - __main__ - INFO - O numero medio de geracoes foi: 189
-2015-05-31 16:00:15,066 - __main__ - INFO - 	189	195	188	187	186
-
-2015-05-31 16:00:15,066 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.500 - abaixo do valor de m_c: 0.552
-2015-05-31 16:00:15,066 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 16:00:15,066 - __main__ - INFO - O numero medio de geracoes foi: 211
-2015-05-31 16:00:15,066 - __main__ - INFO - 	215	208	212	212	212
-
-2015-05-31 16:00:15,066 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.600 - acima do valor de m_c: 0.552
-2015-05-31 16:00:15,066 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 16:00:15,066 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 16:00:15,066 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.700 - acima do valor de m_c: 0.552
-2015-05-31 16:00:15,066 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 16:00:15,066 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 16:00:15,066 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.800 - acima do valor de m_c: 0.552
-2015-05-31 16:00:15,066 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 16:00:15,067 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 16:00:15,067 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.900 - acima do valor de m_c: 0.552
-2015-05-31 16:00:15,067 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 16:00:15,067 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 16:00:15,067 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 1.000 - acima do valor de m_c: 0.552
-2015-05-31 16:00:15,067 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 16:00:15,067 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 16:00:16,637 - __main__ - INFO - A taxa de migração crítica é 0.083 (ou 0.083 - interpol)
-2015-05-31 17:05:13,992 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.000 - abaixo do valor de m_c: 0.083
-2015-05-31 17:05:13,992 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 17:05:13,992 - __main__ - INFO - O numero medio de geracoes foi: 52
-2015-05-31 17:05:13,992 - __main__ - INFO - 	54	54	52	51	51
-
-2015-05-31 17:05:13,992 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.100 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,992 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,993 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,993 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.200 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,993 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,993 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,993 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.300 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,993 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,993 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,993 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.400 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,993 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,993 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,994 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.500 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,994 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,994 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,994 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.600 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,994 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,994 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,994 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.700 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,994 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,994 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,995 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.800 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,995 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,995 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,995 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.900 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,995 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,995 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:13,995 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 1.000 - acima do valor de m_c: 0.083
-2015-05-31 17:05:13,995 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 17:05:13,995 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 17:05:15,576 - __main__ - INFO - A taxa de migração crítica é 0.024 (ou 0.024 - interpol)
-2015-05-31 18:09:24,431 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.000 - abaixo do valor de m_c: 0.024
-2015-05-31 18:09:24,431 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 18:09:24,432 - __main__ - INFO - O numero medio de geracoes foi: 53
-2015-05-31 18:09:24,432 - __main__ - INFO - 	55	51	54	55	52
-
-2015-05-31 18:09:24,432 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.100 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,432 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,432 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,432 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.200 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,432 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,432 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,432 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.300 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,432 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,432 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,432 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.400 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,432 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,433 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,433 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.500 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,433 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,433 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,433 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.600 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,433 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,433 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,433 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.700 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,433 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,433 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,433 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.800 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,433 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,433 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,433 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.900 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,434 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,434 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:24,434 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 1.000 - acima do valor de m_c: 0.024
-2015-05-31 18:09:24,434 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 18:09:24,434 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 18:09:26,075 - __main__ - INFO - A taxa de migração crítica é 0.012 (ou 0.012 - interpol)
-2015-05-31 19:14:46,236 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.012
-2015-05-31 19:14:46,236 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 19:14:46,236 - __main__ - INFO - O numero medio de geracoes foi: 53
-2015-05-31 19:14:46,236 - __main__ - INFO - 	55	53	52	58	50
-
-2015-05-31 19:14:46,236 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,236 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,236 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,237 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,237 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,237 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,237 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,237 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,237 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,237 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,237 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,237 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,237 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,237 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,237 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,238 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,238 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,238 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,238 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,238 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,238 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,238 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,238 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,238 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,238 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,238 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,238 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:46,239 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.012
-2015-05-31 19:14:46,239 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 19:14:46,239 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 19:14:47,830 - __main__ - INFO - A taxa de migração crítica é 0.005 (ou 0.006 - interpol)
-2015-05-31 20:21:01,139 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.005
-2015-05-31 20:21:01,139 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 20:21:01,140 - __main__ - INFO - O numero medio de geracoes foi: 53
-2015-05-31 20:21:01,140 - __main__ - INFO - 	53	53	58	50	51
-
-2015-05-31 20:21:01,140 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,140 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,140 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,140 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,140 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,140 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,140 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,140 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,140 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,140 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,140 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,141 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,141 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,141 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,141 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,141 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,141 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,141 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,141 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,141 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,141 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,141 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,141 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,141 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,141 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,141 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,142 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:01,142 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.005
-2015-05-31 20:21:01,142 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 20:21:01,142 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 20:21:02,534 - __main__ - INFO - A taxa de migração crítica é 0.041 (ou 0.041 - interpol)
-2015-05-31 21:25:15,327 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.000 - abaixo do valor de m_c: 0.041
-2015-05-31 21:25:15,327 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 21:25:15,327 - __main__ - INFO - O numero medio de geracoes foi: 51
-2015-05-31 21:25:15,328 - __main__ - INFO - 	50	53	51	50	54
-
-2015-05-31 21:25:15,328 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.100 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,328 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,328 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,328 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.200 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,328 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,328 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,328 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.300 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,328 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,328 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,328 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.400 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,328 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,329 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,329 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.500 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,329 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,329 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,329 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.600 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,329 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,329 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,329 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.700 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,329 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,329 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,329 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.800 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,329 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,330 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,330 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 0.900 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,330 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,330 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:15,330 - __main__ - INFO - Para b = 2.00, c = 0.30 e pmig = 1.000 - acima do valor de m_c: 0.041
-2015-05-31 21:25:15,330 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 21:25:15,330 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 21:25:16,831 - __main__ - INFO - A taxa de migração crítica é 0.013 (ou 0.012 - interpol)
-2015-05-31 22:27:38,624 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.013
-2015-05-31 22:27:38,625 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 22:27:38,625 - __main__ - INFO - O numero medio de geracoes foi: 53
-2015-05-31 22:27:38,625 - __main__ - INFO - 	53	53	53	57	52
-
-2015-05-31 22:27:38,626 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,626 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,626 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,626 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,627 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,627 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,627 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,627 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,627 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,628 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,628 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,628 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,628 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,629 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,629 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,629 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,629 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,630 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,630 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,630 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,630 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,630 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,631 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,631 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,631 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,631 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,632 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:38,632 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.013
-2015-05-31 22:27:38,632 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 22:27:38,632 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 22:27:41,027 - __main__ - INFO - A taxa de migração crítica é 0.006 (ou 0.006 - interpol)
-2015-05-31 23:33:54,875 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.006
-2015-05-31 23:33:54,875 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-05-31 23:33:54,875 - __main__ - INFO - O numero medio de geracoes foi: 54
-2015-05-31 23:33:54,875 - __main__ - INFO - 	55	53	54	55	55
-
-2015-05-31 23:33:54,875 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,875 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,875 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,876 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,876 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,876 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,876 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,876 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,876 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,876 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,876 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,877 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,877 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,877 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,877 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:54,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.006
-2015-05-31 23:33:54,878 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-05-31 23:33:54,878 - __main__ - INFO - Teste inconclusivo
-
-2015-05-31 23:33:56,503 - __main__ - INFO - A taxa de migração crítica é 0.004 (ou 0.004 - interpol)
-2015-06-01 00:37:42,341 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.000 - abaixo do valor de m_c: 0.004
-2015-06-01 00:37:42,341 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 00:37:42,341 - __main__ - INFO - O numero medio de geracoes foi: 54
-2015-06-01 00:37:42,341 - __main__ - INFO - 	51	51	55	55	58
-
-2015-06-01 00:37:42,341 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.100 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,341 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,341 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,341 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.200 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,341 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,341 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,341 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.300 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,342 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,342 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.400 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,342 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,342 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.500 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,342 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,342 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.600 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,342 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,342 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.700 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,342 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,342 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.800 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,342 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,343 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,343 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 0.900 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,343 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,343 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:42,343 - __main__ - INFO - Para b = 2.00, c = 3.00 e pmig = 1.000 - acima do valor de m_c: 0.004
-2015-06-01 00:37:42,343 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 00:37:42,343 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 00:37:43,955 - __main__ - INFO - A taxa de migração crítica é 0.003 (ou 0.003 - interpol)
-2015-06-01 01:41:56,024 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.000 - abaixo do valor de m_c: 0.003
-2015-06-01 01:41:56,025 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 01:41:56,025 - __main__ - INFO - O numero medio de geracoes foi: 55
-2015-06-01 01:41:56,025 - __main__ - INFO - 	55	54	56	56	57
-
-2015-06-01 01:41:56,025 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.100 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,025 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,025 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,025 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.200 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,026 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,026 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,026 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.300 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,026 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,026 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,026 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.400 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,026 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,026 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,026 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.500 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,026 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,027 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,027 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.600 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,027 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,027 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,027 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.700 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,027 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,027 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,027 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.800 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,027 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,027 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,028 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 0.900 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,028 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,028 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:56,028 - __main__ - INFO - Para b = 2.00, c = 4.00 e pmig = 1.000 - acima do valor de m_c: 0.003
-2015-06-01 01:41:56,028 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 01:41:56,028 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 01:41:57,498 - __main__ - INFO - A taxa de migração crítica é 0.002 (ou 0.002 - interpol)
-2015-06-01 02:43:57,655 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.000 - abaixo do valor de m_c: 0.002
-2015-06-01 02:43:57,655 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 02:43:57,655 - __main__ - INFO - O numero medio de geracoes foi: 59
-2015-06-01 02:43:57,655 - __main__ - INFO - 	60	61	56	58	60
-
-2015-06-01 02:43:57,655 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.100 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,655 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,656 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,656 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.200 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,656 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,656 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,656 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.300 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,656 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,656 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,656 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.400 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,656 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,656 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,656 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.500 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,656 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,656 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,657 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.600 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,657 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,657 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,657 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.700 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,657 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,657 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,657 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.800 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,657 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 02:43:57,657 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 02:43:57,657 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 0.900 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,657 - __main__ - INFO - O numero de simulacoes concluidas é: 1
-2015-06-01 02:43:57,658 - __main__ - INFO - O numero medio de geracoes foi: 4561
-2015-06-01 02:43:57,658 - __main__ - INFO - 	5000	5000	4561	5000	5000
-
-2015-06-01 02:43:57,658 - __main__ - INFO - Para b = 2.00, c = 5.00 e pmig = 1.000 - acima do valor de m_c: 0.002
-2015-06-01 02:43:57,658 - __main__ - INFO - O numero de simulacoes concluidas é: 3
-2015-06-01 02:43:57,658 - __main__ - INFO - O numero medio de geracoes foi: 3336
-2015-06-01 02:43:57,658 - __main__ - INFO - 	2073	5000	4275	5000	3662
-
-2015-06-01 02:43:59,304 - __main__ - INFO - A taxa de migração crítica é 0.041 (ou 0.041 - interpol)
-2015-06-01 03:49:00,697 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.000 - abaixo do valor de m_c: 0.041
-2015-06-01 03:49:00,697 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 03:49:00,697 - __main__ - INFO - O numero medio de geracoes foi: 51
-2015-06-01 03:49:00,697 - __main__ - INFO - 	51	50	50	53	55
-
-2015-06-01 03:49:00,697 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.100 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,698 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,698 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,698 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.200 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,698 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,698 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,698 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.300 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,698 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,699 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,699 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.400 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,699 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,699 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,699 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.500 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,699 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,699 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,700 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.600 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,700 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,700 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,700 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.700 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,700 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,700 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,700 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.800 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,700 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,701 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,701 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 0.900 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,701 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,701 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:00,701 - __main__ - INFO - Para b = 5.00, c = 0.30 e pmig = 1.000 - acima do valor de m_c: 0.041
-2015-06-01 03:49:00,701 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 03:49:00,701 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 03:49:02,635 - __main__ - INFO - A taxa de migração crítica é 0.013 (ou 0.012 - interpol)
-2015-06-01 04:57:12,851 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.013
-2015-06-01 04:57:12,851 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 04:57:12,852 - __main__ - INFO - O numero medio de geracoes foi: 52
-2015-06-01 04:57:12,852 - __main__ - INFO - 	52	52	54	52	53
-
-2015-06-01 04:57:12,852 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,852 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,852 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,852 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,852 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,852 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,852 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,852 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,852 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,853 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,853 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,853 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,853 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,853 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,853 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,853 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,853 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,853 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,853 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,853 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,853 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,853 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,854 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,854 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,854 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,854 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,854 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:12,854 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.013
-2015-06-01 04:57:12,854 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 04:57:12,854 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 04:57:14,355 - __main__ - INFO - A taxa de migração crítica é 0.006 (ou 0.006 - interpol)
-2015-06-01 06:01:22,532 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.006
-2015-06-01 06:01:22,533 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 06:01:22,533 - __main__ - INFO - O numero medio de geracoes foi: 55
-2015-06-01 06:01:22,533 - __main__ - INFO - 	58	55	55	56	55
-
-2015-06-01 06:01:22,533 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,533 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,533 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,533 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,533 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,534 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,534 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,534 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,534 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,534 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,534 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,534 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,534 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,534 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,534 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,534 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,534 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,534 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,535 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,535 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,535 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,535 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,535 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,535 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,535 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,535 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,535 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:22,535 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.006
-2015-06-01 06:01:22,535 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 06:01:22,535 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 06:01:24,040 - __main__ - INFO - A taxa de migração crítica é 0.004 (ou 0.004 - interpol)
-2015-06-01 07:05:39,493 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.000 - abaixo do valor de m_c: 0.004
-2015-06-01 07:05:39,493 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 07:05:39,493 - __main__ - INFO - O numero medio de geracoes foi: 54
-2015-06-01 07:05:39,493 - __main__ - INFO - 	53	55	54	55	56
-
-2015-06-01 07:05:39,493 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.100 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,493 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,494 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,494 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.200 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,494 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,494 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,494 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.300 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,494 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,494 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,494 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.400 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,494 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,494 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,494 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.500 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,495 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,495 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,495 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.600 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,495 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,495 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,495 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.700 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,495 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,495 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,495 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.800 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,495 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,495 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,495 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 0.900 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,495 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,496 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:39,496 - __main__ - INFO - Para b = 5.00, c = 3.00 e pmig = 1.000 - acima do valor de m_c: 0.004
-2015-06-01 07:05:39,496 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 07:05:39,496 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 07:05:40,859 - __main__ - INFO - A taxa de migração crítica é 0.003 (ou 0.003 - interpol)
-2015-06-01 08:07:43,021 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.000 - abaixo do valor de m_c: 0.003
-2015-06-01 08:07:43,021 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 08:07:43,021 - __main__ - INFO - O numero medio de geracoes foi: 55
-2015-06-01 08:07:43,021 - __main__ - INFO - 	57	57	56	54	54
-
-2015-06-01 08:07:43,021 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.100 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,021 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,021 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,022 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.200 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,022 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,022 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,022 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.300 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,022 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,022 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,022 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.400 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,022 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,022 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,022 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.500 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,022 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,022 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,022 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.600 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,023 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,023 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,023 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.700 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,023 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,023 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,023 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.800 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,023 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,023 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,023 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 0.900 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,023 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,023 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:43,023 - __main__ - INFO - Para b = 5.00, c = 4.00 e pmig = 1.000 - acima do valor de m_c: 0.003
-2015-06-01 08:07:43,024 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 08:07:43,024 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 08:07:44,542 - __main__ - INFO - A taxa de migração crítica é 0.002 (ou 0.002 - interpol)
-2015-06-01 09:11:38,763 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.000 - abaixo do valor de m_c: 0.002
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero de simulacoes concluidas é: 5
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero medio de geracoes foi: 57
-2015-06-01 09:11:38,764 - __main__ - INFO - 	59	60	54	56	57
-
-2015-06-01 09:11:38,764 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.100 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,764 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,764 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.200 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,764 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,764 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.300 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,764 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,764 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.400 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,764 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,765 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,765 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.500 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,765 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,765 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,765 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.600 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,765 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,765 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,765 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.700 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,765 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,765 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,765 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.800 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,765 - __main__ - INFO - O numero de simulacoes concluidas é: 0
-2015-06-01 09:11:38,765 - __main__ - INFO - Teste inconclusivo
-
-2015-06-01 09:11:38,765 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 0.900 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,766 - __main__ - INFO - O numero de simulacoes concluidas é: 2
-2015-06-01 09:11:38,766 - __main__ - INFO - O numero medio de geracoes foi: 3206
-2015-06-01 09:11:38,766 - __main__ - INFO - 	5000	5000	4125	5000	2288
-
-2015-06-01 09:11:38,766 - __main__ - INFO - Para b = 5.00, c = 5.00 e pmig = 1.000 - acima do valor de m_c: 0.002
-2015-06-01 09:11:38,766 - __main__ - INFO - O numero de simulacoes concluidas é: 2
-2015-06-01 09:11:38,766 - __main__ - INFO - O numero medio de geracoes foi: 4439
-2015-06-01 09:11:38,766 - __main__ - INFO - 	5000	4375	5000	4503	5000
+2015-06-01 15:39:49,678 - __main__ - INFO - A taxa de migração crítica é 0.552 (ou 0.552 - interpol)
+2015-06-01 17:01:01,401 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.000 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,402 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,402 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-01 17:01:01,402 - __main__ - INFO - 	52	53	52	52	53
+
+2015-06-01 17:01:01,402 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.100 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,402 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,402 - __main__ - INFO - O numero medio de geracoes foi: 92
+2015-06-01 17:01:01,402 - __main__ - INFO - 	91	93	92	92	94
+
+2015-06-01 17:01:01,403 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.200 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,403 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,403 - __main__ - INFO - O numero medio de geracoes foi: 126
+2015-06-01 17:01:01,403 - __main__ - INFO - 	126	127	125	129	126
+
+2015-06-01 17:01:01,403 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.300 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,403 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,403 - __main__ - INFO - O numero medio de geracoes foi: 161
+2015-06-01 17:01:01,403 - __main__ - INFO - 	161	162	164	160	162
+
+2015-06-01 17:01:01,404 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.400 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,404 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,404 - __main__ - INFO - O numero medio de geracoes foi: 188
+2015-06-01 17:01:01,404 - __main__ - INFO - 	186	190	185	187	192
+
+2015-06-01 17:01:01,404 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.500 - abaixo do valor de m_c: 0.552
+2015-06-01 17:01:01,404 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 17:01:01,404 - __main__ - INFO - O numero medio de geracoes foi: 212
+2015-06-01 17:01:01,405 - __main__ - INFO - 	217	212	211	211	209
+
+2015-06-01 17:01:01,405 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.600 - acima do valor de m_c: 0.552
+2015-06-01 17:01:01,405 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 17:01:01,405 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 17:01:01,405 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.700 - acima do valor de m_c: 0.552
+2015-06-01 17:01:01,405 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 17:01:01,405 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 17:01:01,405 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.800 - acima do valor de m_c: 0.552
+2015-06-01 17:01:01,406 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 17:01:01,406 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 17:01:01,406 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 0.900 - acima do valor de m_c: 0.552
+2015-06-01 17:01:01,406 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 17:01:01,406 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 17:01:01,406 - __main__ - INFO - Para b = 0.00, c = 0.03 e pmig = 1.000 - acima do valor de m_c: 0.552
+2015-06-01 17:01:01,406 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 17:01:01,406 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 17:01:03,263 - __main__ - INFO - A taxa de migração crítica é 0.083 (ou 0.083 - interpol)
+2015-06-01 18:56:03,129 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.000 - abaixo do valor de m_c: 0.083
+2015-06-01 18:56:03,130 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 18:56:03,130 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-01 18:56:03,130 - __main__ - INFO - 	52	54	53	52	51
+
+2015-06-01 18:56:03,130 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.100 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,130 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,130 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,130 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.200 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,131 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,131 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,131 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.300 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,131 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,131 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,131 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.400 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,131 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,131 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,131 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.500 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,132 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,132 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,132 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.600 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,132 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,132 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,132 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.700 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,132 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,132 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,132 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.800 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,133 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,133 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,133 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 0.900 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,133 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,133 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:03,133 - __main__ - INFO - Para b = 0.00, c = 0.15 e pmig = 1.000 - acima do valor de m_c: 0.083
+2015-06-01 18:56:03,133 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 18:56:03,133 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 18:56:05,150 - __main__ - INFO - A taxa de migração crítica é 0.024 (ou 0.024 - interpol)
+2015-06-01 20:46:44,385 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.000 - abaixo do valor de m_c: 0.024
+2015-06-01 20:46:44,385 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 20:46:44,385 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-01 20:46:44,385 - __main__ - INFO - 	51	54	53	52	53
+
+2015-06-01 20:46:44,385 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.100 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,386 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,386 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,386 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.200 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,386 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,386 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,386 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.300 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,386 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,386 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,387 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.400 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,387 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,387 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,387 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.500 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,387 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,387 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,387 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.600 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,387 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,388 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,388 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.700 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,388 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,388 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,388 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.800 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,388 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,388 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,388 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 0.900 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,389 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,389 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:44,389 - __main__ - INFO - Para b = 0.00, c = 0.50 e pmig = 1.000 - acima do valor de m_c: 0.024
+2015-06-01 20:46:44,389 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 20:46:44,389 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 20:46:46,435 - __main__ - INFO - A taxa de migração crítica é 0.012 (ou 0.012 - interpol)
+2015-06-01 22:40:59,526 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.012
+2015-06-01 22:40:59,526 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-01 22:40:59,526 - __main__ - INFO - O numero medio de geracoes foi: 53
+2015-06-01 22:40:59,527 - __main__ - INFO - 	53	55	54	52	53
+
+2015-06-01 22:40:59,527 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,527 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,527 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,527 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,527 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,527 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,528 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,528 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,528 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,528 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,528 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,528 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,528 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,528 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,528 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,529 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,529 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,529 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,529 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,529 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,529 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,529 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,529 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,529 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,530 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,530 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,530 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:40:59,530 - __main__ - INFO - Para b = 0.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.012
+2015-06-01 22:40:59,530 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-01 22:40:59,530 - __main__ - INFO - Teste inconclusivo
+
+2015-06-01 22:41:01,486 - __main__ - INFO - A taxa de migração crítica é 0.005 (ou 0.006 - interpol)
+2015-06-02 00:29:27,045 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.005
+2015-06-02 00:29:27,045 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 00:29:27,045 - __main__ - INFO - O numero medio de geracoes foi: 56
+2015-06-02 00:29:27,045 - __main__ - INFO - 	58	55	60	55	53
+
+2015-06-02 00:29:27,046 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,046 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,046 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,046 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,046 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,046 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,046 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,046 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,046 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,046 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,046 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,047 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,047 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,047 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,047 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,047 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,047 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,047 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,047 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,047 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,047 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,047 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,048 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,048 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,048 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,048 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,048 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:27,048 - __main__ - INFO - Para b = 0.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.005
+2015-06-02 00:29:27,048 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 00:29:27,048 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 00:29:28,711 - __main__ - INFO - A taxa de migração crítica é 0.553 (ou 0.553 - interpol)
+2015-06-02 01:24:52,012 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.000 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero medio de geracoes foi: 53
+2015-06-02 01:24:52,013 - __main__ - INFO - 	52	53	55	54	52
+
+2015-06-02 01:24:52,013 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.100 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero medio de geracoes foi: 92
+2015-06-02 01:24:52,013 - __main__ - INFO - 	91	92	91	94	96
+
+2015-06-02 01:24:52,013 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.200 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,013 - __main__ - INFO - O numero medio de geracoes foi: 128
+2015-06-02 01:24:52,013 - __main__ - INFO - 	136	128	125	127	128
+
+2015-06-02 01:24:52,014 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.300 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero medio de geracoes foi: 163
+2015-06-02 01:24:52,014 - __main__ - INFO - 	161	168	168	160	162
+
+2015-06-02 01:24:52,014 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.400 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero medio de geracoes foi: 188
+2015-06-02 01:24:52,014 - __main__ - INFO - 	189	189	184	188	194
+
+2015-06-02 01:24:52,014 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.500 - abaixo do valor de m_c: 0.553
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 01:24:52,014 - __main__ - INFO - O numero medio de geracoes foi: 209
+2015-06-02 01:24:52,014 - __main__ - INFO - 	211	217	209	206	206
+
+2015-06-02 01:24:52,015 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.600 - acima do valor de m_c: 0.553
+2015-06-02 01:24:52,015 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 01:24:52,015 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 01:24:52,015 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.700 - acima do valor de m_c: 0.553
+2015-06-02 01:24:52,015 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 01:24:52,015 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 01:24:52,015 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.800 - acima do valor de m_c: 0.553
+2015-06-02 01:24:52,015 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 01:24:52,015 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 01:24:52,015 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 0.900 - acima do valor de m_c: 0.553
+2015-06-02 01:24:52,015 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 01:24:52,015 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 01:24:52,015 - __main__ - INFO - Para b = 2.00, c = 0.03 e pmig = 1.000 - acima do valor de m_c: 0.553
+2015-06-02 01:24:52,016 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 01:24:52,016 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 01:24:53,650 - __main__ - INFO - A taxa de migração crítica é 0.083 (ou 0.084 - interpol)
+2015-06-02 03:09:25,639 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.000 - abaixo do valor de m_c: 0.083
+2015-06-02 03:09:25,639 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 03:09:25,639 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-02 03:09:25,640 - __main__ - INFO - 	52	51	55	52	53
+
+2015-06-02 03:09:25,640 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.100 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,640 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,640 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,640 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.200 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,640 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,640 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,641 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.300 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,641 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,641 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,641 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.400 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,641 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,641 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,641 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.500 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,641 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,642 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,642 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.600 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,642 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,642 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,642 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.700 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,642 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,642 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,642 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.800 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,643 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,643 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,643 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 0.900 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,643 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,643 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:25,643 - __main__ - INFO - Para b = 2.00, c = 0.15 e pmig = 1.000 - acima do valor de m_c: 0.083
+2015-06-02 03:09:25,643 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 03:09:25,643 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 03:09:27,420 - __main__ - INFO - A taxa de migração crítica é 0.025 (ou 0.024 - interpol)
+2015-06-02 05:05:58,781 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.000 - abaixo do valor de m_c: 0.025
+2015-06-02 05:05:58,782 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 05:05:58,782 - __main__ - INFO - O numero medio de geracoes foi: 53
+2015-06-02 05:05:58,782 - __main__ - INFO - 	52	56	53	52	55
+
+2015-06-02 05:05:58,782 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.100 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,782 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,782 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,782 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.200 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,782 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,783 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,783 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.300 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,783 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,783 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,783 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.400 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,783 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,783 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,783 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.500 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,783 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,783 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,784 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.600 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,784 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,784 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,784 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.700 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,784 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,784 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,784 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.800 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,784 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,784 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,784 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 0.900 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,785 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,785 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:05:58,785 - __main__ - INFO - Para b = 2.00, c = 0.50 e pmig = 1.000 - acima do valor de m_c: 0.025
+2015-06-02 05:05:58,785 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 05:05:58,785 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 05:06:00,619 - __main__ - INFO - A taxa de migração crítica é 0.013 (ou 0.012 - interpol)
+2015-06-02 07:05:19,291 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.013
+2015-06-02 07:05:19,291 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 07:05:19,292 - __main__ - INFO - O numero medio de geracoes foi: 54
+2015-06-02 07:05:19,292 - __main__ - INFO - 	55	54	54	55	52
+
+2015-06-02 07:05:19,292 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,292 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,292 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,292 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,292 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,293 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,293 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,293 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,293 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,293 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,293 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,293 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,293 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,294 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,294 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,294 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,294 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,294 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,294 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,294 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,294 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,295 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,295 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,295 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,295 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,295 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,295 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:19,295 - __main__ - INFO - Para b = 2.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.013
+2015-06-02 07:05:19,295 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 07:05:19,296 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 07:05:21,233 - __main__ - INFO - A taxa de migração crítica é 0.006 (ou 0.006 - interpol)
+2015-06-02 08:58:38,875 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.006
+2015-06-02 08:58:38,876 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 08:58:38,876 - __main__ - INFO - O numero medio de geracoes foi: 53
+2015-06-02 08:58:38,876 - __main__ - INFO - 	52	52	52	54	55
+
+2015-06-02 08:58:38,876 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,877 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,877 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,877 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,877 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,878 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,878 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,878 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,878 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,878 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,878 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,879 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,879 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,879 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,879 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,879 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,879 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,880 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,880 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,880 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,880 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,880 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,880 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,881 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,881 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:38,881 - __main__ - INFO - Para b = 2.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.006
+2015-06-02 08:58:38,881 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 08:58:38,881 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 08:58:40,645 - __main__ - INFO - A taxa de migração crítica é 0.554 (ou 0.555 - interpol)
+2015-06-02 10:13:57,688 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.000 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,688 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,688 - __main__ - INFO - O numero medio de geracoes foi: 53
+2015-06-02 10:13:57,689 - __main__ - INFO - 	50	52	53	58	54
+
+2015-06-02 10:13:57,689 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.100 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,689 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,689 - __main__ - INFO - O numero medio de geracoes foi: 90
+2015-06-02 10:13:57,689 - __main__ - INFO - 	90	91	92	91	89
+
+2015-06-02 10:13:57,689 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.200 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,689 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,689 - __main__ - INFO - O numero medio de geracoes foi: 128
+2015-06-02 10:13:57,689 - __main__ - INFO - 	126	130	129	127	128
+
+2015-06-02 10:13:57,690 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.300 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,690 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,690 - __main__ - INFO - O numero medio de geracoes foi: 157
+2015-06-02 10:13:57,690 - __main__ - INFO - 	161	156	161	152	158
+
+2015-06-02 10:13:57,690 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.400 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,690 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,690 - __main__ - INFO - O numero medio de geracoes foi: 192
+2015-06-02 10:13:57,690 - __main__ - INFO - 	194	187	193	194	194
+
+2015-06-02 10:13:57,691 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.500 - abaixo do valor de m_c: 0.554
+2015-06-02 10:13:57,691 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 10:13:57,691 - __main__ - INFO - O numero medio de geracoes foi: 209
+2015-06-02 10:13:57,691 - __main__ - INFO - 	210	208	219	208	203
+
+2015-06-02 10:13:57,691 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.600 - acima do valor de m_c: 0.554
+2015-06-02 10:13:57,691 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 10:13:57,691 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 10:13:57,691 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.700 - acima do valor de m_c: 0.554
+2015-06-02 10:13:57,691 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 10:13:57,692 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 10:13:57,692 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.800 - acima do valor de m_c: 0.554
+2015-06-02 10:13:57,692 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 10:13:57,692 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 10:13:57,692 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 0.900 - acima do valor de m_c: 0.554
+2015-06-02 10:13:57,692 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 10:13:57,692 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 10:13:57,692 - __main__ - INFO - Para b = 5.00, c = 0.03 e pmig = 1.000 - acima do valor de m_c: 0.554
+2015-06-02 10:13:57,692 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 10:13:57,693 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 10:13:59,290 - __main__ - INFO - A taxa de migração crítica é 0.084 (ou 0.084 - interpol)
+2015-06-02 11:49:40,258 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.000 - abaixo do valor de m_c: 0.084
+2015-06-02 11:49:40,258 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 11:49:40,258 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-02 11:49:40,259 - __main__ - INFO - 	52	56	54	49	53
+
+2015-06-02 11:49:40,259 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.100 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,259 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,259 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,259 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.200 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,259 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,259 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,259 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.300 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,259 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,260 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,260 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.400 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,260 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,260 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,260 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.500 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,260 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,260 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,260 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.600 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,261 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,261 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,261 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.700 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,261 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,261 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,261 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.800 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,261 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,261 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,261 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 0.900 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,262 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,262 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:40,262 - __main__ - INFO - Para b = 5.00, c = 0.15 e pmig = 1.000 - acima do valor de m_c: 0.084
+2015-06-02 11:49:40,262 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 11:49:40,262 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 11:49:42,320 - __main__ - INFO - A taxa de migração crítica é 0.025 (ou 0.025 - interpol)
+2015-06-02 14:02:46,693 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.000 - abaixo do valor de m_c: 0.025
+2015-06-02 14:02:46,694 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 14:02:46,694 - __main__ - INFO - O numero medio de geracoes foi: 52
+2015-06-02 14:02:46,694 - __main__ - INFO - 	53	50	55	53	52
+
+2015-06-02 14:02:46,694 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.100 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,694 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,695 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,695 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.200 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,695 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,695 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,695 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.300 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,695 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,695 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,696 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.400 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,696 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,696 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,696 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.500 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,696 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,696 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,697 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.600 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,697 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,697 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,697 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.700 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,697 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,697 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,697 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.800 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,698 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,698 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,698 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 0.900 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,698 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,698 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:46,698 - __main__ - INFO - Para b = 5.00, c = 0.50 e pmig = 1.000 - acima do valor de m_c: 0.025
+2015-06-02 14:02:46,699 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 14:02:46,699 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 14:02:48,650 - __main__ - INFO - A taxa de migração crítica é 0.013 (ou 0.012 - interpol)
+2015-06-02 16:02:51,056 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.000 - abaixo do valor de m_c: 0.013
+2015-06-02 16:02:51,056 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 16:02:51,056 - __main__ - INFO - O numero medio de geracoes foi: 55
+2015-06-02 16:02:51,056 - __main__ - INFO - 	57	55	56	54	54
+
+2015-06-02 16:02:51,057 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.100 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,057 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,057 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,057 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.200 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,057 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,057 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,057 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.300 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,058 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,058 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,058 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.400 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,058 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,058 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,058 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.500 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,058 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,058 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,059 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.600 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,059 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,059 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,059 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.700 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,059 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,059 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,059 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.800 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,059 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,060 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,060 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 0.900 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,060 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,060 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:51,060 - __main__ - INFO - Para b = 5.00, c = 1.00 e pmig = 1.000 - acima do valor de m_c: 0.013
+2015-06-02 16:02:51,060 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 16:02:51,060 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 16:02:53,004 - __main__ - INFO - A taxa de migração crítica é 0.006 (ou 0.006 - interpol)
+2015-06-02 18:05:07,215 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.000 - abaixo do valor de m_c: 0.006
+2015-06-02 18:05:07,215 - __main__ - INFO - O numero de simulacoes concluidas é: 5
+2015-06-02 18:05:07,215 - __main__ - INFO - O numero medio de geracoes foi: 54
+2015-06-02 18:05:07,215 - __main__ - INFO - 	55	57	55	52	53
+
+2015-06-02 18:05:07,216 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.100 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,216 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,216 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,216 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.200 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,216 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,217 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,217 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.300 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,217 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,217 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,217 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.400 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,217 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,218 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,218 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.500 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,218 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,218 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,218 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.600 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,218 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,218 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,219 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.700 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,219 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,219 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,219 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.800 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,219 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,219 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,220 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 0.900 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,220 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,220 - __main__ - INFO - Teste inconclusivo
+
+2015-06-02 18:05:07,220 - __main__ - INFO - Para b = 5.00, c = 2.00 e pmig = 1.000 - acima do valor de m_c: 0.006
+2015-06-02 18:05:07,220 - __main__ - INFO - O numero de simulacoes concluidas é: 0
+2015-06-02 18:05:07,220 - __main__ - INFO - Teste inconclusivo
 
