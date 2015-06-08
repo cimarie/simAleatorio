@@ -45,7 +45,8 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     np.random.seed(s)
     
-    IT = 5002
+    IT = 15002
+    #IT = 5002
     precisao = 0.01
 
     AL = [] 
