@@ -10,7 +10,7 @@ import numpy as np
 from retest2 import gera_simulacao
 from simTeorico.main import m_critico, m_critico2
 
-LOG_FILENAME = 'teste.log'
+LOG_FILENAME = 'teste_cvaloresmaiores.log'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 fh = logging.FileHandler(LOG_FILENAME)
@@ -92,7 +92,8 @@ def main():
 
     # Teste para alpha = 1.0,  b = 0.0 e c variável, conforme cvalores
     benefit = 0.
-    vcost = [0.03, 0.15, 0.5, 1., 2.]
+    #vcost = [0.03, 0.15, 0.5, 1., 2.]
+    vcost = [4., 5., 10.]
     testa(benefit,vcost,npt)
     
     # Teste para alpha = 1.0,  b = 2.0 e c variável, conforme cvalores

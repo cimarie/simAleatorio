@@ -28,6 +28,7 @@ logger = logging.getLogger(__name__)
 def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
 
     logger.info(u"Começando a simulação")
+
     logger.info(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f, pmig=%.2f" \
         %(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig))
