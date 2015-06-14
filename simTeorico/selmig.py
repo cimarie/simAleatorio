@@ -6,12 +6,12 @@ import numpy.linalg as LA
 from fitness import *
 
 # Variavel global
-alpha = 1.
+alpha = 0.1
 
 # Probabilidade de vencer - recebe k e n
 # calcula a probabilidade de vencer um combate
 def pVencer(deltac,k,n):
-    arg1 = -4*alpha*k*deltac/n
+    arg1 = -4*alpha*k/n
     return 1/(1+np.exp(arg1))
 
 # Select - recebe indice k,l e o numero total n
