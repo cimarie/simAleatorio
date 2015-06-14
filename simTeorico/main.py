@@ -356,11 +356,23 @@ def main():
     w0 = 1.             # fitness basal
     beta = 0.           # probabilidade de combate
     b = 0.              # beneficio gerado por altruista
-    c = 10              # custo para um altruista
+    c = 2.              # custo para um altruista
     n = 26
     delta = 0.01
-
-    print m_critico2(w0,6,3,n,delta,delta,beta)
+   
+    vbeta = np.arange(0.1, 1.01, 0.1)
+    for c in [0.03, 0.15, 0.5, 1., 2., 5.]:
+        nome_arq = "m_critico_c=" + '{0:.2f}'.format(c) + ".txt"
+        with open(nome_arq, "w") as f: 
+            for beta in vbeta:
+                f.write("{0:.2f}".format(beta))
+                f.write("\t\t")
+                m_c = m_critico(w0,b,c,n,delta,delta,beta)
+                m_c2 = m_critico2(w0,b,c,n,delta,delta,beta)
+                f.write("{0:.7f}".format(m_c))
+                f.write("\t\t")
+                f.write("{0:.7f}".format(m_c2))
+                f.write("\n")
 #
 ##    #m = 0.1
 ##
