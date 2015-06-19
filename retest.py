@@ -9,25 +9,32 @@ import scipy.stats
 from scipy import sparse
 from collections import Counter
 from itertools import chain,izip
+from simTeorico.main import m_critico
 
 #logging.basicConfig(level=logging.INFO)
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 @click.command()
-@click.option('--gnum', default=5000, help='numero de grupos')
-@click.option('--inum', default=26, help='numero de individuos por grupos')
-@click.option('--pa', default=1., help='fracao de altruistas na pop inicial')
-@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes')
-@click.option('--c', default=10., help='custo a que o altruista incorre')
-@click.option('--delta', default=0.01, help='forca de selecao')
-@click.option('--mutacao', default=0.0001, help='taxa de mutacao')
-@click.option('--alpha', default=2., help='prevalencia do altruista em batalhas')
-@click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra')
-@click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos')
-def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
+@click.option('--gnum', default=5000, help='numero de grupos; defaut: 5000')
+@click.option('--inum', default=26, help='numero de individuos por grupos; default: 26')
+@click.option('--pa', default=1., help='fracao de altruistas na pop inicial; default: 1.')
+@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes; default: 0.')
+@click.option('--c', default=10., help='custo a que o altruista incorre; default: 10.')
+@click.option('--delta', default=0.01, help='forca de selecao; default: 0.01')
+@click.option('--mutacao', default=0.0001, help='taxa de mutacao; default: 0.0001')
+@click.option('--alpha', default=2., help='prevalencia do altruista em batalhas; default: 2.')
+@click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra; default: 0.')
+@click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos; default: 0.')
+@click.option('--pa_automatico', default=False, help='pA definido de acordo com a migracao critica')
+def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig, pa_automatico):
 
     logger.info(u"Começando a simulação")
+
+    if pa_automatico:
+        m_c = m_critico(1,b,c,inum,delta,alpha,beta)
+        logger.info(u"A taxa de migração crítica é: %.3f" %m_c)
+        pa = 1. if pmig > m_c else 0.
 
     logger.info(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f, pmig=%.2f" \
@@ -46,7 +53,7 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     np.random.seed(s)
     
-    IT = 15002
+    IT = 50002
     #IT = 5002
     precisao = 0.01
 
@@ -159,10 +166,11 @@ def matriz_vencedores(alpha, n):
 # Conflito entre os grupos
 def conflito(N, knums, beta, lfitm, mpvencer):
 
-    if beta == 0:
-        return reproducao_grupo(N, knums, lfitm)
+   # if beta == 0:
+   #     return reproducao_grupo(N, knums, lfitm)
 
-    else:
+   # else:
+    if beta > 0:
         # Calcula numero de grupos que se envolvem em conflitos
         lconts = numpy.random.binomial(N,beta)
         indices = numpy.random.permutation(N)

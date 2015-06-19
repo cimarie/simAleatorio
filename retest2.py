@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 #logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
+def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig, IT):
 
     logger.debug(u"Começando a simulação")
     logger.debug(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
@@ -24,9 +24,9 @@ def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig):
     A = gnum*inum*pa
     grupos,lfit,lfit_m,mpvencer = initSim(gnum,inum,A,b,c,delta,alpha)
     x = time.time()+random.random()
-    return simula(gnum,inum,mutacao,beta,pmig,grupos,lfit,lfit_m,mpvencer,x)
+    return simula(gnum,inum,mutacao,beta,pmig,grupos,lfit,lfit_m,mpvencer,IT,x)
 
-def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer, x):
+def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,IT, x):
 
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     random.seed(s)
@@ -34,7 +34,6 @@ def simula(N, n, PM, beta, pmig, grupos, listafitness, listafitness_m, mpvencer,
     s = int(time.time() + random.randint(0, 2**32-1) + x) % (2**32-1)
     np.random.seed(s)
 
-    IT = 5000
     precisao = 0.01
 
     AL = [] 
@@ -145,10 +144,11 @@ def matriz_vencedores(alpha, n):
 # Conflito entre os grupos
 def conflito(N, knums, beta, lfitm, mpvencer):
 
-    if beta == 0:
-        return reproducao_grupo(N, knums, lfitm)
+    #if beta == 0:
+    #    return reproducao_grupo(N, knums, lfitm)
 
-    else:
+    #else:
+    if beta > 0:
         # Calcula numero de grupos que se envolvem em conflitos
         lconts = numpy.random.binomial(N,beta)
         indices = numpy.random.permutation(N)

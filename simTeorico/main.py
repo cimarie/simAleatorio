@@ -100,11 +100,11 @@ def autovalores_m(w0,b,c,n,beta,opcao):
     for i in range(len(vetor_mig)):
         for j in range(len(exemplos)):
             m = vetor_mig[i]
-            deltaf = deltac = exemplos[j]
+            delta = exemplos[j]
             # label para colocar no grafico
-            label.append('delta = ' + str(delta) + ' m_c = %.3f' %(m_critico(w0,b,c,n,deltaf,deltac,beta)))
+            label.append('delta = ' + str(delta) + ' m_c = %.3f' %(m_critico(w0,b,c,n,delta,alpha,beta)))
 
-            S,M = initSM(n,m,deltaf,deltac,b,c,w0,beta)
+            S,M = initSM(n,m,delta,alpha,b,c,w0,beta)
             autovalores[j][i] = eg.av_dominante(np.dot(M,S))
 
     #plt.figure(figsize=(30.6,3.48), dpi=100)
@@ -118,15 +118,15 @@ def autovalores_m(w0,b,c,n,beta,opcao):
         salva_txt(vetor_mig,autovalores,'av',nome)
 
 # Funcao rho: calcula (autovalor dominante - 1) a partir dos parametros
-def rho(m, w0, b, c, n, deltaf, deltac , beta):
-    S,M = initSM(n,m,deltaf,deltac,b,c,w0,beta)
+def rho(m, w0, b, c, n, delta, alpha , beta):
+    S,M = initSM(n,m,delta,alpha,b,c,w0,beta)
     return eg.av_dominante(np.dot(M,S))-1
 
 # Encontra m critico ate o qual todos os autovalores sao maiores que 1 (se 0<m<1, usa o metodo da secante para achar raizes)
-def m_critico(w0,b,c,n,deltaf, deltac,beta):
+def m_critico(w0,b,c,n,delta, alpha,beta):
 
-    fa = rho(0.,w0,b,c,n,deltaf, deltac,beta)
-    fb = rho(1.,w0,b,c,n,deltaf, deltac ,beta)
+    fa = rho(0.,w0,b,c,n,delta, alpha,beta)
+    fb = rho(1.,w0,b,c,n,delta, alpha ,beta)
 
     if(fa*fb>0):
         if(fa>0):
@@ -134,14 +134,14 @@ def m_critico(w0,b,c,n,deltaf, deltac,beta):
         else:
             return 0.
     # brenth encontra o zero da funcao rho no intervalo [0.,1.]
-    return brentq(rho, 0., 1., xtol=0.001, args=(w0,b,c,n,deltaf, deltac,beta))
+    return brentq(rho, 0., 1., xtol=0.001, args=(w0,b,c,n,delta,alpha,beta))
 
 # Migracao critica pelo metodo de interpolacao
-def m_critico2(w0,b,c,n,deltaf,deltac,beta):
+def m_critico2(w0,b,c,n,delta,alpha,beta):
     precisao = 0.00001
 
-    fa = rho(0.,w0,b,c,n,deltaf, deltac,beta)
-    fb = rho(1.,w0,b,c,n,deltaf, deltac ,beta)
+    fa = rho(0.,w0,b,c,n,delta,alpha,beta)
+    fb = rho(1.,w0,b,c,n,delta,alpha ,beta)
 
     if(fa*fb>0):
         if(fa>0):
@@ -150,12 +150,12 @@ def m_critico2(w0,b,c,n,deltaf,deltac,beta):
             return 0.
 
     vec_m = [0.,1.]
-    fp = map(lambda i: rho(i,w0,b,c,n,deltaf,deltac,beta), vec_m)
+    fp = map(lambda i: rho(i,w0,b,c,n,delta,alpha,beta), vec_m)
     npt = 100
     ind = 0 
     while ind < len(fp)-1 and fp[ind]*fp[ind+1] < 0:
         vec_m = np.arange(vec_m[ind],vec_m[ind+1]+1./npt,1./npt)
-        fp = map(lambda i: rho(i,w0,b,c,n,deltaf,deltac,beta), vec_m)
+        fp = map(lambda i: rho(i,w0,b,c,n,delta,alpha,beta), vec_m)
         fp = np.array(fp)
         ind = np.where(fp>0)[0][-1]
         npt = 10*npt
@@ -178,8 +178,8 @@ def encontra_mc(w0,beta,b,c,opcao):
         label.append('n = ' + str(n))
 
         for j in range(len(vetor_delta)):
-            deltac = deltaf = vetor_delta[j]
-            vetor_migc[i][j] = m_critico(w0,b,c,n,deltaf,deltac,beta)
+            delta = vetor_delta[j]
+            vetor_migc[i][j] = m_critico(w0,b,c,n,delta,alpha,beta)
    
     nome = "bowles_m_critico_beta="+str(beta)
 
@@ -191,26 +191,26 @@ def encontra_mc(w0,beta,b,c,opcao):
         salva_txt(vetor_delta,vetor_migc,'mc',nome)
 
 # Gera figura beta(m) sem as cores ciano magenta
-def beta_m(w0, b, c, n, deltaf, deltac ,opcao):
+def beta_m(w0, b, c, n, delta, alpha ,opcao):
 
     r = 5000
     vetor_beta = np.arange(0.0,1.+1./r,1./r,dtype=float)
     vetor_m = np.empty(len(vetor_beta))
 
     for i in range(len(vetor_beta)):
-        vetor_m[i]=m_critico(w0,b,c,n,deltaf, deltac ,vetor_beta[i])
+        vetor_m[i]=m_critico(w0,b,c,n,delta,alpha,vetor_beta[i])
         
-    nome = "mcritico_versus_beta_delta="+str(deltaf)
+    nome = "mcritico_versus_beta_delta="+str(delta)
     if opcao==0:
 
-        titulo = "m_critico x beta ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ",\ndeltaf = " + str(deltaf) + ", deltac = " + str(deltac) + ")"
+        titulo = "m_critico x beta ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ",\ndelta = " + str(deltaf) + ", alpha = " + str(alpha) + ")"
         imprime_figura(vetor_beta,vetor_m,[],'bm',titulo,nome)
 
     else:
         salva_txt(vetor_beta,vetor_m,'bm',nome)
 
 # gera figura beta(m) divisao nas cores ciano e magenta
-def beta_m2(w0, b, c, n, deltaf, deltac):
+def beta_m2(w0, b, c, n, delta, alpha):
 
     r = 100
 
@@ -227,7 +227,7 @@ def beta_m2(w0, b, c, n, deltaf, deltac):
 
     for i in range(len(vetor_beta)):
 
-        av = rho(vetor_m[i],w0,b,c,n,deltaf,deltac,vetor_beta[i])+1
+        av = rho(vetor_m[i],w0,b,c,n,delta,alpha,vetor_beta[i])+1
 
         z[i] = 'c' if av<1 else 'm'
 
@@ -242,7 +242,7 @@ def beta_m2(w0, b, c, n, deltaf, deltac):
     plt.ylabel("beta")
 
     # Titulo
-    titulo = "beta x m ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ", delta = " + str(deltaf) + ")"
+    titulo = "beta x m ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ", delta = " + str(delta) + ")"
     plt.title(titulo)
 
     # Limite e intervalos do eixo x
@@ -256,7 +256,7 @@ def beta_m2(w0, b, c, n, deltaf, deltac):
     plt.tight_layout()
 
     # Salva fig
-    nome = "bowles_m_beta_delta="+str(deltaf) 
+    nome = "bowles_m_beta_delta="+str(delta) 
     plt.savefig(nome+".png")
 
     # Fecha fig
@@ -288,11 +288,9 @@ def autovetores(n,b,c,w0,beta):
     aux = np.arange(n)+1
 
     for delta in vetor_delta:
-        deltaf = delta
-        deltac = delta
 
         # Cria matriz de selecao
-        S = matriz_selecao(n,deltaf,deltac,b,c,w0,beta)
+        S = matriz_selecao(n,delta,alpha,b,c,w0,beta)
         i = 0
 
         for m in vetor_mig:
@@ -320,7 +318,7 @@ def autovetores(n,b,c,w0,beta):
 
             ax[j,i].set_xlabel(r"$k$")
 
-            lab = r'$\rho$='+"%.3f" % (eg.av_dominante(np.dot(S,M)))+"\n"+r'$m_c$='+"%.3f" % (m_critico(w0,b,c,n,deltaf,deltac,beta))+", "+r'$\delta$='+str(deltaf)
+            lab = r'$\rho$='+"%.3f" % (eg.av_dominante(np.dot(S,M)))+"\n"+r'$m_c$='+"%.3f" % (m_critico(w0,b,c,n,delta,alpha,beta))+", "+r'$\delta$='+str(deltaf)
 
             ax[j,i].set_title(lab,fontsize=8)
 
@@ -354,11 +352,11 @@ def autovetores(n,b,c,w0,beta):
 def main():
 
     w0 = 1.             # fitness basal
-    beta = 0.           # probabilidade de combate
     b = 0.              # beneficio gerado por altruista
     c = 2.              # custo para um altruista
     n = 26
     delta = 0.01
+    alpha = 0.1
    
     vbeta = np.arange(0.1, 1.01, 0.1)
     for c in [0.03, 0.15, 0.5, 1., 2., 5.]:
@@ -367,56 +365,12 @@ def main():
             for beta in vbeta:
                 f.write("{0:.2f}".format(beta))
                 f.write("\t\t")
-                m_c = m_critico(w0,b,c,n,delta,delta,beta)
-                m_c2 = m_critico2(w0,b,c,n,delta,delta,beta)
+                m_c = m_critico(w0,b,c,n,delta,alpha,beta)
+                m_c2 = m_critico2(w0,b,c,n,delta,alpha,beta)
                 f.write("{0:.7f}".format(m_c))
                 f.write("\t\t")
                 f.write("{0:.7f}".format(m_c2))
                 f.write("\n")
-#
-##    #m = 0.1
-##
-##    deltaf = delta
-##    deltac = delta
-##
-##    # Cria matriz de selecao
-##    #S = matriz_selecao(n,deltaf,deltac,b,c,w0,beta)
-#
-#    # Cria matriz de migracao
-##    M = matriz_migracao(n,m)
-#
-##    vetor = eg.calcula_evec(np.dot(S,M))
-#
-#    # Para Fst = 0.04 => m = 0.8
-#    m = 0.8
-#    deltac = .01
-#    deltaf = delta
-#    #b=5*c
-#    
-#   # for beta in [0.414, 0.2, 0.09]:
-#   #     encontra_cc(w0,beta,b,m,0)
-#
-#    #for deltaf in [0.01,0.5,0.8]:
-#    #    deltac = deltaf
-#    #    beta_c(w0, b, m, n, deltaf,deltac,0)
-#    #    beta_m(w0, b, c, n, deltaf,deltac,0)
-#
-#    #deltaf = 0.01
-#    #deltac = 0.01927
-#
-#    #for beta in [0.414, 0.2, 0.09]:
-#    #    print beta/2
-#    #    print c_critico(w0,b,m,n,deltaf,deltac,beta)
-#
-#    #autovalores_m(w0,b,c,n,beta,1)
-#    #autovalores_m(w0,b,c,n,beta,0)
-#
-#    #beta_c(w0,b,m,n,deltaf,deltac,0)
-#
-#    #autovetores(n,b,c,w0,beta)
-#
-#    encontra_mc(w0,beta,b,c,0)
-#
-#
-#
-if  __name__ =='__main__':main()
+
+if  __name__ =='__main__':
+    main()

@@ -5,29 +5,27 @@ import eigenvalue as eg
 import numpy.linalg as LA
 from fitness import *
 
-# Variavel global
-alpha = 0.1
-
 # Probabilidade de vencer - recebe k e n
 # calcula a probabilidade de vencer um combate
-def pVencer(deltac,k,n):
+def pVencer(alpha,k,n):
     arg1 = -4*alpha*k/n
     return 1/(1+np.exp(arg1))
 
 # Select - recebe indice k,l e o numero total n
 # calcula o numero medio de grupos do tipo k que viram tipo l por força de selecao
-def sel(k,l,n,deltaf, deltac,b,c,w0,beta):
-    w = fitness(0,k,n,deltaf,b,c,w0)
-    wm = fitness_m(k,n,deltaf,b,c,w0)
-    p = k*w/(n*fitness_m(k,n,deltaf,b,c,w0))
+def sel(k,l,n,delta, alpha,b,c,w0,beta):
+    w = fitness(0,k,n,delta,b,c,w0)
+    wm = fitness_m(k,n,delta,b,c,w0)
+    p = k*w/(n*fitness_m(k,n,delta,b,c,w0))
     termoInd = scipy.misc.comb(n,l)*p**l*(1-p)**(n-l)
-    termoGr = (1-beta+2*beta*pVencer(deltac,k,n)) if beta > 0 else wm
+    #termoGr = (1-beta+2*beta*pVencer(alpha,k,n)) if beta > 0 else wm
+    termoGr = 1-beta+2*beta*pVencer(alpha,k,n)
     return termoGr*termoInd
 
 # Matriz de selecao - recebe n e parametros delta,b,c,w0 e beta
-def matriz_selecao(n,deltaf, deltac,b,c,w0,beta):
+def matriz_selecao(n,delta, alpha,b,c,w0,beta):
     grid = np.indices((n+1,n+1))
-    S = map(lambda i,j: sel(i,j,n,deltaf,deltac,b,c,w0,beta), grid[0], grid[1])
+    S = map(lambda i,j: sel(i,j,n,delta,alpha,b,c,w0,beta), grid[0], grid[1])
     return S
 
 # Mig - recebe indice k,l e o numero total n
@@ -67,10 +65,10 @@ def matriz_migracao(n,m):
     return M+T
 
 # Inicializa matrizes de selecao
-def initSM(n, m, deltaf, deltac, b, c, w0, beta):
+def initSM(n, m, deltaf, alpha, b, c, w0, beta):
     
     # Cria matriz de selecao
-    S = matriz_selecao(n,deltaf,deltac,b,c,w0,beta)
+    S = matriz_selecao(n,deltaf,alpha,b,c,w0,beta)
 
     # Cria matriz de migracao
     M = matriz_migracao(n,m)
