@@ -61,10 +61,11 @@ def testa(b, c, vbeta, numpt):
     for beta in vbeta:
         m_c_pred = m_critico(1,b,c,n,delta,alpha,beta)
         #logger.info(u"Logo: abaixo de mig = %.3f, há chance de emergência de altruísmo. Para taxas de migrações mais altas, a emergência se torna implausível" %m_c)
-        print "BETA: %.f" %beta
-        continua = False
+        print "BETA: %f" %beta
+        continua = True 
         primeiro, ultimo = 0., 1.
-        while (continua) or (ultimo-primeiro>precisao):
+        pmig = primeiro
+        while (continua) and (ultimo-primeiro>precisao):
             logger.debug("primeiro: %f" %primeiro)
             logger.debug("ultimo: %f" %ultimo)
             vec_m = np.arange(primeiro,ultimo+1./(10*numpt), 1./numpt)
@@ -103,9 +104,11 @@ def main():
     npt = 10
 
     vbeta = np.arange(0.,1.01, 0.1)
+    print vbeta
 
     # Teste para b = 0.0 e c = 0.5 
-    vcost = [0.03, 0.15, 0.5, 1.0, 2.0, 5.0]
+    vcost = [0.03]
+    #vcost = [0.03, 0.15, 0.5, 1.0, 2.0, 5.0]
     for cost in vcost:
         testa(benefit,cost,vbeta,npt)
 
