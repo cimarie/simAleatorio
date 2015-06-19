@@ -31,6 +31,7 @@ fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
 logger.addHandler(fh)
+logger.setLevel(logging.DEBUG)
 
 def sim(b, c, beta, pA, pmig, i):
     return gera_simulacao(N, n, pA, b, c, delta, mu, alpha, beta, pmig, max_it)
@@ -60,21 +61,14 @@ def testa(b, c, vbeta, numpt):
     for beta in vbeta:
         m_c_pred = m_critico(1,b,c,n,delta,alpha,beta)
         #logger.info(u"Logo: abaixo de mig = %.3f, há chance de emergência de altruísmo. Para taxas de migrações mais altas, a emergência se torna implausível" %m_c)
-
-        contador = 5
-        continua = True
+        print "BETA: %.f" %beta
+        continua = False
         primeiro, ultimo = 0., 1.
-        #while (continua): # or (ultimo-primeiro>precisao)
-        while contador > 0:
-            print primeiro
-            print ultimo
+        while (continua) or (ultimo-primeiro>precisao):
             logger.debug("primeiro: %f" %primeiro)
             logger.debug("ultimo: %f" %ultimo)
             vec_m = np.arange(primeiro,ultimo+1./(10*numpt), 1./numpt)
-            contador = 0
             for i in xrange(len(vec_m)):
-                print "Contador: %d" %contador
-                contador +=1
                 pmig = vec_m[i]
                 print "i: %d, pmig: %f" %(i,pmig)
                 logger.debug("Migracao: %f" %pmig)
@@ -87,8 +81,6 @@ def testa(b, c, vbeta, numpt):
                         primeiro, ultimo = vec_m[i-1], vec_m[i]
                         numpt = 10*numpt
                     break
-            print continua
-
 
         m_c_real = pmig
         f.write(str(beta))
