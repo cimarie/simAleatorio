@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 @click.option('--alpha', default=2., help='prevalencia do altruista em batalhas; default: 2.')
 @click.option('--beta', default=0.0, help='probabilidade de ocorrencia de guerra; default: 0.')
 @click.option('--pmig', default=0.0, help='probabilidade de migracao intergrupos; default: 0.')
-@click.option('--pa_automatico', default=False, help='pA definido de acordo com a migracao critica')
+@click.option('--pa_automatico/--pa_manual', default=True, help='pA definido de acordo com a migracao critica')
 def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig, pa_automatico):
 
     logger.info(u"Começando a simulação")
@@ -34,13 +34,13 @@ def gera_simulacao(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig, pa_a
     if pa_automatico:
         m_c = m_critico(1,b,c,inum,delta,alpha,beta)
         logger.info(u"A taxa de migração crítica é: %.3f" %m_c)
-        pa = 1. if pmig > m_c else 0.
+        pa = 1. if pmig > m_c else 0.0001
 
     logger.info(u"Parâmetros: N=%d, n=%d, pA=%.2f, b=%.2f, c=%.2f, delta=%.3f,\
         \n\t\tmu=%.4f, alpha=%.1f, beta=%.2f, pmig=%.2f" \
         %(gnum, inum, pa, b, c, delta, mutacao, alpha, beta, pmig))
 
-    A = gnum*inum*pa
+    A = int(gnum*inum*pa)
     grupos,lfit,lfit_m,mpvencer = initSim(gnum,inum,A,b,c,delta,alpha)
     x = time.time()+random.random()
     return simula(gnum,inum,mutacao,beta,pmig,grupos,lfit,lfit_m,mpvencer,x)
@@ -165,25 +165,38 @@ def matriz_vencedores(alpha, n):
 
 # Conflito entre os grupos
 def conflito(N, knums, beta, lfitm, mpvencer):
-
+    
    # if beta == 0:
    #     return reproducao_grupo(N, knums, lfitm)
 
    # else:
     if beta > 0:
-        # Calcula numero de grupos que se envolvem em conflitos
-        lconts = numpy.random.binomial(N,beta)
-        indices = numpy.random.permutation(N)
-        lconts = lconts if lconts%2==0 else lconts-1
-        lista_conflitos = izip(indices[0:lconts/2], indices[lconts/2:lconts])
+#        # Calcula numero de grupos que se envolvem em conflitos
+#        lconts = numpy.random.binomial(N,beta)
+#        indices = numpy.random.permutation(N)
+#        lconts = lconts if lconts%2==0 else lconts-1
+#        lista_conflitos = izip(indices[0:lconts/2], indices[lconts/2:lconts])
+#
+#        for elem in lista_conflitos:
+#            i,j = elem
+#            ki,kj = knums[i], knums[j]
+#            venc,perd = (i,j) if mpvencer[ki,kj] > random.random() else (j,i)
+#            knums[perd]=knums[venc]
+#
+#    return knums   
 
-        for elem in lista_conflitos:
-            i,j = elem
-            ki,kj = knums[i], knums[j]
-            venc,perd = (i,j) if mpvencer[ki,kj] > random.random() else (j,i)
-            knums[perd]=knums[venc]
+        # Reproducao de grupo
+        vetor_prob = [(1+0.5*beta*k/26) for k in knums]
+        distk = Counter(knums)
 
-    return knums   
+        xk = distk.keys()
+        pk = [distk[chave]*vetor_prob[chave] for chave in xk]
+        pk = pk/np.sum(pk)
+        distw = scipy.stats.rv_discrete(name='distw', values=(xk,pk))
+
+        glabels = distw.rvs(size=N)
+
+        return glabels
 
 # Migracao entre os grupos
 def migracao(N, n, grupos, pmig):

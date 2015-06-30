@@ -1,260 +1,35 @@
-2015-06-18 21:54:44,684 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
+2015-06-30 16:49:39,085 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=1.00,          delta=0.010, 
 		mu=0.0001, alpha=0.1
-2015-06-18 21:55:03,742 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:55:49,791 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:56:03,424 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:56:19,335 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:56:45,223 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:57:18,519 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:57:38,117 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 21:59:55,679 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:01:14,364 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:02:17,116 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:03:10,983 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:04:26,869 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:05:22,165 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:05:54,507 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:07:08,235 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:07:24,110 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:07:55,463 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:08:19,237 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:10:27,384 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:12:34,677 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:13:20,083 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:13:58,801 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:15:09,079 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:15:30,167 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:15:59,630 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:17:30,990 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:25:43,757 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:27:36,438 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:27:36,461 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:36,461 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:36,461 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:36,894 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:36,895 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:36,895 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:36,895 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:37,325 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:37,325 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:37,325 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:37,325 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:37,755 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:37,755 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:37,755 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:37,755 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:38,185 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:38,185 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:38,185 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:38,185 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:38,715 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:38,715 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:38,715 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:38,715 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:39,144 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:39,144 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:39,144 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:39,144 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:39,682 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:39,682 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:39,682 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:39,682 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:40,212 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:40,212 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:40,212 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:40,213 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:40,644 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:40,645 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:40,645 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:40,645 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:41,080 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:41,080 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:41,080 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:41,080 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:41,511 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:41,511 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:41,511 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:41,511 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:41,941 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:41,941 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:41,941 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:41,941 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:27:42,375 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:27:42,375 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:27:42,375 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:27:42,375 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:19,103 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-18 22:28:19,125 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:19,125 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:19,125 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:19,554 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:19,554 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:19,554 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:19,554 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:19,984 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:19,984 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:19,985 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:19,985 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:20,415 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:20,415 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:20,415 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:20,415 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:20,845 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:20,845 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:20,845 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:20,845 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:21,276 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:21,276 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:21,276 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:21,276 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:21,713 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:21,713 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:21,713 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:21,713 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:22,142 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:22,142 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:22,142 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:22,142 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:22,674 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:22,675 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:22,675 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:22,675 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:23,108 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:23,108 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:23,108 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:23,108 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:23,540 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:23,540 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:23,540 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:23,541 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:23,970 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:23,970 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:23,970 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:23,970 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:24,400 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:24,401 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:24,401 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:24,401 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:24,830 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:24,831 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:24,831 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:24,831 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:25,362 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:25,362 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:25,362 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:25,362 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:25,794 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:25,795 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:25,795 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:25,795 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:26,224 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:26,224 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:26,225 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:26,225 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:26,655 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:26,655 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:26,655 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:26,655 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:27,085 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:27,085 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:27,085 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:27,086 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:27,517 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:27,517 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:27,517 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:27,517 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:27,954 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:27,955 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:27,955 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:27,955 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-18 22:28:28,385 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-18 22:28:28,385 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-18 22:28:28,385 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-18 22:28:28,385 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:41:19,290 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:41:59,628 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:42:53,247 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:43:00,785 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:43:54,201 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:44:28,492 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:45:02,756 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.010, 
-		mu=0.0001, alpha=0.1
-2015-06-19 16:45:02,828 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:02,828 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:02,828 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:05,203 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:05,367 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:05,368 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:05,368 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:07,737 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:07,773 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:07,774 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:07,774 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:10,229 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:10,301 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:10,302 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:10,302 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:12,757 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:12,840 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:12,841 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:12,841 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:15,301 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:15,420 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:15,420 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:15,421 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:17,876 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:17,939 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:17,940 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:17,940 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:20,410 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:20,569 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:20,570 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:20,571 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:23,044 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:23,102 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:23,102 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:23,102 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:25,570 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:25,690 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:25,690 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:25,691 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:28,148 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-06-19 16:45:28,312 - __main__ - DEBUG - primeiro: 0.000000
-2015-06-19 16:45:28,313 - __main__ - DEBUG - ultimo: 1.000000
-2015-06-19 16:45:28,314 - __main__ - DEBUG - Migracao: 0.000000
-2015-06-19 16:45:30,886 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-06-30 16:49:39,309 - __main__ - INFO - C: 0.030000 	 BETA: 0.000000
+2015-06-30 16:49:39,309 - __main__ - DEBUG - primeiro: 0.000000
+2015-06-30 16:49:39,309 - __main__ - DEBUG - ultimo: 1.000000
+2015-06-30 16:49:39,309 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-06-30 16:59:28,141 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-06-30 16:59:28,142 - __main__ - DEBUG - Continua modificado: False
+2015-06-30 16:59:28,142 - __main__ - INFO - m_c encontrado: 0.000000
+2015-06-30 16:59:28,328 - __main__ - INFO - C: 0.030000 	 BETA: 0.100000
+2015-06-30 16:59:28,328 - __main__ - DEBUG - primeiro: 0.000000
+2015-06-30 16:59:28,328 - __main__ - DEBUG - ultimo: 1.000000
+2015-06-30 16:59:28,328 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-06-30 16:59:47,681 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 16:59:47,681 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-06-30 17:21:12,366 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-06-30 17:21:12,366 - __main__ - DEBUG - primeiro: 0.010000
+2015-06-30 17:21:12,366 - __main__ - DEBUG - ultimo: 0.090000
+2015-06-30 17:21:12,366 - __main__ - DEBUG - i: 0, pmig: 0.010000
+2015-06-30 17:22:05,226 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 17:22:05,226 - __main__ - DEBUG - i: 1, pmig: 0.020000
+2015-06-30 17:23:08,360 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 17:23:08,361 - __main__ - DEBUG - i: 2, pmig: 0.030000
+2015-06-30 17:24:57,507 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 17:24:57,507 - __main__ - DEBUG - i: 3, pmig: 0.040000
+2015-06-30 17:27:33,793 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 17:27:33,793 - __main__ - DEBUG - i: 4, pmig: 0.050000
+2015-06-30 17:47:25,725 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-06-30 17:47:25,725 - __main__ - DEBUG - i: 5, pmig: 0.060000
+2015-06-30 17:50:00,429 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-06-30 17:50:00,429 - __main__ - DEBUG - i: 6, pmig: 0.070000
+2015-06-30 18:12:07,976 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-06-30 18:12:07,976 - __main__ - DEBUG - primeiro: 0.061000
+2015-06-30 18:12:07,976 - __main__ - DEBUG - ultimo: 0.069000
+2015-06-30 18:12:07,976 - __main__ - DEBUG - i: 0, pmig: 0.061000

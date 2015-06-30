@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from joblib import Parallel, delayed
+import os.path
 import numpy as np
 import scipy.misc
 from scipy.optimize import brentq
@@ -348,29 +350,45 @@ def autovetores(n,b,c,w0,beta):
     # Fecha fig
     plt.close()
 
+def funcao(b, delta, n): 
+    w0 = 1
+    nome_pasta = "b=%.1f" %b
+    if not os.path.exists(nome_pasta):
+        os.makedirs(nome_pasta)
+    for alpha in [0.1, 0.5, 1.0, 2.0]: 
+        vbeta = np.arange(0.1, 1.01, 0.1)
+        for c in [0.03, 0.15, 0.5, 1., 2., 5.]:
+            print "b=%.1f, c=%.2f, alpha=%.1f" %(b,c,alpha)
+            nome_arq = "b=%.1f/m_critico_c=%.2f_alpha=%.1f.txt" %(b, c, alpha)
+            with open(nome_arq, "w") as f: 
+                for beta in vbeta:
+                    f.write("{0:.2f}".format(beta))
+                    f.write("\t\t")
+                    m_c = m_critico(w0,b,c,n,delta,alpha,beta)
+                    m_c2 = m_critico2(w0,b,c,n,delta,alpha,beta)
+                    f.write("{0:.7f}".format(m_c))
+                    f.write("\t\t")
+                    f.write("{0:.7f}".format(m_c2))
+                    f.write("\n")
+
 ## Main
 def main():
 
     w0 = 1.             # fitness basal
-    b = 0.              # beneficio gerado por altruista
+    b = 10.              # beneficio gerado por altruista
     c = 2.              # custo para um altruista
     n = 26
     delta = 0.01
     alpha = 0.1
-   
-    vbeta = np.arange(0.1, 1.01, 0.1)
-    for c in [0.03, 0.15, 0.5, 1., 2., 5.]:
-        nome_arq = "m_critico_c=" + '{0:.2f}'.format(c) + ".txt"
-        with open(nome_arq, "w") as f: 
-            for beta in vbeta:
-                f.write("{0:.2f}".format(beta))
-                f.write("\t\t")
-                m_c = m_critico(w0,b,c,n,delta,alpha,beta)
-                m_c2 = m_critico2(w0,b,c,n,delta,alpha,beta)
-                f.write("{0:.7f}".format(m_c))
-                f.write("\t\t")
-                f.write("{0:.7f}".format(m_c2))
-                f.write("\n")
+
+    b = 0.0
+    c = 0.03
+    beta = 0.1
+    print m_critico(w0,b,c,n,delta,alpha,beta)
+
+   # vb = [0., 1., 2., 10.]
+   # nc = 4
+   # Parallel(n_jobs=nc)(delayed(funcao)(b,delta,n) for b in vb)
 
 if  __name__ =='__main__':
     main()
