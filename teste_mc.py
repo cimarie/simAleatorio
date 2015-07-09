@@ -7,11 +7,11 @@ from joblib import Parallel, delayed
 import multiprocessing as mp
 import logging
 import numpy as np
-from retest3 import gera_simulacao
+from retest2 import gera_simulacao
 from simTeorico.main import m_critico, m_critico2
 
 ################## PARAMETROS GLOBAIS #########################
-alpha = 0.1 
+alpha = 0.5 
 
 # Para todas as sim: N = 5000 (grupos) e n = 26 (indivíduos)
 # Além disso, mu = 0.0001, delta = 0.01
@@ -113,8 +113,8 @@ def testa(b, c, vbeta):
 
 def main():
 
-    # testar com 0., 1., 2., 10.
-    benefit = 1.
+    # testar com 0., 1. (se der tempo: 2., 10.)
+    benefit = 0.
     logger.info(u"Parâmetros fixos nessa simulação: N=%d, n=%d, b=%.2f, \
          delta=%.3f, \n\t\tmu=%.4f, alpha=%.1f" \
             %(N, n, benefit, delta, mu, alpha))
@@ -124,6 +124,7 @@ def main():
 
     # Teste para b = 0.0 e c = 0.5 
     vcost = [0.03, 0.15, 0.5, 1.0, 2.0, 5.0]
+    #vcost = [2.0, 5.0]
     for cost in vcost:
         testa(benefit,cost,vbeta)
 
