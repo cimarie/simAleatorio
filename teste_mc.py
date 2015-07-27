@@ -11,14 +11,14 @@ from retest2 import gera_simulacao
 from simTeorico.main import m_critico, m_critico2
 
 ################## PARAMETROS GLOBAIS #########################
-alpha = 0.5 
+alpha = 0.1 
 
 # Para todas as sim: N = 5000 (grupos) e n = 26 (indivíduos)
 # Além disso, mu = 0.0001, delta = 0.01
 N = 5000
 n = 26
 mu = 0.0001
-delta = 0.01
+delta = 0.1
 max_it = 5000
 ###############################################################
 
