@@ -13,6 +13,10 @@ from fitness import *
 from selmig import *
 from c_critico import *
 
+pylab.rcParams['text.usetex']=True
+pylab.rcParams['font.family'] = 'serif'
+pylab.rcParams['font.serif'] = 'cm'
+
 def imprime_figura(data1, data2, label, tipo, titulo, nome):
 
     if tipo == 'av' or tipo == 'mc':
@@ -266,9 +270,10 @@ def beta_m2(w0, b, c, n, delta, alpha):
 
 
 # Faz o gráfico em barras de autovetores
-def autovetores(n,b,c,w0,beta):
+def autovetores(n,b,c,w0,alpha,beta):
 
-    vetor_mig = np.arange(0.02,0.06,0.01,dtype=float)
+    #vetor_mig = np.arange(0.02,0.06,0.01,dtype=float)
+    vetor_mig = [0.01, 0.1, 0.2, 0.5]
     vetor_delta = np.array((0.0001,0.001,0.01),dtype=float)
 
     avec = np.empty((len(vetor_mig),n))
@@ -278,14 +283,16 @@ def autovetores(n,b,c,w0,beta):
     vetor = np.arange(0.8,n,1,dtype=float)
 
     # Define as caracteristicas da figura gerada
-    plt.figure(1)
+    #plt.figure(figsize=(6,6), dpi=300)
 
-    plt.rc('text',usetex=True)
-    plt.rc('font', family='serif')
+    #plt.rc('text',usetex=True)
+    #plt.rc('font', family='serif')
 
-    #plt.tight_layout()
+    fig, ax = plt.subplots(nrows=3,ncols=4, sharey=True, dpi=300)
+    #f, ax = plt.subplots(3, 4,sharey=True)
+    plt.setp(ax, xticks=[1,5,10,15,20,25], yticks=np.arange(0.0,0.7,0.1))
 
-    f, ax = plt.subplots(3, 4,sharey=True)
+    #fig.set_canvas(plt.gcf().canvas)
 
     aux = np.arange(n)+1
 
@@ -301,50 +308,62 @@ def autovetores(n,b,c,w0,beta):
             M = matriz_migracao(n,m)
 
             # Calcula autovetores
-            avec[i] = eg.calcula_evec(np.dot(S,M))
+            avec = eg.calcula_evec(np.dot(S,M))
 
-            avec[i] = aux*avec[i]/(np.dot(aux,avec[i]))
+            avec = aux*avec/(np.dot(aux,avec))
 
-            #avec[i] = avec[i]/sum(avec[i])
+            avec = avec/sum(avec)
+
+            print i, j
+            print avec
 
             #ax=plt.subplot(3,4,4*j+i)
 
-            ax[j,i].set_xticks((1,5,10,15,20))
+            #ax[j,i].set_xticks((1,5,10,15,20))
 
             if i==0:
-                ax[j,0].set_ylabel(r'$\nu$')
+                ax[j,0].set_ylabel(r'$\nu$', fontsize=8)
 
-            ax[j,i].set_yticks(np.arange(0.0,0.5,0.1))
+            #ax[j,i].set_yticks(np.arange(0.0,0.5,0.1))
 
             ax[j,i].autoscale_view(True,True,True)
 
-            ax[j,i].set_xlabel(r"$k$")
+            ax[j,i].set_xlabel(r"$k$", fontsize=8)
 
-            lab = r'$\rho$='+"%.3f" % (eg.av_dominante(np.dot(S,M)))+"\n"+r'$m_c$='+"%.3f" % (m_critico(w0,b,c,n,delta,alpha,beta))+", "+r'$\delta$='+str(deltaf)
+            texto = r'$\rho$='+"%.3f" % (eg.av_dominante(np.dot(S,M)))+"\n"+r'$m_c$='+"%.3f" % (m_critico(w0,b,c,n,delta,alpha,beta))
 
-            ax[j,i].set_title(lab,fontsize=8)
+            plt.text(0.5,0.5,texto,horizontalalignment='center',\
+                    verticalalignment='center',
+                    transform=ax[j,i].transAxes,
+                    bbox=dict(facecolor='white', alpha=0.5),
+                    fontsize=8)
+            lab = r'$\delta=$'+str(delta)+', '+r'$m=$'+str(m)
+            ax[j,i].set_title(lab,fontsize=9)
 
             plt.grid()
 
             # Atualiza contador
             i = i+1
 
-            print 4*j+i
+            ax[j,i-1].bar(vetor,avec,width=0.4)
 
-            ax[j,i-1].bar(vetor,avec[i-1]/sum(avec[i-1]),0.4)
-
-            plt.legend(loc="center")
+            #plt.legend(loc="center")
 
         j = j+1
 
-    plt.subplots_adjust(left=0.125, bottom=0.1, right=0.9, top=0.9, wspace=0.3, hspace=0.7)
+    plt.subplots_adjust(left=0.125, bottom=0.001, right=0.9, top=0.9, wspace=0.2, hspace=0.5)
+
+    #plt.tight_layout()
+    #plt.show(block=False)
 
     # titulo da figura
-    titulo = "Equilibrium distribution (b="+str(b)+", c="+str(c)+", n="+str(n)+","+r'$\beta$='+str(beta)+")"
+    titulo = "Equilibrium distribution ("+r'$b=$'+str(b)+", "+r'$c=$'+str(c)+\
+            ", "+r'$n=$'+str(n)+", "+r'$\beta$='+str(beta)+")"
     plt.suptitle(titulo) 
 
     # Salva fig
-    nome = "b_eigenvec_b="+str(b)+"c=1.eps"
+    #nome = "eigenvec_b="+str(b)+"_c="+str(c)+"_alpha"+str(alpha)+"_beta="+str(beta)+".eps"
+    nome = "eigenvec_b="+str(b)+"_c="+str(c)+"_alpha"+str(alpha)+"_beta="+str(beta)+".png"
     plt.savefig(nome)
 
     # Fecha fig
@@ -384,8 +403,13 @@ def main():
     b = 0.0
     c = 0.03
     beta = 0.1
-    print m_critico(w0,b,c,n,delta,alpha,beta)
-
+    #print m_critico(w0,b,c,n,delta,alpha,beta)
+    
+    #b = 0.
+    #for c in [0.03, 0.15, 0.5, 1.0, 2.0, 5.0]:
+    #    for beta in np.arange(0.1,1.1,0.1):
+    #            autovetores(n,b,c,w0,alpha,beta)
+    autovetores(n,b,c,w0,alpha,beta)
    # vb = [0., 1., 2., 10.]
    # nc = 4
    # Parallel(n_jobs=nc)(delayed(funcao)(b,delta,n) for b in vb)
