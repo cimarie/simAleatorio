@@ -9,16 +9,21 @@ rcParams['text.usetex'] = True
 rcParams['font.family'] = 'serif'
 rcParams['font.serif'] = 'cm'
 
-#@click.group()
-#def cli():
-#    pass
-#
-#@cli.command()
-#@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes; default: 0.')
-#@click.option('--delta', default=0.01, help='forca de selecao; default: 0.01')
-#@click.option('--alpha', default=1., help='prevalencia do altruista em batalhas; default: 2.')
-#@click.option('--n', default=26, help='numero de individuos por grupos; default: 26')
-def imprime_figura(b, c, delta, alpha, n):
+@click.group()
+def cli():
+    pass
+
+@cli.command()
+@click.option('--b', default=0., help='beneficio provido pelo altruista em suas interacoes; default: 0.')
+@click.option('--delta', default=0.01, help='forca de selecao; default: 0.01')
+@click.option('--alpha', default=1., help='prevalencia do altruista em batalhas; default: 2.')
+@click.option('--n', default=26, help='numero de individuos por grupos; default: 26')
+def imprime_figuras(b, delta, alpha, n):
+
+    for c in [0.03, 0.15, 0.5, 1.0, 2.0, 5.]:
+        gera_figura(b, c, delta, alpha, n)
+
+def gera_figura(b, c, delta, alpha, n):
 
     titulo = r"Critical migration rate comparison (model vs. simulation) "
     titulo = titulo + "\n" + r"$b$ = %.2f, $c$ = %.2f, $\delta$ = %.3f, $\alpha$ = %.1f and $n$ = %d" \
@@ -70,13 +75,13 @@ def imprime_figura(b, c, delta, alpha, n):
 
 def main():
 
-    delta = 0.01
+    delta = 0.1
     n = 26
-    b = 1.0
+    b = 0.0
     alpha = 0.1
     
     for c in [0.03, 0.15, 0.5, 1.0, 2.0, 5.]:
         imprime_figura(b, c, delta, alpha, n)
 
-if __name__ == "__main__": main()
-#    cli()
+if __name__ == "__main__": #main()
+    cli()

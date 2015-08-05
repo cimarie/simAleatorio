@@ -1,1492 +1,1220 @@
-2015-07-20 18:14:04,035 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26, b=0.00,          delta=0.100, 
-		mu=0.0001, alpha=0.1
-2015-07-20 18:14:04,276 - __main__ - INFO - C: 0.030000 	 BETA: 0.000000
-2015-07-20 18:14:04,277 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-20 18:14:04,277 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-20 18:14:04,277 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-20 18:24:32,773 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 18:24:32,774 - __main__ - DEBUG - Continua modificado: False
-2015-07-20 18:24:32,774 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-20 18:24:33,521 - __main__ - INFO - C: 0.030000 	 BETA: 0.100000
-2015-07-20 18:24:33,521 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-20 18:24:33,521 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-20 18:24:33,522 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-20 18:24:55,395 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 18:24:55,395 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-20 18:46:36,623 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 18:46:36,623 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-20 18:46:36,623 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-20 18:46:36,623 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-20 18:47:46,960 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 18:47:46,960 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-20 18:49:34,884 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 18:49:34,884 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-20 18:54:36,315 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 18:54:36,315 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-20 19:16:07,868 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 19:16:07,868 - __main__ - DEBUG - primeiro: 0.031000
-2015-07-20 19:16:07,868 - __main__ - DEBUG - ultimo: 0.039000
-2015-07-20 19:16:07,868 - __main__ - DEBUG - i: 0, pmig: 0.031000
-2015-07-20 19:21:16,929 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 19:21:16,930 - __main__ - DEBUG - i: 1, pmig: 0.032000
-2015-07-20 19:26:44,458 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 19:26:44,458 - __main__ - DEBUG - i: 2, pmig: 0.033000
-2015-07-20 19:46:22,143 - __main__ - DEBUG - Numero de simulacoes ate o fim: 7
-2015-07-20 19:46:22,144 - __main__ - DEBUG - i: 3, pmig: 0.034000
-2015-07-20 19:51:21,825 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 19:51:21,825 - __main__ - DEBUG - i: 4, pmig: 0.035000
-2015-07-20 20:11:00,613 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-20 20:11:00,613 - __main__ - DEBUG - i: 5, pmig: 0.036000
-2015-07-20 20:32:06,896 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-20 20:32:06,896 - __main__ - DEBUG - i: 6, pmig: 0.037000
-2015-07-20 20:52:50,143 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-20 20:52:50,143 - __main__ - DEBUG - i: 7, pmig: 0.038000
-2015-07-20 21:15:00,040 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 21:15:00,040 - __main__ - INFO - m_c encontrado: 0.038000
-2015-07-20 21:15:00,718 - __main__ - INFO - C: 0.030000 	 BETA: 0.200000
-2015-07-20 21:15:00,718 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-20 21:15:00,718 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-20 21:15:00,719 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-20 21:15:11,748 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 21:15:11,749 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-20 21:19:12,121 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 21:19:12,121 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-20 21:43:37,990 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 21:43:37,990 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-20 21:43:37,990 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-20 21:43:37,990 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-20 22:06:35,370 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 22:06:35,370 - __main__ - DEBUG - Continua modificado: False
-2015-07-20 22:06:35,371 - __main__ - INFO - m_c encontrado: 0.110000
-2015-07-20 22:06:35,995 - __main__ - INFO - C: 0.030000 	 BETA: 0.300000
-2015-07-20 22:06:35,995 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-20 22:06:35,995 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-20 22:06:35,995 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-20 22:06:43,715 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 22:06:43,716 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-20 22:09:07,943 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 22:09:07,944 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-20 22:33:20,294 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-20 22:33:20,294 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-20 22:33:20,294 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-20 22:33:20,295 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-20 22:35:08,422 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 22:35:08,422 - __main__ - DEBUG - i: 1, pmig: 0.120000
-2015-07-20 22:37:48,449 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 22:37:48,449 - __main__ - DEBUG - i: 2, pmig: 0.130000
-2015-07-20 22:40:32,038 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-20 22:40:32,038 - __main__ - DEBUG - i: 3, pmig: 0.140000
-2015-07-20 23:00:48,317 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
-2015-07-20 23:00:48,317 - __main__ - DEBUG - i: 4, pmig: 0.150000
-2015-07-20 23:23:01,609 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-20 23:23:01,609 - __main__ - DEBUG - i: 5, pmig: 0.160000
-2015-07-20 23:44:15,027 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-20 23:44:15,027 - __main__ - DEBUG - i: 6, pmig: 0.170000
-2015-07-21 00:07:15,401 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 00:07:15,402 - __main__ - DEBUG - primeiro: 0.161000
-2015-07-21 00:07:15,402 - __main__ - DEBUG - ultimo: 0.169000
-2015-07-21 00:07:15,402 - __main__ - DEBUG - i: 0, pmig: 0.161000
-2015-07-21 00:29:24,473 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 00:29:24,473 - __main__ - DEBUG - i: 1, pmig: 0.162000
-2015-07-21 00:50:50,133 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 00:50:50,133 - __main__ - DEBUG - i: 2, pmig: 0.163000
-2015-07-21 01:13:01,654 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 01:13:01,654 - __main__ - DEBUG - i: 3, pmig: 0.164000
-2015-07-21 01:36:02,020 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 01:36:02,021 - __main__ - DEBUG - i: 4, pmig: 0.165000
-2015-07-21 01:40:59,480 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 01:40:59,480 - __main__ - DEBUG - i: 5, pmig: 0.166000
-2015-07-21 02:04:30,783 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 02:04:30,784 - __main__ - DEBUG - i: 6, pmig: 0.167000
-2015-07-21 02:09:29,921 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 02:09:29,921 - __main__ - DEBUG - i: 7, pmig: 0.168000
-2015-07-21 02:32:58,913 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 02:32:58,913 - __main__ - DEBUG - i: 8, pmig: 0.169000
-2015-07-21 02:55:01,578 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-21 02:55:01,578 - __main__ - INFO - m_c encontrado: 0.169000
-2015-07-21 02:55:01,703 - __main__ - INFO - C: 0.030000 	 BETA: 0.400000
-2015-07-21 02:55:01,703 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 02:55:01,703 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 02:55:01,704 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 02:55:07,548 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 02:55:07,548 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 02:56:11,939 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 02:56:11,939 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 02:58:56,599 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 02:58:56,599 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 03:23:26,185 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 03:23:26,185 - __main__ - DEBUG - primeiro: 0.210000
-2015-07-21 03:23:26,185 - __main__ - DEBUG - ultimo: 0.290000
-2015-07-21 03:23:26,185 - __main__ - DEBUG - i: 0, pmig: 0.210000
-2015-07-21 03:27:59,062 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 03:27:59,062 - __main__ - DEBUG - i: 1, pmig: 0.220000
-2015-07-21 03:34:08,380 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 03:34:08,380 - __main__ - DEBUG - i: 2, pmig: 0.230000
-2015-07-21 03:56:32,450 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-21 03:56:32,450 - __main__ - DEBUG - i: 3, pmig: 0.240000
-2015-07-21 04:00:05,637 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 04:00:05,637 - __main__ - DEBUG - i: 4, pmig: 0.250000
-2015-07-21 04:22:42,777 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 04:22:42,777 - __main__ - DEBUG - i: 5, pmig: 0.260000
-2015-07-21 04:46:22,190 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 04:46:22,190 - __main__ - DEBUG - primeiro: 0.251000
-2015-07-21 04:46:22,190 - __main__ - DEBUG - ultimo: 0.259000
-2015-07-21 04:46:22,190 - __main__ - DEBUG - i: 0, pmig: 0.251000
-2015-07-21 05:10:22,982 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 05:10:22,982 - __main__ - DEBUG - i: 1, pmig: 0.252000
-2015-07-21 05:33:58,093 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 05:33:58,093 - __main__ - DEBUG - i: 2, pmig: 0.253000
-2015-07-21 05:56:36,281 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 05:56:36,281 - __main__ - INFO - m_c encontrado: 0.253000
-2015-07-21 05:56:36,406 - __main__ - INFO - C: 0.030000 	 BETA: 0.500000
-2015-07-21 05:56:36,406 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 05:56:36,406 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 05:56:36,406 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 05:56:40,794 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 05:56:40,795 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 05:57:26,660 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 05:57:26,661 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 05:59:05,243 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 05:59:05,243 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 06:23:46,107 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 06:23:46,108 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 06:29:03,109 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 06:29:03,109 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 06:55:55,492 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 06:55:55,493 - __main__ - DEBUG - primeiro: 0.410000
-2015-07-21 06:55:55,493 - __main__ - DEBUG - ultimo: 0.490000
-2015-07-21 06:55:55,493 - __main__ - DEBUG - i: 0, pmig: 0.410000
-2015-07-21 07:20:16,689 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 07:20:16,689 - __main__ - DEBUG - Continua modificado: False
-2015-07-21 07:20:16,689 - __main__ - INFO - m_c encontrado: 0.410000
-2015-07-21 07:20:16,813 - __main__ - INFO - C: 0.030000 	 BETA: 0.600000
-2015-07-21 07:20:16,813 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 07:20:16,814 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 07:20:16,814 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 07:20:21,721 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 07:20:21,722 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 07:21:05,518 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 07:21:05,518 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 07:22:39,519 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 07:22:39,519 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 07:25:12,021 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 07:25:12,021 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 07:48:34,840 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-21 07:48:34,840 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 08:15:06,314 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 08:15:06,314 - __main__ - DEBUG - i: 6, pmig: 0.600000
-2015-07-21 08:43:02,092 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 08:43:02,092 - __main__ - DEBUG - primeiro: 0.510000
-2015-07-21 08:43:02,092 - __main__ - DEBUG - ultimo: 0.590000
-2015-07-21 08:43:02,093 - __main__ - DEBUG - i: 0, pmig: 0.510000
-2015-07-21 09:09:40,926 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 09:09:40,926 - __main__ - DEBUG - Continua modificado: False
-2015-07-21 09:09:40,926 - __main__ - INFO - m_c encontrado: 0.510000
-2015-07-21 09:09:41,049 - __main__ - INFO - C: 0.030000 	 BETA: 0.700000
-2015-07-21 09:09:41,050 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 09:09:41,050 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 09:09:41,050 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 09:09:44,901 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 09:09:44,902 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 09:10:24,579 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 09:10:24,579 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 09:11:40,791 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 09:11:40,792 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 09:13:49,544 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 09:13:49,545 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 09:19:16,001 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 09:19:16,001 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 09:46:15,988 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 09:46:15,988 - __main__ - DEBUG - i: 6, pmig: 0.600000
-2015-07-21 10:13:20,903 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 10:13:20,903 - __main__ - DEBUG - primeiro: 0.510000
-2015-07-21 10:13:20,903 - __main__ - DEBUG - ultimo: 0.590000
-2015-07-21 10:13:20,903 - __main__ - DEBUG - i: 0, pmig: 0.510000
-2015-07-21 10:39:08,201 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-21 10:39:08,202 - __main__ - DEBUG - i: 1, pmig: 0.520000
-2015-07-21 11:07:02,338 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 11:07:02,338 - __main__ - DEBUG - i: 2, pmig: 0.530000
-2015-07-21 11:11:34,096 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 11:11:34,096 - __main__ - DEBUG - i: 3, pmig: 0.540000
-2015-07-21 11:37:52,059 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 11:37:52,059 - __main__ - DEBUG - i: 4, pmig: 0.550000
-2015-07-21 11:42:15,080 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 11:42:15,080 - __main__ - DEBUG - i: 5, pmig: 0.560000
-2015-07-21 12:08:57,043 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 12:08:57,044 - __main__ - DEBUG - primeiro: 0.551000
-2015-07-21 12:08:57,044 - __main__ - DEBUG - ultimo: 0.559000
-2015-07-21 12:08:57,044 - __main__ - DEBUG - i: 0, pmig: 0.551000
-2015-07-21 12:36:46,495 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 12:36:46,495 - __main__ - DEBUG - i: 1, pmig: 0.552000
-2015-07-21 13:03:15,902 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 13:03:15,903 - __main__ - DEBUG - i: 2, pmig: 0.553000
-2015-07-21 13:28:27,708 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 13:28:27,708 - __main__ - DEBUG - i: 3, pmig: 0.554000
-2015-07-21 13:32:03,521 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 13:32:03,521 - __main__ - DEBUG - i: 4, pmig: 0.555000
-2015-07-21 13:58:09,674 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 13:58:09,675 - __main__ - DEBUG - i: 5, pmig: 0.556000
-2015-07-21 14:04:48,774 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 14:04:48,774 - __main__ - DEBUG - i: 6, pmig: 0.557000
-2015-07-21 14:31:19,657 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 14:31:19,657 - __main__ - DEBUG - i: 7, pmig: 0.558000
-2015-07-21 14:58:23,864 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 14:58:23,864 - __main__ - DEBUG - i: 8, pmig: 0.559000
-2015-07-21 15:26:50,534 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 15:26:50,534 - __main__ - INFO - m_c encontrado: 0.559000
-2015-07-21 15:26:50,659 - __main__ - INFO - C: 0.030000 	 BETA: 0.800000
-2015-07-21 15:26:50,659 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 15:26:50,659 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 15:26:50,660 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 15:26:53,942 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:26:53,943 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 15:27:24,758 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:27:24,758 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 15:28:31,257 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:28:31,258 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 15:30:00,781 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:30:00,781 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 15:32:08,083 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:32:08,083 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 15:35:40,048 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 15:35:40,048 - __main__ - DEBUG - i: 6, pmig: 0.600000
-2015-07-21 16:00:50,193 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-21 16:00:50,193 - __main__ - DEBUG - i: 7, pmig: 0.700000
-2015-07-21 16:29:29,931 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 16:29:29,931 - __main__ - DEBUG - i: 8, pmig: 0.800000
-2015-07-21 16:59:38,282 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 16:59:38,282 - __main__ - DEBUG - primeiro: 0.710000
-2015-07-21 16:59:38,283 - __main__ - DEBUG - ultimo: 0.790000
-2015-07-21 16:59:38,283 - __main__ - DEBUG - i: 0, pmig: 0.710000
-2015-07-21 17:06:53,236 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 17:06:53,236 - __main__ - DEBUG - i: 1, pmig: 0.720000
-2015-07-21 17:36:05,681 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 17:36:05,681 - __main__ - DEBUG - i: 2, pmig: 0.730000
-2015-07-21 18:04:16,301 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 18:04:16,301 - __main__ - DEBUG - i: 3, pmig: 0.740000
-2015-07-21 18:33:33,178 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 18:33:33,179 - __main__ - DEBUG - primeiro: 0.731000
-2015-07-21 18:33:33,179 - __main__ - DEBUG - ultimo: 0.739000
-2015-07-21 18:33:33,179 - __main__ - DEBUG - i: 0, pmig: 0.731000
-2015-07-21 19:03:17,457 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 19:03:17,457 - __main__ - DEBUG - Continua modificado: False
-2015-07-21 19:03:17,457 - __main__ - INFO - m_c encontrado: 0.731000
-2015-07-21 19:03:17,590 - __main__ - INFO - C: 0.030000 	 BETA: 0.900000
-2015-07-21 19:03:17,590 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 19:03:17,590 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 19:03:17,591 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 19:03:20,860 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:03:20,860 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 19:03:47,031 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:03:47,031 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 19:04:39,043 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:04:39,043 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 19:06:34,646 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:06:34,646 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 19:08:29,493 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:08:29,493 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 19:13:42,284 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 19:13:42,284 - __main__ - DEBUG - i: 6, pmig: 0.600000
-2015-07-21 19:39:09,547 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
-2015-07-21 19:39:09,547 - __main__ - DEBUG - i: 7, pmig: 0.700000
-2015-07-21 20:05:46,794 - __main__ - DEBUG - Numero de simulacoes ate o fim: 7
-2015-07-21 20:05:46,794 - __main__ - DEBUG - i: 8, pmig: 0.800000
-2015-07-21 20:36:26,922 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-21 20:36:26,922 - __main__ - DEBUG - primeiro: 0.710000
-2015-07-21 20:36:26,922 - __main__ - DEBUG - ultimo: 0.790000
-2015-07-21 20:36:26,922 - __main__ - DEBUG - i: 0, pmig: 0.710000
-2015-07-21 20:41:44,588 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 20:41:44,588 - __main__ - DEBUG - i: 1, pmig: 0.720000
-2015-07-21 20:47:10,588 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 20:47:10,588 - __main__ - DEBUG - i: 2, pmig: 0.730000
-2015-07-21 21:13:53,788 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-21 21:13:53,788 - __main__ - DEBUG - i: 3, pmig: 0.740000
-2015-07-21 21:42:33,132 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-21 21:42:33,132 - __main__ - DEBUG - i: 4, pmig: 0.750000
-2015-07-21 22:09:37,348 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-21 22:09:37,349 - __main__ - DEBUG - i: 5, pmig: 0.760000
-2015-07-21 22:14:47,537 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:14:47,537 - __main__ - DEBUG - i: 6, pmig: 0.770000
-2015-07-21 22:20:32,775 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:20:32,775 - __main__ - DEBUG - i: 7, pmig: 0.780000
-2015-07-21 22:50:15,154 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-21 22:50:15,154 - __main__ - DEBUG - i: 8, pmig: 0.790000
-2015-07-21 22:53:53,817 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:53:53,817 - __main__ - INFO - m_c encontrado: 0.790000
-2015-07-21 22:53:53,933 - __main__ - INFO - C: 0.030000 	 BETA: 1.000000
-2015-07-21 22:53:53,933 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 22:53:53,933 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 22:53:53,933 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-21 22:53:57,034 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:53:57,034 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-21 22:54:20,755 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:54:20,755 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-21 22:55:02,393 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:55:02,393 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-21 22:56:10,263 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:56:10,263 - __main__ - DEBUG - i: 4, pmig: 0.400000
-2015-07-21 22:57:42,984 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 22:57:42,984 - __main__ - DEBUG - i: 5, pmig: 0.500000
-2015-07-21 23:01:48,474 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 23:01:48,474 - __main__ - DEBUG - i: 6, pmig: 0.600000
-2015-07-21 23:06:44,095 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 23:06:44,095 - __main__ - DEBUG - i: 7, pmig: 0.700000
-2015-07-21 23:11:05,483 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 23:11:05,483 - __main__ - DEBUG - i: 8, pmig: 0.800000
-2015-07-21 23:15:35,128 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 23:15:35,128 - __main__ - DEBUG - i: 9, pmig: 0.900000
-2015-07-21 23:43:54,703 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
-2015-07-21 23:43:54,704 - __main__ - DEBUG - i: 10, pmig: 1.000000
-2015-07-21 23:49:06,207 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-21 23:49:06,208 - __main__ - INFO - m_c encontrado: 1.000000
-2015-07-21 23:49:06,451 - __main__ - INFO - C: 0.150000 	 BETA: 0.000000
-2015-07-21 23:49:06,451 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-21 23:49:06,452 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-21 23:49:06,452 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 00:00:10,201 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 00:00:10,201 - __main__ - DEBUG - Continua modificado: False
-2015-07-22 00:00:10,201 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-22 00:00:10,999 - __main__ - INFO - C: 0.150000 	 BETA: 0.100000
-2015-07-22 00:00:10,999 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 00:00:10,999 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 00:00:10,999 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 00:00:39,677 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 00:00:39,677 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 00:07:58,759 - __main__ - INFO - pA=1 => 0
-2015-07-22 00:07:58,760 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 00:07:58,760 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-22 00:07:58,760 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-22 00:07:58,760 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-22 00:13:03,658 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 00:13:03,658 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-22 00:35:11,429 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 00:35:11,430 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-22 00:35:11,430 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-22 00:35:11,430 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-22 00:39:54,003 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 00:39:54,003 - __main__ - DEBUG - i: 1, pmig: 0.012000
-2015-07-22 00:42:00,032 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 00:42:00,032 - __main__ - DEBUG - i: 2, pmig: 0.013000
-2015-07-22 01:02:43,612 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-22 01:02:43,612 - __main__ - DEBUG - i: 3, pmig: 0.014000
-2015-07-22 01:23:49,091 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 01:23:49,091 - __main__ - DEBUG - i: 4, pmig: 0.015000
-2015-07-22 01:45:15,172 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 01:45:15,173 - __main__ - DEBUG - i: 5, pmig: 0.016000
-2015-07-22 02:06:30,587 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 02:06:30,587 - __main__ - DEBUG - i: 6, pmig: 0.017000
-2015-07-22 02:28:32,627 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 02:28:32,627 - __main__ - INFO - m_c encontrado: 0.017000
-2015-07-22 02:28:33,373 - __main__ - INFO - C: 0.150000 	 BETA: 0.200000
-2015-07-22 02:28:33,373 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 02:28:33,373 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 02:28:33,373 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 02:28:44,728 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 02:28:44,728 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 02:37:28,199 - __main__ - INFO - pA=1 => 0
-2015-07-22 02:37:28,199 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 02:37:28,200 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-22 02:37:28,200 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-22 02:37:28,200 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-22 02:38:10,423 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 02:38:10,423 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-22 02:39:14,960 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 02:39:14,960 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-22 02:42:56,838 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 02:42:56,838 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-22 03:04:34,097 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 03:04:34,097 - __main__ - DEBUG - primeiro: 0.031000
-2015-07-22 03:04:34,097 - __main__ - DEBUG - ultimo: 0.039000
-2015-07-22 03:04:34,097 - __main__ - DEBUG - i: 0, pmig: 0.031000
-2015-07-22 03:07:24,430 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 03:07:24,430 - __main__ - DEBUG - i: 1, pmig: 0.032000
-2015-07-22 03:10:07,851 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 03:10:07,851 - __main__ - DEBUG - i: 2, pmig: 0.033000
-2015-07-22 03:29:23,177 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
-2015-07-22 03:29:23,178 - __main__ - DEBUG - i: 3, pmig: 0.034000
-2015-07-22 03:31:47,094 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 03:31:47,094 - __main__ - DEBUG - i: 4, pmig: 0.035000
-2015-07-22 03:34:40,925 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 03:34:40,925 - __main__ - DEBUG - i: 5, pmig: 0.036000
-2015-07-22 03:56:09,797 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 03:56:09,797 - __main__ - DEBUG - i: 6, pmig: 0.037000
-2015-07-22 04:17:53,027 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-22 04:17:53,028 - __main__ - DEBUG - i: 7, pmig: 0.038000
-2015-07-22 04:39:13,793 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 04:39:13,793 - __main__ - DEBUG - i: 8, pmig: 0.039000
-2015-07-22 05:00:25,359 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:00:25,359 - __main__ - INFO - m_c encontrado: 0.039000
-2015-07-22 05:00:26,104 - __main__ - INFO - C: 0.150000 	 BETA: 0.300000
-2015-07-22 05:00:26,104 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 05:00:26,104 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 05:00:26,104 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 05:00:33,531 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:00:33,531 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 05:23:54,637 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 05:23:54,637 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-22 05:23:54,638 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-22 05:23:54,638 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-22 05:24:19,504 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:24:19,504 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-22 05:24:54,910 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:24:54,910 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-22 05:25:45,309 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:25:45,309 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-22 05:27:12,717 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:27:12,717 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-22 05:29:48,034 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 05:29:48,034 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-22 05:51:15,346 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-22 05:51:15,347 - __main__ - DEBUG - i: 6, pmig: 0.070000
-2015-07-22 06:13:00,415 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 06:13:00,415 - __main__ - DEBUG - primeiro: 0.061000
-2015-07-22 06:13:00,415 - __main__ - DEBUG - ultimo: 0.069000
-2015-07-22 06:13:00,416 - __main__ - DEBUG - i: 0, pmig: 0.061000
-2015-07-22 06:16:39,607 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 06:16:39,607 - __main__ - DEBUG - i: 1, pmig: 0.062000
-2015-07-22 06:39:03,928 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 06:39:03,928 - __main__ - INFO - m_c encontrado: 0.062000
-2015-07-22 06:39:04,550 - __main__ - INFO - C: 0.150000 	 BETA: 0.400000
-2015-07-22 06:39:04,550 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 06:39:04,550 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 06:39:04,550 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 06:39:11,713 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 06:39:11,713 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 07:01:40,366 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 07:01:40,367 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-22 07:01:40,367 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-22 07:01:40,367 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-22 07:01:59,723 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:01:59,723 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-22 07:02:23,826 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:02:23,826 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-22 07:02:53,131 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:02:53,131 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-22 07:03:40,688 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:03:40,688 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-22 07:04:41,295 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:04:41,295 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-22 07:06:12,462 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:06:12,462 - __main__ - DEBUG - i: 6, pmig: 0.070000
-2015-07-22 07:08:02,603 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:08:02,603 - __main__ - DEBUG - i: 7, pmig: 0.080000
-2015-07-22 07:11:13,406 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 07:11:13,406 - __main__ - DEBUG - i: 8, pmig: 0.090000
-2015-07-22 07:32:17,351 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 07:32:17,351 - __main__ - DEBUG - primeiro: 0.081000
-2015-07-22 07:32:17,351 - __main__ - DEBUG - ultimo: 0.089000
-2015-07-22 07:32:17,352 - __main__ - DEBUG - i: 0, pmig: 0.081000
-2015-07-22 07:52:51,506 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
-2015-07-22 07:52:51,506 - __main__ - DEBUG - i: 1, pmig: 0.082000
-2015-07-22 08:14:00,641 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-22 08:14:00,641 - __main__ - DEBUG - i: 2, pmig: 0.083000
-2015-07-22 08:19:37,128 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 08:19:37,129 - __main__ - DEBUG - i: 3, pmig: 0.084000
-2015-07-22 08:22:52,029 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 08:22:52,029 - __main__ - DEBUG - i: 4, pmig: 0.085000
-2015-07-22 08:28:22,198 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 08:28:22,198 - __main__ - DEBUG - i: 5, pmig: 0.086000
-2015-07-22 08:49:46,207 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-22 08:49:46,207 - __main__ - DEBUG - i: 6, pmig: 0.087000
-2015-07-22 09:12:08,620 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 09:12:08,621 - __main__ - DEBUG - i: 7, pmig: 0.088000
-2015-07-22 09:35:13,990 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 09:35:13,990 - __main__ - INFO - m_c encontrado: 0.088000
-2015-07-22 09:35:14,724 - __main__ - INFO - C: 0.150000 	 BETA: 0.500000
-2015-07-22 09:35:14,724 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 09:35:14,724 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 09:35:14,724 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 09:35:20,979 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 09:35:20,979 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 09:39:07,805 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 09:39:07,805 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 10:02:00,381 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 10:02:00,381 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-22 10:02:00,381 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-22 10:02:00,381 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-22 10:24:23,127 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 10:24:23,127 - __main__ - DEBUG - i: 1, pmig: 0.120000
-2015-07-22 10:47:46,560 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 10:47:46,560 - __main__ - DEBUG - primeiro: 0.111000
-2015-07-22 10:47:46,560 - __main__ - DEBUG - ultimo: 0.119000
-2015-07-22 10:47:46,561 - __main__ - DEBUG - i: 0, pmig: 0.111000
-2015-07-22 11:10:55,084 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 11:10:55,085 - __main__ - DEBUG - i: 1, pmig: 0.112000
-2015-07-22 11:33:37,880 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 11:33:37,880 - __main__ - DEBUG - i: 2, pmig: 0.113000
-2015-07-22 11:55:50,203 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 11:55:50,203 - __main__ - DEBUG - i: 3, pmig: 0.114000
-2015-07-22 12:19:24,267 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 12:19:24,268 - __main__ - DEBUG - i: 4, pmig: 0.115000
-2015-07-22 12:41:24,830 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 12:41:24,831 - __main__ - DEBUG - i: 5, pmig: 0.116000
-2015-07-22 13:03:31,535 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 13:03:31,535 - __main__ - INFO - m_c encontrado: 0.116000
-2015-07-22 13:03:32,281 - __main__ - INFO - C: 0.150000 	 BETA: 0.600000
-2015-07-22 13:03:32,281 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 13:03:32,281 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 13:03:32,281 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 13:03:37,121 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 13:03:37,121 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 13:05:26,643 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 13:05:26,643 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 13:29:08,602 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 13:29:08,602 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-22 13:29:08,602 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-22 13:29:08,603 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-22 13:32:02,013 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 13:32:02,013 - __main__ - DEBUG - i: 1, pmig: 0.120000
-2015-07-22 13:35:40,123 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 13:35:40,123 - __main__ - DEBUG - i: 2, pmig: 0.130000
-2015-07-22 13:56:50,135 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-22 13:56:50,135 - __main__ - DEBUG - i: 3, pmig: 0.140000
-2015-07-22 14:20:07,966 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 14:20:07,966 - __main__ - DEBUG - i: 4, pmig: 0.150000
-2015-07-22 14:43:59,845 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 14:43:59,845 - __main__ - DEBUG - primeiro: 0.141000
-2015-07-22 14:43:59,845 - __main__ - DEBUG - ultimo: 0.149000
-2015-07-22 14:43:59,845 - __main__ - DEBUG - i: 0, pmig: 0.141000
-2015-07-22 14:49:54,637 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 14:49:54,637 - __main__ - DEBUG - i: 1, pmig: 0.142000
-2015-07-22 15:13:27,410 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 15:13:27,410 - __main__ - INFO - m_c encontrado: 0.142000
-2015-07-22 15:13:28,092 - __main__ - INFO - C: 0.150000 	 BETA: 0.700000
-2015-07-22 15:13:28,092 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 15:13:28,092 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 15:13:28,092 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 15:13:32,458 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:13:32,458 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 15:14:37,968 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:14:37,968 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 15:39:11,171 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 15:39:11,171 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-22 15:39:11,171 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-22 15:39:11,171 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-22 15:40:28,105 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:40:28,105 - __main__ - DEBUG - i: 1, pmig: 0.120000
-2015-07-22 15:42:16,658 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:42:16,658 - __main__ - DEBUG - i: 2, pmig: 0.130000
-2015-07-22 15:44:32,420 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:44:32,420 - __main__ - DEBUG - i: 3, pmig: 0.140000
-2015-07-22 15:46:29,553 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 15:46:29,553 - __main__ - DEBUG - i: 4, pmig: 0.150000
-2015-07-22 16:07:01,166 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-22 16:07:01,167 - __main__ - DEBUG - i: 5, pmig: 0.160000
-2015-07-22 16:10:33,254 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 16:10:33,254 - __main__ - DEBUG - i: 6, pmig: 0.170000
-2015-07-22 16:34:05,663 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 16:34:05,663 - __main__ - DEBUG - primeiro: 0.161000
-2015-07-22 16:34:05,663 - __main__ - DEBUG - ultimo: 0.169000
-2015-07-22 16:34:05,663 - __main__ - DEBUG - i: 0, pmig: 0.161000
-2015-07-22 16:57:54,913 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 16:57:54,913 - __main__ - DEBUG - i: 1, pmig: 0.162000
-2015-07-22 17:20:39,303 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-22 17:20:39,303 - __main__ - DEBUG - i: 2, pmig: 0.163000
-2015-07-22 17:44:25,432 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 17:44:25,432 - __main__ - DEBUG - i: 3, pmig: 0.164000
-2015-07-22 18:07:08,717 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 18:07:08,718 - __main__ - DEBUG - i: 4, pmig: 0.165000
-2015-07-22 18:30:34,984 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 18:30:34,985 - __main__ - INFO - m_c encontrado: 0.165000
-2015-07-22 18:30:35,486 - __main__ - INFO - C: 0.150000 	 BETA: 0.800000
-2015-07-22 18:30:35,486 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 18:30:35,486 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 18:30:35,486 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 18:30:39,511 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 18:30:39,511 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 18:31:26,747 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 18:31:26,747 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 18:55:10,587 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 18:55:10,587 - __main__ - DEBUG - primeiro: 0.110000
-2015-07-22 18:55:10,587 - __main__ - DEBUG - ultimo: 0.190000
-2015-07-22 18:55:10,587 - __main__ - DEBUG - i: 0, pmig: 0.110000
-2015-07-22 18:56:05,304 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 18:56:05,304 - __main__ - DEBUG - i: 1, pmig: 0.120000
-2015-07-22 18:57:11,897 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 18:57:11,897 - __main__ - DEBUG - i: 2, pmig: 0.130000
-2015-07-22 18:58:35,091 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 18:58:35,092 - __main__ - DEBUG - i: 3, pmig: 0.140000
-2015-07-22 19:00:01,449 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:00:01,449 - __main__ - DEBUG - i: 4, pmig: 0.150000
-2015-07-22 19:02:05,499 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:02:05,499 - __main__ - DEBUG - i: 5, pmig: 0.160000
-2015-07-22 19:04:15,432 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:04:15,432 - __main__ - DEBUG - i: 6, pmig: 0.170000
-2015-07-22 19:07:56,377 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:07:56,377 - __main__ - DEBUG - i: 7, pmig: 0.180000
-2015-07-22 19:31:05,745 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-22 19:31:05,746 - __main__ - DEBUG - i: 8, pmig: 0.190000
-2015-07-22 19:35:47,860 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:35:47,860 - __main__ - INFO - m_c encontrado: 0.190000
-2015-07-22 19:35:48,504 - __main__ - INFO - C: 0.150000 	 BETA: 0.900000
-2015-07-22 19:35:48,504 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 19:35:48,504 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 19:35:48,504 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 19:35:52,318 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:35:52,318 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 19:36:32,041 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:36:32,042 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 19:38:40,713 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 19:38:40,713 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-22 20:03:56,100 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 20:03:56,101 - __main__ - DEBUG - primeiro: 0.210000
-2015-07-22 20:03:56,101 - __main__ - DEBUG - ultimo: 0.290000
-2015-07-22 20:03:56,101 - __main__ - DEBUG - i: 0, pmig: 0.210000
-2015-07-22 20:25:50,073 - __main__ - DEBUG - Numero de simulacoes ate o fim: 7
-2015-07-22 20:25:50,073 - __main__ - DEBUG - i: 1, pmig: 0.220000
-2015-07-22 20:48:40,317 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-22 20:48:40,317 - __main__ - DEBUG - i: 2, pmig: 0.230000
-2015-07-22 21:12:49,758 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 21:12:49,758 - __main__ - DEBUG - primeiro: 0.221000
-2015-07-22 21:12:49,759 - __main__ - DEBUG - ultimo: 0.229000
-2015-07-22 21:12:49,759 - __main__ - DEBUG - i: 0, pmig: 0.221000
-2015-07-22 21:36:01,719 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 21:36:01,720 - __main__ - DEBUG - i: 1, pmig: 0.222000
-2015-07-22 21:58:36,454 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 21:58:36,454 - __main__ - DEBUG - i: 2, pmig: 0.223000
-2015-07-22 22:21:01,297 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-22 22:21:01,298 - __main__ - DEBUG - i: 3, pmig: 0.224000
-2015-07-22 22:45:49,773 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 22:45:49,773 - __main__ - INFO - m_c encontrado: 0.224000
-2015-07-22 22:45:50,451 - __main__ - INFO - C: 0.150000 	 BETA: 1.000000
-2015-07-22 22:45:50,451 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-22 22:45:50,451 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-22 22:45:50,451 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-22 22:45:53,635 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 22:45:53,635 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-22 22:46:30,074 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 22:46:30,075 - __main__ - DEBUG - i: 2, pmig: 0.200000
-2015-07-22 22:48:18,233 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 22:48:18,233 - __main__ - DEBUG - i: 3, pmig: 0.300000
-2015-07-22 23:14:10,371 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-22 23:14:10,372 - __main__ - DEBUG - primeiro: 0.210000
-2015-07-22 23:14:10,372 - __main__ - DEBUG - ultimo: 0.290000
-2015-07-22 23:14:10,372 - __main__ - DEBUG - i: 0, pmig: 0.210000
-2015-07-22 23:16:47,078 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 23:16:47,078 - __main__ - DEBUG - i: 1, pmig: 0.220000
-2015-07-22 23:20:22,751 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 23:20:22,752 - __main__ - DEBUG - i: 2, pmig: 0.230000
-2015-07-22 23:24:05,744 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-22 23:24:05,744 - __main__ - DEBUG - i: 3, pmig: 0.240000
-2015-07-22 23:46:51,940 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-22 23:46:51,940 - __main__ - DEBUG - i: 4, pmig: 0.250000
-2015-07-23 00:11:42,703 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-23 00:11:42,703 - __main__ - DEBUG - i: 5, pmig: 0.260000
-2015-07-23 00:35:16,722 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 00:35:16,723 - __main__ - DEBUG - primeiro: 0.251000
-2015-07-23 00:35:16,723 - __main__ - DEBUG - ultimo: 0.259000
-2015-07-23 00:35:16,723 - __main__ - DEBUG - i: 0, pmig: 0.251000
-2015-07-23 01:00:14,642 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 01:00:14,642 - __main__ - DEBUG - i: 1, pmig: 0.252000
-2015-07-23 01:25:23,331 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 01:25:23,331 - __main__ - DEBUG - i: 2, pmig: 0.253000
-2015-07-23 01:50:13,045 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-23 01:50:13,045 - __main__ - DEBUG - i: 3, pmig: 0.254000
-2015-07-23 01:56:10,934 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 01:56:10,934 - __main__ - DEBUG - i: 4, pmig: 0.255000
-2015-07-23 02:21:04,174 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 02:21:04,174 - __main__ - DEBUG - i: 5, pmig: 0.256000
-2015-07-23 02:45:32,596 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 02:45:32,596 - __main__ - INFO - m_c encontrado: 0.256000
-2015-07-23 02:45:32,849 - __main__ - INFO - C: 0.500000 	 BETA: 0.000000
-2015-07-23 02:45:32,849 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 02:45:32,850 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 02:45:32,850 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 02:56:41,087 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 02:56:41,087 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 02:56:41,087 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-23 02:56:41,700 - __main__ - INFO - C: 0.500000 	 BETA: 0.100000
-2015-07-23 02:56:41,701 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 02:56:41,701 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 02:56:41,701 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 02:57:36,034 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 02:57:36,035 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 03:03:54,751 - __main__ - INFO - pA=1 => 0
-2015-07-23 03:03:54,751 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 03:03:54,751 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 03:03:54,752 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 03:03:54,752 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 03:12:09,160 - __main__ - INFO - pA=1 => 0
-2015-07-23 03:12:09,160 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 03:12:09,160 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 03:12:09,160 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-23 03:12:09,856 - __main__ - INFO - C: 0.500000 	 BETA: 0.200000
-2015-07-23 03:12:09,856 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 03:12:09,857 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 03:12:09,857 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 03:12:21,140 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 03:12:21,140 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 03:18:16,628 - __main__ - INFO - pA=1 => 0
-2015-07-23 03:18:16,628 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 03:18:16,628 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 03:18:16,628 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 03:18:16,628 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 03:37:03,566 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-23 03:37:03,566 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 03:44:47,413 - __main__ - INFO - pA=1 => 0
-2015-07-23 03:44:47,414 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 03:44:47,414 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-23 03:44:47,414 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-23 03:44:47,414 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-23 04:04:43,879 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-23 04:04:43,879 - __main__ - DEBUG - i: 1, pmig: 0.012000
-2015-07-23 04:25:25,456 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 04:25:25,456 - __main__ - INFO - m_c encontrado: 0.012000
-2015-07-23 04:25:26,266 - __main__ - INFO - C: 0.500000 	 BETA: 0.300000
-2015-07-23 04:25:26,266 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 04:25:26,266 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 04:25:26,266 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 04:25:35,760 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 04:25:35,760 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 04:32:02,170 - __main__ - INFO - pA=1 => 0
-2015-07-23 04:32:02,171 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 04:32:02,171 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 04:32:02,171 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 04:32:02,171 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 04:32:49,228 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 04:32:49,228 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 04:54:43,937 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 04:54:43,937 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 05:01:55,672 - __main__ - INFO - pA=1 => 0
-2015-07-23 05:01:55,672 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 05:01:55,672 - __main__ - DEBUG - primeiro: 0.021000
-2015-07-23 05:01:55,672 - __main__ - DEBUG - ultimo: 0.029000
-2015-07-23 05:01:55,672 - __main__ - DEBUG - i: 0, pmig: 0.021000
-2015-07-23 05:23:00,796 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 05:23:00,796 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 05:23:00,796 - __main__ - INFO - m_c encontrado: 0.021000
-2015-07-23 05:23:01,550 - __main__ - INFO - C: 0.500000 	 BETA: 0.400000
-2015-07-23 05:23:01,551 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 05:23:01,551 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 05:23:01,551 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 05:23:07,846 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:23:07,847 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 05:29:28,542 - __main__ - INFO - pA=1 => 0
-2015-07-23 05:29:28,542 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 05:29:28,542 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 05:29:28,543 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 05:29:28,543 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 05:29:54,873 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:29:54,873 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 05:31:08,457 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:31:08,457 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 05:52:59,558 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 05:52:59,558 - __main__ - DEBUG - primeiro: 0.021000
-2015-07-23 05:52:59,558 - __main__ - DEBUG - ultimo: 0.029000
-2015-07-23 05:52:59,559 - __main__ - DEBUG - i: 0, pmig: 0.021000
-2015-07-23 05:54:23,689 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:54:23,689 - __main__ - DEBUG - i: 1, pmig: 0.022000
-2015-07-23 05:56:02,357 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:56:02,357 - __main__ - DEBUG - i: 2, pmig: 0.023000
-2015-07-23 05:57:59,113 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 05:57:59,113 - __main__ - DEBUG - i: 3, pmig: 0.024000
-2015-07-23 06:00:07,792 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 06:00:07,793 - __main__ - DEBUG - i: 4, pmig: 0.025000
-2015-07-23 06:01:41,813 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 06:01:41,813 - __main__ - DEBUG - i: 5, pmig: 0.026000
-2015-07-23 06:23:11,813 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-23 06:23:11,814 - __main__ - DEBUG - i: 6, pmig: 0.027000
-2015-07-23 06:44:55,886 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-23 06:44:55,886 - __main__ - DEBUG - i: 7, pmig: 0.028000
-2015-07-23 07:06:19,708 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 07:06:19,708 - __main__ - DEBUG - i: 8, pmig: 0.029000
-2015-07-23 07:27:59,947 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 07:27:59,947 - __main__ - INFO - m_c encontrado: 0.029000
-2015-07-23 07:28:00,673 - __main__ - INFO - C: 0.500000 	 BETA: 0.500000
-2015-07-23 07:28:00,673 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 07:28:00,673 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 07:28:00,673 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 07:28:05,866 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 07:28:05,866 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 07:34:11,134 - __main__ - INFO - pA=1 => 0
-2015-07-23 07:34:11,134 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 07:34:11,134 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 07:34:11,134 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 07:34:11,134 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 07:34:29,989 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 07:34:29,989 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 07:35:03,662 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 07:35:03,662 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 07:36:55,206 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 07:36:55,206 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 07:59:31,922 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 07:59:31,922 - __main__ - DEBUG - primeiro: 0.031000
-2015-07-23 07:59:31,922 - __main__ - DEBUG - ultimo: 0.039000
-2015-07-23 07:59:31,922 - __main__ - DEBUG - i: 0, pmig: 0.031000
-2015-07-23 08:02:21,396 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:02:21,396 - __main__ - DEBUG - i: 1, pmig: 0.032000
-2015-07-23 08:04:04,095 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:04:04,095 - __main__ - DEBUG - i: 2, pmig: 0.033000
-2015-07-23 08:06:42,636 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:06:42,636 - __main__ - DEBUG - i: 3, pmig: 0.034000
-2015-07-23 08:26:30,951 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-23 08:26:30,951 - __main__ - DEBUG - i: 4, pmig: 0.035000
-2015-07-23 08:31:25,330 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:31:25,330 - __main__ - DEBUG - i: 5, pmig: 0.036000
-2015-07-23 08:53:03,905 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 08:53:03,905 - __main__ - INFO - m_c encontrado: 0.036000
-2015-07-23 08:53:04,500 - __main__ - INFO - C: 0.500000 	 BETA: 0.600000
-2015-07-23 08:53:04,500 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 08:53:04,501 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 08:53:04,501 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 08:53:09,602 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:53:09,602 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 08:59:23,386 - __main__ - INFO - pA=1 => 0
-2015-07-23 08:59:23,387 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 08:59:23,387 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 08:59:23,387 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 08:59:23,387 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 08:59:39,286 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 08:59:39,286 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 09:00:05,479 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 09:00:05,479 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 09:01:04,326 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 09:01:04,326 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 09:03:20,016 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 09:03:20,016 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-23 09:14:23,511 - __main__ - INFO - pA=1 => 0
-2015-07-23 09:14:23,511 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 09:14:23,511 - __main__ - DEBUG - primeiro: 0.041000
-2015-07-23 09:14:23,511 - __main__ - DEBUG - ultimo: 0.049000
-2015-07-23 09:14:23,511 - __main__ - DEBUG - i: 0, pmig: 0.041000
-2015-07-23 09:16:40,008 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 09:16:40,008 - __main__ - DEBUG - i: 1, pmig: 0.042000
-2015-07-23 09:37:10,186 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-23 09:37:10,186 - __main__ - DEBUG - i: 2, pmig: 0.043000
-2015-07-23 09:59:41,375 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 09:59:41,376 - __main__ - DEBUG - i: 3, pmig: 0.044000
-2015-07-23 10:05:13,958 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:05:13,958 - __main__ - DEBUG - i: 4, pmig: 0.045000
-2015-07-23 10:28:02,363 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 10:28:02,363 - __main__ - INFO - m_c encontrado: 0.045000
-2015-07-23 10:28:03,109 - __main__ - INFO - C: 0.500000 	 BETA: 0.700000
-2015-07-23 10:28:03,109 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 10:28:03,109 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 10:28:03,109 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 10:28:08,455 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:28:08,455 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 10:34:51,351 - __main__ - INFO - pA=1 => 0
-2015-07-23 10:34:51,352 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 10:34:51,352 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 10:34:51,352 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 10:34:51,352 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 10:35:04,211 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:35:04,211 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 10:35:24,570 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:35:24,570 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 10:35:57,551 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:35:57,551 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 10:37:08,482 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:37:08,482 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-23 10:42:18,518 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 10:42:18,518 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-23 10:50:51,501 - __main__ - INFO - pA=1 => 0
-2015-07-23 10:50:51,501 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 10:50:51,501 - __main__ - DEBUG - primeiro: 0.051000
-2015-07-23 10:50:51,501 - __main__ - DEBUG - ultimo: 0.059000
-2015-07-23 10:50:51,501 - __main__ - DEBUG - i: 0, pmig: 0.051000
-2015-07-23 11:12:26,865 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
-2015-07-23 11:12:26,865 - __main__ - DEBUG - i: 1, pmig: 0.052000
-2015-07-23 11:34:47,867 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 11:34:47,867 - __main__ - DEBUG - i: 2, pmig: 0.053000
-2015-07-23 11:56:33,754 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 11:56:33,754 - __main__ - INFO - m_c encontrado: 0.053000
-2015-07-23 11:56:34,465 - __main__ - INFO - C: 0.500000 	 BETA: 0.800000
-2015-07-23 11:56:34,465 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 11:56:34,465 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 11:56:34,465 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 11:56:38,052 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 11:56:38,052 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 12:03:28,870 - __main__ - INFO - pA=1 => 0
-2015-07-23 12:03:28,870 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 12:03:28,870 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 12:03:28,870 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 12:03:28,870 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 12:03:40,158 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 12:03:40,158 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 12:04:00,149 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 12:04:00,149 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 12:04:24,878 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 12:04:24,879 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 12:05:09,331 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 12:05:09,331 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-23 12:06:53,986 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 12:06:53,986 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-23 12:28:51,065 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-23 12:28:51,065 - __main__ - DEBUG - i: 6, pmig: 0.070000
-2015-07-23 12:38:11,925 - __main__ - INFO - pA=1 => 0
-2015-07-23 12:38:11,925 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 12:38:11,926 - __main__ - DEBUG - primeiro: 0.061000
-2015-07-23 12:38:11,926 - __main__ - DEBUG - ultimo: 0.069000
-2015-07-23 12:38:11,926 - __main__ - DEBUG - i: 0, pmig: 0.061000
-2015-07-23 13:01:25,802 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 13:01:25,803 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 13:01:25,803 - __main__ - INFO - m_c encontrado: 0.061000
-2015-07-23 13:01:26,555 - __main__ - INFO - C: 0.500000 	 BETA: 0.900000
-2015-07-23 13:01:26,555 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 13:01:26,555 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 13:01:26,555 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 13:01:29,760 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:01:29,760 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 13:08:39,374 - __main__ - INFO - pA=1 => 0
-2015-07-23 13:08:39,374 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 13:08:39,374 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 13:08:39,375 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 13:08:39,375 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 13:08:50,505 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:08:50,506 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 13:09:05,085 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:09:05,086 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 13:09:22,756 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:09:22,756 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 13:09:51,249 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:09:51,249 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-23 13:10:36,062 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:10:36,062 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-23 13:12:29,140 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:12:29,140 - __main__ - DEBUG - i: 6, pmig: 0.070000
-2015-07-23 13:35:52,817 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 13:35:52,817 - __main__ - DEBUG - primeiro: 0.061000
-2015-07-23 13:35:52,817 - __main__ - DEBUG - ultimo: 0.069000
-2015-07-23 13:35:52,817 - __main__ - DEBUG - i: 0, pmig: 0.061000
-2015-07-23 13:37:31,048 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:37:31,048 - __main__ - DEBUG - i: 1, pmig: 0.062000
-2015-07-23 13:39:32,085 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:39:32,086 - __main__ - DEBUG - i: 2, pmig: 0.063000
-2015-07-23 13:41:41,756 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:41:41,756 - __main__ - DEBUG - i: 3, pmig: 0.064000
-2015-07-23 13:45:41,583 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:45:41,583 - __main__ - DEBUG - i: 4, pmig: 0.065000
-2015-07-23 13:51:32,290 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:51:32,290 - __main__ - DEBUG - i: 5, pmig: 0.066000
-2015-07-23 13:54:47,296 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 13:54:47,297 - __main__ - DEBUG - i: 6, pmig: 0.067000
-2015-07-23 14:00:10,781 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:00:10,782 - __main__ - DEBUG - i: 7, pmig: 0.068000
-2015-07-23 14:04:37,597 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:04:37,597 - __main__ - DEBUG - i: 8, pmig: 0.069000
-2015-07-23 14:27:24,421 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 14:27:24,421 - __main__ - INFO - m_c encontrado: 0.069000
-2015-07-23 14:27:25,171 - __main__ - INFO - C: 0.500000 	 BETA: 1.000000
-2015-07-23 14:27:25,171 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 14:27:25,171 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 14:27:25,172 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 14:27:29,525 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:27:29,525 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 14:34:35,256 - __main__ - INFO - pA=1 => 0
-2015-07-23 14:34:35,256 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 14:34:35,256 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 14:34:35,256 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 14:34:35,256 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 14:34:45,624 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:34:45,624 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 14:34:55,616 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:34:55,616 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 14:35:15,161 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:35:15,161 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-23 14:35:37,874 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:35:37,874 - __main__ - DEBUG - i: 4, pmig: 0.050000
-2015-07-23 14:36:17,254 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:36:17,254 - __main__ - DEBUG - i: 5, pmig: 0.060000
-2015-07-23 14:37:02,973 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:37:02,973 - __main__ - DEBUG - i: 6, pmig: 0.070000
-2015-07-23 14:38:59,723 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 14:38:59,724 - __main__ - DEBUG - i: 7, pmig: 0.080000
-2015-07-23 15:02:20,919 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 15:02:20,919 - __main__ - DEBUG - primeiro: 0.071000
-2015-07-23 15:02:20,919 - __main__ - DEBUG - ultimo: 0.079000
-2015-07-23 15:02:20,920 - __main__ - DEBUG - i: 0, pmig: 0.071000
-2015-07-23 15:05:27,078 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 15:05:27,078 - __main__ - DEBUG - i: 1, pmig: 0.072000
-2015-07-23 15:08:26,322 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 15:08:26,322 - __main__ - DEBUG - i: 2, pmig: 0.073000
-2015-07-23 15:12:17,451 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 15:12:17,452 - __main__ - DEBUG - i: 3, pmig: 0.074000
-2015-07-23 15:16:53,328 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 15:16:53,328 - __main__ - DEBUG - i: 4, pmig: 0.075000
-2015-07-23 15:37:49,091 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-23 15:37:49,091 - __main__ - DEBUG - i: 5, pmig: 0.076000
-2015-07-23 15:58:30,092 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-23 15:58:30,092 - __main__ - DEBUG - i: 6, pmig: 0.077000
-2015-07-23 16:21:07,249 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 16:21:07,249 - __main__ - INFO - m_c encontrado: 0.077000
-2015-07-23 16:21:07,502 - __main__ - INFO - C: 1.000000 	 BETA: 0.000000
-2015-07-23 16:21:07,502 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 16:21:07,502 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 16:21:07,503 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 16:31:59,754 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 16:31:59,754 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 16:31:59,755 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-23 16:32:00,289 - __main__ - INFO - C: 1.000000 	 BETA: 0.100000
-2015-07-23 16:32:00,289 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 16:32:00,289 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 16:32:00,289 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 16:42:53,376 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 16:42:53,377 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 16:42:53,377 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-23 16:42:53,998 - __main__ - INFO - C: 1.000000 	 BETA: 0.200000
-2015-07-23 16:42:53,999 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 16:42:53,999 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 16:42:53,999 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 16:43:17,344 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 16:43:17,344 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 16:49:27,076 - __main__ - INFO - pA=1 => 0
-2015-07-23 16:49:27,077 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 16:49:27,077 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 16:49:27,077 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 16:49:27,077 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 16:56:27,436 - __main__ - INFO - pA=1 => 0
-2015-07-23 16:56:27,436 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 16:56:27,436 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 16:56:27,436 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-23 16:56:28,115 - __main__ - INFO - C: 1.000000 	 BETA: 0.300000
-2015-07-23 16:56:28,115 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 16:56:28,115 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 16:56:28,115 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 16:56:42,574 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 16:56:42,575 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 17:02:54,463 - __main__ - INFO - pA=1 => 0
-2015-07-23 17:02:54,463 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 17:02:54,463 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 17:02:54,463 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 17:02:54,463 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 17:24:55,903 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 17:24:55,903 - __main__ - DEBUG - Continua modificado: False
-2015-07-23 17:24:55,903 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-23 17:24:56,647 - __main__ - INFO - C: 1.000000 	 BETA: 0.400000
-2015-07-23 17:24:56,647 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 17:24:56,647 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 17:24:56,647 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 17:25:04,982 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 17:25:04,982 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 17:31:16,802 - __main__ - INFO - pA=1 => 0
-2015-07-23 17:31:16,802 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 17:31:16,802 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 17:31:16,802 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 17:31:16,802 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 17:33:08,499 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 17:33:08,499 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 17:39:38,613 - __main__ - INFO - pA=1 => 0
-2015-07-23 17:39:38,613 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 17:39:38,613 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-23 17:39:38,613 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-23 17:39:38,613 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-23 17:43:33,234 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 17:43:33,234 - __main__ - DEBUG - i: 1, pmig: 0.012000
-2015-07-23 18:02:54,220 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-23 18:02:54,220 - __main__ - DEBUG - i: 2, pmig: 0.013000
-2015-07-23 18:22:55,991 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 18:22:55,991 - __main__ - DEBUG - i: 3, pmig: 0.014000
-2015-07-23 18:44:02,135 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 18:44:02,135 - __main__ - INFO - m_c encontrado: 0.014000
-2015-07-23 18:44:02,938 - __main__ - INFO - C: 1.000000 	 BETA: 0.500000
-2015-07-23 18:44:02,939 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 18:44:02,939 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 18:44:02,939 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 18:44:10,728 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 18:44:10,728 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 18:50:08,186 - __main__ - INFO - pA=1 => 0
-2015-07-23 18:50:08,186 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 18:50:08,187 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 18:50:08,187 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 18:50:08,187 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 18:50:42,511 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 18:50:42,512 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 19:11:54,456 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 19:11:54,457 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-23 19:11:54,457 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-23 19:11:54,457 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-23 19:12:53,481 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 19:12:53,481 - __main__ - DEBUG - i: 1, pmig: 0.012000
-2015-07-23 19:13:39,982 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 19:13:39,982 - __main__ - DEBUG - i: 2, pmig: 0.013000
-2015-07-23 19:14:51,132 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 19:14:51,132 - __main__ - DEBUG - i: 3, pmig: 0.014000
-2015-07-23 19:16:15,074 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 19:16:15,074 - __main__ - DEBUG - i: 4, pmig: 0.015000
-2015-07-23 19:18:57,018 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 19:18:57,018 - __main__ - DEBUG - i: 5, pmig: 0.016000
-2015-07-23 19:39:25,073 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-23 19:39:25,073 - __main__ - DEBUG - i: 6, pmig: 0.017000
-2015-07-23 20:01:27,591 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 20:01:27,591 - __main__ - INFO - m_c encontrado: 0.017000
-2015-07-23 20:01:28,402 - __main__ - INFO - C: 1.000000 	 BETA: 0.600000
-2015-07-23 20:01:28,402 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 20:01:28,402 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 20:01:28,402 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 20:01:35,364 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 20:01:35,364 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 20:07:51,224 - __main__ - INFO - pA=1 => 0
-2015-07-23 20:07:51,225 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 20:07:51,225 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 20:07:51,225 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 20:07:51,225 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 20:08:19,921 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 20:08:19,922 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 20:27:51,665 - __main__ - DEBUG - Numero de simulacoes ate o fim: 7
-2015-07-23 20:27:51,665 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 20:34:35,071 - __main__ - INFO - pA=1 => 0
-2015-07-23 20:34:35,072 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 20:34:35,072 - __main__ - DEBUG - primeiro: 0.021000
-2015-07-23 20:34:35,072 - __main__ - DEBUG - ultimo: 0.029000
-2015-07-23 20:34:35,072 - __main__ - DEBUG - i: 0, pmig: 0.021000
-2015-07-23 20:55:54,912 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 20:55:54,912 - __main__ - DEBUG - i: 1, pmig: 0.022000
-2015-07-23 21:18:02,781 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 21:18:02,781 - __main__ - INFO - m_c encontrado: 0.022000
-2015-07-23 21:18:03,585 - __main__ - INFO - C: 1.000000 	 BETA: 0.700000
-2015-07-23 21:18:03,585 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 21:18:03,585 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 21:18:03,585 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 21:18:09,473 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:18:09,473 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 21:24:26,738 - __main__ - INFO - pA=1 => 0
-2015-07-23 21:24:26,738 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 21:24:26,738 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 21:24:26,739 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 21:24:26,739 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 21:24:57,532 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:24:57,532 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 21:26:32,745 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:26:32,745 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 21:34:19,759 - __main__ - INFO - pA=1 => 0
-2015-07-23 21:34:19,759 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 21:34:19,759 - __main__ - DEBUG - primeiro: 0.021000
-2015-07-23 21:34:19,760 - __main__ - DEBUG - ultimo: 0.029000
-2015-07-23 21:34:19,760 - __main__ - DEBUG - i: 0, pmig: 0.021000
-2015-07-23 21:35:23,465 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:35:23,465 - __main__ - DEBUG - i: 1, pmig: 0.022000
-2015-07-23 21:37:44,779 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:37:44,779 - __main__ - DEBUG - i: 2, pmig: 0.023000
-2015-07-23 21:40:48,857 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:40:48,857 - __main__ - DEBUG - i: 3, pmig: 0.024000
-2015-07-23 21:45:32,169 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 21:45:32,170 - __main__ - DEBUG - i: 4, pmig: 0.025000
-2015-07-23 22:07:55,243 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-23 22:07:55,243 - __main__ - DEBUG - i: 5, pmig: 0.026000
-2015-07-23 22:29:19,838 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 22:29:19,839 - __main__ - INFO - m_c encontrado: 0.026000
-2015-07-23 22:29:20,643 - __main__ - INFO - C: 1.000000 	 BETA: 0.800000
-2015-07-23 22:29:20,643 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 22:29:20,644 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 22:29:20,644 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 22:29:24,849 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 22:29:24,849 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 22:35:43,011 - __main__ - INFO - pA=1 => 0
-2015-07-23 22:35:43,011 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 22:35:43,011 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 22:35:43,011 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 22:35:43,011 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 22:36:17,816 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 22:36:17,816 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 22:36:53,846 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 22:36:53,846 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-23 22:58:56,263 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 22:58:56,264 - __main__ - DEBUG - primeiro: 0.021000
-2015-07-23 22:58:56,264 - __main__ - DEBUG - ultimo: 0.029000
-2015-07-23 22:58:56,264 - __main__ - DEBUG - i: 0, pmig: 0.021000
-2015-07-23 22:59:38,048 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 22:59:38,049 - __main__ - DEBUG - i: 1, pmig: 0.022000
-2015-07-23 23:00:42,652 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:00:42,652 - __main__ - DEBUG - i: 2, pmig: 0.023000
-2015-07-23 23:01:35,613 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:01:35,613 - __main__ - DEBUG - i: 3, pmig: 0.024000
-2015-07-23 23:02:21,382 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:02:21,382 - __main__ - DEBUG - i: 4, pmig: 0.025000
-2015-07-23 23:03:37,718 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:03:37,718 - __main__ - DEBUG - i: 5, pmig: 0.026000
-2015-07-23 23:06:14,329 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:06:14,329 - __main__ - DEBUG - i: 6, pmig: 0.027000
-2015-07-23 23:08:37,568 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:08:37,568 - __main__ - DEBUG - i: 7, pmig: 0.028000
-2015-07-23 23:28:21,562 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
-2015-07-23 23:28:21,563 - __main__ - DEBUG - i: 8, pmig: 0.029000
-2015-07-23 23:50:05,454 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:50:05,454 - __main__ - INFO - m_c encontrado: 0.029000
-2015-07-23 23:50:06,269 - __main__ - INFO - C: 1.000000 	 BETA: 0.900000
-2015-07-23 23:50:06,270 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-23 23:50:06,270 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-23 23:50:06,270 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-23 23:50:11,735 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:50:11,735 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-23 23:56:34,939 - __main__ - INFO - pA=1 => 0
-2015-07-23 23:56:34,939 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-23 23:56:34,939 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-23 23:56:34,939 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-23 23:56:34,939 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-23 23:56:54,107 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:56:54,107 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-23 23:57:32,497 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-23 23:57:32,497 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-24 00:00:29,527 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 00:00:29,528 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-24 00:07:50,043 - __main__ - INFO - pA=1 => 0
-2015-07-24 00:07:50,043 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 00:07:50,043 - __main__ - DEBUG - primeiro: 0.031000
-2015-07-24 00:07:50,043 - __main__ - DEBUG - ultimo: 0.039000
-2015-07-24 00:07:50,043 - __main__ - DEBUG - i: 0, pmig: 0.031000
-2015-07-24 00:11:07,530 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 00:11:07,530 - __main__ - DEBUG - i: 1, pmig: 0.032000
-2015-07-24 00:31:33,522 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-24 00:31:33,523 - __main__ - DEBUG - i: 2, pmig: 0.033000
-2015-07-24 00:35:50,679 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 00:35:50,679 - __main__ - DEBUG - i: 3, pmig: 0.034000
-2015-07-24 00:58:16,859 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 00:58:16,859 - __main__ - INFO - m_c encontrado: 0.034000
-2015-07-24 00:58:17,598 - __main__ - INFO - C: 1.000000 	 BETA: 1.000000
-2015-07-24 00:58:17,599 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 00:58:17,599 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 00:58:17,599 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 00:58:25,366 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 00:58:25,366 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 01:04:52,433 - __main__ - INFO - pA=1 => 0
-2015-07-24 01:04:52,434 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 01:04:52,434 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 01:04:52,434 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 01:04:52,434 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 01:05:28,634 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:05:28,634 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-24 01:05:51,762 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:05:51,763 - __main__ - DEBUG - i: 2, pmig: 0.030000
-2015-07-24 01:06:55,161 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:06:55,161 - __main__ - DEBUG - i: 3, pmig: 0.040000
-2015-07-24 01:28:48,545 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 01:28:48,546 - __main__ - DEBUG - primeiro: 0.031000
-2015-07-24 01:28:48,546 - __main__ - DEBUG - ultimo: 0.039000
-2015-07-24 01:28:48,546 - __main__ - DEBUG - i: 0, pmig: 0.031000
-2015-07-24 01:30:50,369 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:30:50,370 - __main__ - DEBUG - i: 1, pmig: 0.032000
-2015-07-24 01:32:08,971 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:32:08,971 - __main__ - DEBUG - i: 2, pmig: 0.033000
-2015-07-24 01:34:11,951 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:34:11,951 - __main__ - DEBUG - i: 3, pmig: 0.034000
-2015-07-24 01:37:32,838 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:37:32,838 - __main__ - DEBUG - i: 4, pmig: 0.035000
-2015-07-24 01:39:40,418 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 01:39:40,418 - __main__ - DEBUG - i: 5, pmig: 0.036000
-2015-07-24 01:59:41,321 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-24 01:59:41,321 - __main__ - DEBUG - i: 6, pmig: 0.037000
-2015-07-24 02:22:27,180 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 02:22:27,181 - __main__ - INFO - m_c encontrado: 0.037000
-2015-07-24 02:22:27,428 - __main__ - INFO - C: 2.000000 	 BETA: 0.000000
-2015-07-24 02:22:27,428 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 02:22:27,428 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 02:22:27,428 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 02:28:14,361 - __main__ - INFO - pA=1 => 0
-2015-07-24 02:28:14,361 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 02:28:14,361 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 02:28:14,361 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 02:28:14,825 - __main__ - INFO - C: 2.000000 	 BETA: 0.100000
-2015-07-24 02:28:14,825 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 02:28:14,825 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 02:28:14,825 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 02:38:56,886 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 02:38:56,886 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 02:38:56,886 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 02:38:57,445 - __main__ - INFO - C: 2.000000 	 BETA: 0.200000
-2015-07-24 02:38:57,445 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 02:38:57,445 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 02:38:57,445 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 02:50:11,016 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 02:50:11,016 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 02:50:11,016 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 02:50:11,559 - __main__ - INFO - C: 2.000000 	 BETA: 0.300000
-2015-07-24 02:50:11,559 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 02:50:11,559 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 02:50:11,559 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 03:01:15,060 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 03:01:15,060 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 03:01:15,060 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 03:01:15,675 - __main__ - INFO - C: 2.000000 	 BETA: 0.400000
-2015-07-24 03:01:15,676 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 03:01:15,676 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 03:01:15,676 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 03:12:24,588 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-24 03:12:24,589 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 03:18:33,426 - __main__ - INFO - pA=1 => 0
-2015-07-24 03:18:33,426 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 03:18:33,426 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 03:18:33,426 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 03:18:33,427 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 03:24:54,680 - __main__ - INFO - pA=1 => 0
-2015-07-24 03:24:54,681 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 03:24:54,681 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 03:24:54,681 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-24 03:24:55,297 - __main__ - INFO - C: 2.000000 	 BETA: 0.500000
-2015-07-24 03:24:55,297 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 03:24:55,297 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 03:24:55,297 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 03:36:12,428 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
-2015-07-24 03:36:12,428 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 03:42:20,698 - __main__ - INFO - pA=1 => 0
-2015-07-24 03:42:20,698 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 03:42:20,698 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 03:42:20,698 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 03:42:20,698 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 04:04:30,585 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 04:04:30,586 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 04:04:30,586 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-24 04:04:31,200 - __main__ - INFO - C: 2.000000 	 BETA: 0.600000
-2015-07-24 04:04:31,200 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 04:04:31,200 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 04:04:31,200 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 04:04:57,392 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 04:04:57,392 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 04:11:05,430 - __main__ - INFO - pA=1 => 0
-2015-07-24 04:11:05,430 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 04:11:05,430 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 04:11:05,430 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 04:11:05,430 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 04:32:17,181 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 04:32:17,181 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 04:32:17,181 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-24 04:32:17,883 - __main__ - INFO - C: 2.000000 	 BETA: 0.700000
-2015-07-24 04:32:17,883 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 04:32:17,883 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 04:32:17,883 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 04:33:57,461 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 04:33:57,462 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 04:40:09,757 - __main__ - INFO - pA=1 => 0
-2015-07-24 04:40:09,757 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 04:40:09,758 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 04:40:09,758 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 04:40:09,758 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 05:01:38,899 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 05:01:38,899 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 05:01:38,899 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-24 05:01:39,643 - __main__ - INFO - C: 2.000000 	 BETA: 0.800000
-2015-07-24 05:01:39,643 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 05:01:39,643 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 05:01:39,643 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 05:04:24,110 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 05:04:24,110 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 05:10:36,076 - __main__ - INFO - pA=1 => 0
-2015-07-24 05:10:36,076 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 05:10:36,076 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 05:10:36,077 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 05:10:36,077 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 05:31:57,123 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 05:31:57,124 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 05:31:57,124 - __main__ - INFO - m_c encontrado: 0.010000
-2015-07-24 05:31:57,881 - __main__ - INFO - C: 2.000000 	 BETA: 0.900000
-2015-07-24 05:31:57,881 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 05:31:57,881 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 05:31:57,881 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 05:33:33,202 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 05:33:33,202 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 05:39:38,595 - __main__ - INFO - pA=1 => 0
-2015-07-24 05:39:38,595 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 05:39:38,595 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 05:39:38,595 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 05:39:38,595 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 06:00:01,034 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
-2015-07-24 06:00:01,034 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-24 06:06:35,501 - __main__ - INFO - pA=1 => 0
-2015-07-24 06:06:35,502 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 06:06:35,502 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-24 06:06:35,502 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-24 06:06:35,502 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-24 06:27:54,484 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 06:27:54,485 - __main__ - DEBUG - i: 1, pmig: 0.012000
-2015-07-24 06:50:03,444 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 06:50:03,444 - __main__ - DEBUG - i: 2, pmig: 0.013000
-2015-07-24 07:12:13,895 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 07:12:13,895 - __main__ - INFO - m_c encontrado: 0.013000
-2015-07-24 07:12:14,636 - __main__ - INFO - C: 2.000000 	 BETA: 1.000000
-2015-07-24 07:12:14,637 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 07:12:14,637 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 07:12:14,637 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 07:22:50,203 - __main__ - DEBUG - Numero de simulacoes ate o fim: 5
-2015-07-24 07:22:50,203 - __main__ - DEBUG - i: 1, pmig: 0.100000
-2015-07-24 07:29:02,397 - __main__ - INFO - pA=1 => 0
-2015-07-24 07:29:02,397 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 07:29:02,397 - __main__ - DEBUG - primeiro: 0.010000
-2015-07-24 07:29:02,397 - __main__ - DEBUG - ultimo: 0.090000
-2015-07-24 07:29:02,397 - __main__ - DEBUG - i: 0, pmig: 0.010000
-2015-07-24 07:31:09,641 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
-2015-07-24 07:31:09,642 - __main__ - DEBUG - i: 1, pmig: 0.020000
-2015-07-24 07:53:38,307 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 07:53:38,308 - __main__ - DEBUG - primeiro: 0.011000
-2015-07-24 07:53:38,308 - __main__ - DEBUG - ultimo: 0.019000
-2015-07-24 07:53:38,308 - __main__ - DEBUG - i: 0, pmig: 0.011000
-2015-07-24 08:15:23,396 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 08:15:23,396 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 08:15:23,396 - __main__ - INFO - m_c encontrado: 0.011000
-2015-07-24 08:15:23,648 - __main__ - INFO - C: 5.000000 	 BETA: 0.000000
-2015-07-24 08:15:23,648 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 08:15:23,648 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 08:15:23,648 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 08:19:42,016 - __main__ - INFO - pA=1 => 0
-2015-07-24 08:19:42,017 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 08:19:42,017 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 08:19:42,017 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 08:19:42,390 - __main__ - INFO - C: 5.000000 	 BETA: 0.100000
-2015-07-24 08:19:42,390 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 08:19:42,390 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 08:19:42,390 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 08:31:09,251 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 08:31:09,251 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 08:31:09,252 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 08:31:09,686 - __main__ - INFO - C: 5.000000 	 BETA: 0.200000
-2015-07-24 08:31:09,686 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 08:31:09,686 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 08:31:09,686 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 08:42:13,723 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 08:42:13,723 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 08:42:13,724 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 08:42:14,200 - __main__ - INFO - C: 5.000000 	 BETA: 0.300000
-2015-07-24 08:42:14,200 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 08:42:14,200 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 08:42:14,200 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 08:53:28,017 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 08:53:28,017 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 08:53:28,017 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 08:53:28,522 - __main__ - INFO - C: 5.000000 	 BETA: 0.400000
-2015-07-24 08:53:28,522 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 08:53:28,522 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 08:53:28,522 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 09:05:07,275 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 09:05:07,275 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 09:05:07,275 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 09:05:07,837 - __main__ - INFO - C: 5.000000 	 BETA: 0.500000
-2015-07-24 09:05:07,837 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 09:05:07,837 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 09:05:07,837 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 09:16:50,418 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 09:16:50,418 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 09:16:50,418 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 09:16:50,973 - __main__ - INFO - C: 5.000000 	 BETA: 0.600000
-2015-07-24 09:16:50,973 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 09:16:50,973 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 09:16:50,973 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 09:28:27,162 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 09:28:27,162 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 09:28:27,162 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 09:28:27,717 - __main__ - INFO - C: 5.000000 	 BETA: 0.700000
-2015-07-24 09:28:27,717 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 09:28:27,717 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 09:28:27,717 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 09:40:11,665 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 09:40:11,666 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 09:40:11,666 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 09:40:12,239 - __main__ - INFO - C: 5.000000 	 BETA: 0.800000
-2015-07-24 09:40:12,239 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 09:40:12,239 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 09:40:12,239 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 09:52:02,687 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 09:52:02,687 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 09:52:02,687 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 09:52:03,306 - __main__ - INFO - C: 5.000000 	 BETA: 0.900000
-2015-07-24 09:52:03,306 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 09:52:03,306 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 09:52:03,306 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 10:03:57,807 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 10:03:57,807 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 10:03:57,807 - __main__ - INFO - m_c encontrado: 0.000000
-2015-07-24 10:03:58,427 - __main__ - INFO - C: 5.000000 	 BETA: 1.000000
-2015-07-24 10:03:58,427 - __main__ - DEBUG - primeiro: 0.000000
-2015-07-24 10:03:58,427 - __main__ - DEBUG - ultimo: 1.000000
-2015-07-24 10:03:58,427 - __main__ - DEBUG - i: 0, pmig: 0.000000
-2015-07-24 10:15:56,879 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
-2015-07-24 10:15:56,879 - __main__ - DEBUG - Continua modificado: False
-2015-07-24 10:15:56,879 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-03 15:53:39,585 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26 b=0.0,      delta=0.001, 
+		mu=0.0001, alpha=0.2
+2015-08-03 15:53:39,850 - __main__ - INFO - C: 0.030000 	 BETA: 0.000000
+2015-08-03 15:53:39,850 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-03 15:53:39,851 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-03 15:53:39,851 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-03 16:04:09,739 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 16:04:09,739 - __main__ - DEBUG - Continua modificado: False
+2015-08-03 16:04:09,739 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-03 16:04:09,866 - __main__ - INFO - C: 0.030000 	 BETA: 0.100000
+2015-08-03 16:04:09,866 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-03 16:04:09,866 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-03 16:04:09,867 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-03 16:04:20,281 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:04:20,281 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-03 16:06:54,167 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:06:54,167 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-03 16:30:45,844 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 16:30:45,844 - __main__ - DEBUG - primeiro: 0.110000
+2015-08-03 16:30:45,844 - __main__ - DEBUG - ultimo: 0.190000
+2015-08-03 16:30:45,844 - __main__ - DEBUG - i: 0, pmig: 0.110000
+2015-08-03 16:32:31,328 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:32:31,328 - __main__ - DEBUG - i: 1, pmig: 0.120000
+2015-08-03 16:35:33,682 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:35:33,682 - __main__ - DEBUG - i: 2, pmig: 0.130000
+2015-08-03 16:40:24,135 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:40:24,135 - __main__ - DEBUG - i: 3, pmig: 0.140000
+2015-08-03 16:44:40,040 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 16:44:40,040 - __main__ - DEBUG - i: 4, pmig: 0.150000
+2015-08-03 17:07:38,170 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-03 17:07:38,170 - __main__ - DEBUG - i: 5, pmig: 0.160000
+2015-08-03 17:29:19,951 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 17:29:19,951 - __main__ - DEBUG - i: 6, pmig: 0.170000
+2015-08-03 17:53:09,217 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-03 17:53:09,217 - __main__ - DEBUG - i: 7, pmig: 0.180000
+2015-08-03 18:16:19,012 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 18:16:19,012 - __main__ - DEBUG - primeiro: 0.171000
+2015-08-03 18:16:19,012 - __main__ - DEBUG - ultimo: 0.179000
+2015-08-03 18:16:19,012 - __main__ - DEBUG - i: 0, pmig: 0.171000
+2015-08-03 18:39:43,208 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 18:39:43,209 - __main__ - DEBUG - i: 1, pmig: 0.172000
+2015-08-03 19:03:40,285 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-03 19:03:40,285 - __main__ - DEBUG - i: 2, pmig: 0.173000
+2015-08-03 19:28:01,822 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 19:28:01,823 - __main__ - INFO - m_c encontrado: 0.173000
+2015-08-03 19:28:01,952 - __main__ - INFO - C: 0.030000 	 BETA: 0.200000
+2015-08-03 19:28:01,952 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-03 19:28:01,952 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-03 19:28:01,952 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-03 19:28:07,995 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 19:28:07,996 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-03 19:29:02,386 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 19:29:02,387 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-03 19:33:00,929 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 19:33:00,930 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-03 19:35:51,295 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 19:35:51,295 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-03 20:01:44,430 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 20:01:44,430 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-03 20:29:24,143 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 20:29:24,144 - __main__ - DEBUG - primeiro: 0.410000
+2015-08-03 20:29:24,144 - __main__ - DEBUG - ultimo: 0.490000
+2015-08-03 20:29:24,144 - __main__ - DEBUG - i: 0, pmig: 0.410000
+2015-08-03 20:32:57,162 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 20:32:57,163 - __main__ - DEBUG - i: 1, pmig: 0.420000
+2015-08-03 20:58:51,829 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-03 20:58:51,829 - __main__ - DEBUG - i: 2, pmig: 0.430000
+2015-08-03 21:25:03,744 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 21:25:03,744 - __main__ - DEBUG - primeiro: 0.421000
+2015-08-03 21:25:03,744 - __main__ - DEBUG - ultimo: 0.429000
+2015-08-03 21:25:03,744 - __main__ - DEBUG - i: 0, pmig: 0.421000
+2015-08-03 21:49:36,308 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-03 21:49:36,308 - __main__ - DEBUG - Continua modificado: False
+2015-08-03 21:49:36,308 - __main__ - INFO - m_c encontrado: 0.421000
+2015-08-03 21:49:36,446 - __main__ - INFO - C: 0.030000 	 BETA: 0.300000
+2015-08-03 21:49:36,446 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-03 21:49:36,446 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-03 21:49:36,446 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-03 21:49:40,491 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 21:49:40,491 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-03 21:50:15,075 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 21:50:15,075 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-03 21:51:13,245 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 21:51:13,245 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-03 21:53:17,555 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 21:53:17,555 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-03 21:57:24,015 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 21:57:24,015 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-03 22:21:10,090 - __main__ - DEBUG - Numero de simulacoes ate o fim: 9
+2015-08-03 22:21:10,090 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-03 22:24:15,924 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-03 22:24:15,925 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-03 22:52:49,853 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-08-03 22:52:49,853 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-03 23:22:07,194 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-03 23:22:07,194 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-03 23:53:25,467 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-03 23:53:25,467 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 00:24:55,749 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 00:24:55,749 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 00:24:55,890 - __main__ - INFO - C: 0.030000 	 BETA: 0.400000
+2015-08-04 00:24:55,890 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 00:24:55,891 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 00:24:55,891 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 00:24:59,451 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:24:59,451 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 00:25:29,732 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:25:29,732 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 00:26:20,562 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:26:20,562 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 00:27:25,693 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:27:25,693 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 00:29:04,045 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:29:04,045 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 00:31:05,291 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:31:05,292 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 00:32:59,607 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:32:59,607 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 00:35:21,435 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:35:21,435 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 00:40:36,360 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:40:36,360 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 00:47:15,823 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:47:15,823 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 00:51:34,646 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:51:34,646 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 00:51:34,788 - __main__ - INFO - C: 0.030000 	 BETA: 0.500000
+2015-08-04 00:51:34,788 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 00:51:34,788 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 00:51:34,788 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 00:51:37,733 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:51:37,733 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 00:52:02,044 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:52:02,044 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 00:52:43,079 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:52:43,080 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 00:53:38,764 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:53:38,764 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 00:54:55,865 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:54:55,866 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 00:56:41,721 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:56:41,721 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 00:58:23,003 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 00:58:23,003 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:00:12,023 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:00:12,023 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:01:59,150 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:01:59,150 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:04:10,680 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:04:10,680 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:06:40,621 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:06:40,621 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:06:40,743 - __main__ - INFO - C: 0.030000 	 BETA: 0.600000
+2015-08-04 01:06:40,743 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:06:40,743 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:06:40,743 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 01:06:43,609 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:06:43,609 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 01:07:01,435 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:07:01,435 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 01:07:34,363 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:07:34,363 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 01:08:21,101 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:08:21,101 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 01:09:14,339 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:09:14,339 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 01:10:18,835 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:10:18,835 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 01:12:07,052 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:12:07,053 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:13:36,095 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:13:36,095 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:15:19,472 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:15:19,472 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:17:07,885 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:17:07,885 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:18:58,709 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:18:58,709 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:18:58,830 - __main__ - INFO - C: 0.030000 	 BETA: 0.700000
+2015-08-04 01:18:58,830 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:18:58,830 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:18:58,830 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 01:19:01,014 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:19:01,015 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 01:19:17,269 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:19:17,270 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 01:19:44,432 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:19:44,432 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 01:20:20,532 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:20:20,532 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 01:21:12,631 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:21:12,631 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 01:22:11,811 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:22:11,811 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 01:23:18,718 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:23:18,718 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:24:56,537 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:24:56,537 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:26:18,536 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:26:18,536 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:27:55,687 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:27:55,687 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:29:27,577 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:29:27,578 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:29:27,703 - __main__ - INFO - C: 0.030000 	 BETA: 0.800000
+2015-08-04 01:29:27,703 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:29:27,704 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:29:27,704 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 01:29:30,182 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:29:30,182 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 01:29:43,517 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:29:43,517 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 01:30:08,873 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:30:08,873 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 01:30:42,523 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:30:42,523 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 01:31:30,182 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:31:30,182 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 01:32:21,196 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:32:21,197 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 01:33:32,098 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:33:32,099 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:34:42,869 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:34:42,869 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:35:54,957 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:35:54,958 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:37:11,537 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:37:11,537 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:38:32,320 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:38:32,320 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:38:32,440 - __main__ - INFO - C: 0.030000 	 BETA: 0.900000
+2015-08-04 01:38:32,440 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:38:32,440 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:38:32,440 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 01:38:34,080 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:38:34,080 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 01:38:46,449 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:38:46,449 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 01:39:09,131 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:39:09,131 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 01:39:39,885 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:39:39,885 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 01:40:19,079 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:40:19,079 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 01:41:06,048 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:41:06,049 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 01:41:59,746 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:41:59,746 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:43:02,034 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:43:02,035 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:44:12,106 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:44:12,106 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:45:20,246 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:45:20,246 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:46:42,359 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:46:42,360 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:46:42,498 - __main__ - INFO - C: 0.030000 	 BETA: 1.000000
+2015-08-04 01:46:42,498 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:46:42,498 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:46:42,498 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 01:46:44,729 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:46:44,729 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 01:46:57,279 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:46:57,280 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 01:47:19,804 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:47:19,804 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 01:47:50,781 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:47:50,781 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 01:48:27,606 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:48:27,606 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 01:49:13,612 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:49:13,612 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 01:50:02,936 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:50:02,937 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 01:51:16,188 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:51:16,188 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 01:52:25,810 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:52:25,810 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 01:53:37,997 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:53:37,997 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 01:54:53,381 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 01:54:53,381 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 01:54:53,382 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26 b=0.0,      delta=0.001, 
+		mu=0.0001, alpha=0.2
+2015-08-04 01:54:53,645 - __main__ - INFO - C: 0.150000 	 BETA: 0.000000
+2015-08-04 01:54:53,645 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 01:54:53,645 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 01:54:53,645 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 02:06:04,433 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 02:06:04,434 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 02:06:04,434 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-04 02:06:04,563 - __main__ - INFO - C: 0.150000 	 BETA: 0.100000
+2015-08-04 02:06:04,563 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 02:06:04,563 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 02:06:04,563 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 02:06:14,508 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 02:06:14,508 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 02:08:34,020 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 02:08:34,020 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 02:32:34,440 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 02:32:34,441 - __main__ - DEBUG - primeiro: 0.110000
+2015-08-04 02:32:34,441 - __main__ - DEBUG - ultimo: 0.190000
+2015-08-04 02:32:34,441 - __main__ - DEBUG - i: 0, pmig: 0.110000
+2015-08-04 02:35:39,493 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 02:35:39,494 - __main__ - DEBUG - i: 1, pmig: 0.120000
+2015-08-04 02:57:23,633 - __main__ - DEBUG - Numero de simulacoes ate o fim: 6
+2015-08-04 02:57:23,633 - __main__ - DEBUG - i: 2, pmig: 0.130000
+2015-08-04 03:18:14,839 - __main__ - DEBUG - Numero de simulacoes ate o fim: 7
+2015-08-04 03:18:14,839 - __main__ - DEBUG - i: 3, pmig: 0.140000
+2015-08-04 03:40:42,194 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 03:40:42,195 - __main__ - DEBUG - i: 4, pmig: 0.150000
+2015-08-04 04:02:16,846 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-08-04 04:02:16,846 - __main__ - DEBUG - i: 5, pmig: 0.160000
+2015-08-04 04:24:37,232 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 04:24:37,232 - __main__ - DEBUG - i: 6, pmig: 0.170000
+2015-08-04 04:46:35,872 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 04:46:35,873 - __main__ - DEBUG - i: 7, pmig: 0.180000
+2015-08-04 05:10:51,270 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 05:10:51,270 - __main__ - DEBUG - primeiro: 0.171000
+2015-08-04 05:10:51,270 - __main__ - DEBUG - ultimo: 0.179000
+2015-08-04 05:10:51,270 - __main__ - DEBUG - i: 0, pmig: 0.171000
+2015-08-04 05:34:21,854 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 05:34:21,854 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 05:34:21,855 - __main__ - INFO - m_c encontrado: 0.171000
+2015-08-04 05:34:21,985 - __main__ - INFO - C: 0.150000 	 BETA: 0.200000
+2015-08-04 05:34:21,985 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 05:34:21,985 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 05:34:21,986 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 05:34:27,915 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 05:34:27,915 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 05:35:21,526 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 05:35:21,526 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 05:37:21,732 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 05:37:21,732 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 05:42:18,236 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 05:42:18,236 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 06:09:01,297 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 06:09:01,297 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 06:36:53,706 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 06:36:53,706 - __main__ - DEBUG - primeiro: 0.410000
+2015-08-04 06:36:53,707 - __main__ - DEBUG - ultimo: 0.490000
+2015-08-04 06:36:53,707 - __main__ - DEBUG - i: 0, pmig: 0.410000
+2015-08-04 07:01:33,215 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 07:01:33,215 - __main__ - DEBUG - i: 1, pmig: 0.420000
+2015-08-04 07:27:28,615 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 07:27:28,615 - __main__ - DEBUG - primeiro: 0.411000
+2015-08-04 07:27:28,615 - __main__ - DEBUG - ultimo: 0.419000
+2015-08-04 07:27:28,615 - __main__ - DEBUG - i: 0, pmig: 0.411000
+2015-08-04 07:53:14,351 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 07:53:14,351 - __main__ - DEBUG - i: 1, pmig: 0.412000
+2015-08-04 08:20:07,293 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 08:20:07,293 - __main__ - INFO - m_c encontrado: 0.412000
+2015-08-04 08:20:07,427 - __main__ - INFO - C: 0.150000 	 BETA: 0.300000
+2015-08-04 08:20:07,427 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 08:20:07,427 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 08:20:07,427 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 08:20:12,027 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:20:12,027 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 08:20:51,502 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:20:51,503 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 08:22:16,170 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:22:16,170 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 08:24:06,010 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:24:06,010 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 08:26:54,699 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:26:54,699 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 08:29:46,533 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:29:46,534 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 08:33:23,837 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:33:23,837 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 08:38:33,829 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 08:38:33,829 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 09:07:53,023 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-08-04 09:07:53,024 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 09:37:19,843 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-08-04 09:37:19,843 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 10:10:50,345 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 10:10:50,345 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 10:10:50,515 - __main__ - INFO - C: 0.150000 	 BETA: 0.400000
+2015-08-04 10:10:50,515 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 10:10:50,515 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 10:10:50,515 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 10:10:54,092 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:10:54,092 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 10:11:26,071 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:11:26,071 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 10:12:18,908 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:12:18,909 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 10:13:34,144 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:13:34,145 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 10:15:05,280 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:15:05,280 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 10:17:03,756 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:17:03,756 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 10:20:41,586 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:20:41,586 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 10:23:28,292 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:23:28,293 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 10:26:44,893 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:26:44,893 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 10:31:58,665 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:31:58,666 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 10:35:19,284 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:35:19,285 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 10:35:19,412 - __main__ - INFO - C: 0.150000 	 BETA: 0.500000
+2015-08-04 10:35:19,412 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 10:35:19,412 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 10:35:19,412 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 10:35:22,691 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:35:22,691 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 10:35:47,247 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:35:47,247 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 10:36:29,755 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:36:29,756 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 10:37:36,798 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:37:36,798 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 10:38:50,336 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:38:50,336 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 10:40:51,344 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:40:51,344 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 10:42:31,725 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:42:31,726 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 10:46:14,352 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:46:14,352 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 10:48:59,716 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:48:59,716 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 10:53:23,736 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:53:23,736 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 10:55:51,711 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:55:51,711 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 10:55:51,830 - __main__ - INFO - C: 0.150000 	 BETA: 0.600000
+2015-08-04 10:55:51,830 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 10:55:51,830 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 10:55:51,830 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 10:55:54,192 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:55:54,193 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 10:56:12,190 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:56:12,190 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 10:56:46,347 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:56:46,347 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 10:57:37,836 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:57:37,836 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 10:58:31,283 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:58:31,283 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 10:59:57,052 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 10:59:57,052 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 11:01:14,120 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:01:14,120 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 11:03:09,233 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:03:09,233 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 11:05:23,007 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:05:23,007 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 11:07:17,354 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:07:17,354 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 11:09:28,004 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:09:28,004 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 11:09:28,134 - __main__ - INFO - C: 0.150000 	 BETA: 0.700000
+2015-08-04 11:09:28,135 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:09:28,135 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:09:28,135 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:09:30,738 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:09:30,738 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 11:09:48,673 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:09:48,673 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 11:10:19,102 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:10:19,103 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 11:11:03,318 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:11:03,318 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 11:11:54,906 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:11:54,906 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 11:13:07,232 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:13:07,232 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 11:14:21,303 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:14:21,303 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 11:15:44,408 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:15:44,408 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 11:17:41,368 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:17:41,369 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 11:19:15,551 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:19:15,551 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 11:20:56,153 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:20:56,153 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 11:20:56,281 - __main__ - INFO - C: 0.150000 	 BETA: 0.800000
+2015-08-04 11:20:56,281 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:20:56,281 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:20:56,281 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:20:58,509 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:20:58,510 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 11:21:14,356 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:21:14,356 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 11:21:40,545 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:21:40,545 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 11:22:18,058 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:22:18,058 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 11:23:06,707 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:23:06,708 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 11:24:09,664 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:24:09,664 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 11:25:13,921 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:25:13,921 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 11:26:33,294 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:26:33,294 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 11:27:56,066 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:27:56,066 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 11:29:33,507 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:29:33,507 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 11:31:08,221 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:31:08,221 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 11:31:08,399 - __main__ - INFO - C: 0.150000 	 BETA: 0.900000
+2015-08-04 11:31:08,399 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:31:08,399 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:31:08,399 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:31:10,830 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:31:10,830 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 11:31:27,666 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:31:27,666 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 11:31:48,584 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:31:48,584 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 11:32:19,471 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:32:19,471 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 11:33:05,076 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:33:05,076 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 11:33:53,862 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:33:53,863 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 11:34:57,208 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:34:57,208 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 11:36:12,604 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:36:12,604 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 11:37:20,685 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:37:20,685 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 11:38:46,561 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:38:46,561 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 11:40:12,038 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:40:12,038 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 11:40:12,193 - __main__ - INFO - C: 0.150000 	 BETA: 1.000000
+2015-08-04 11:40:12,194 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:40:12,194 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:40:12,194 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:40:14,057 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:40:14,057 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 11:40:26,600 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:40:26,600 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 11:40:50,332 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:40:50,332 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 11:41:18,495 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:41:18,495 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 11:41:54,435 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:41:54,435 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 11:42:37,456 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:42:37,456 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 11:43:26,360 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:43:26,361 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 11:44:18,981 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:44:18,981 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 11:45:15,965 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:45:15,965 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 11:46:18,992 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:46:18,992 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 11:47:26,010 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:47:26,011 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 11:47:26,012 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26 b=0.0,      delta=0.001, 
+		mu=0.0001, alpha=0.2
+2015-08-04 11:47:26,270 - __main__ - INFO - C: 0.500000 	 BETA: 0.000000
+2015-08-04 11:47:26,270 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:47:26,270 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:47:26,270 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:58:26,903 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 11:58:26,903 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 11:58:26,903 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-04 11:58:27,039 - __main__ - INFO - C: 0.500000 	 BETA: 0.100000
+2015-08-04 11:58:27,039 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 11:58:27,040 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 11:58:27,040 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 11:58:38,837 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 11:58:38,837 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 12:03:09,291 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 12:03:09,291 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 12:27:38,575 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 12:27:38,576 - __main__ - DEBUG - primeiro: 0.110000
+2015-08-04 12:27:38,576 - __main__ - DEBUG - ultimo: 0.190000
+2015-08-04 12:27:38,576 - __main__ - DEBUG - i: 0, pmig: 0.110000
+2015-08-04 12:48:45,383 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
+2015-08-04 12:48:45,383 - __main__ - DEBUG - i: 1, pmig: 0.120000
+2015-08-04 12:51:17,453 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 12:51:17,454 - __main__ - DEBUG - i: 2, pmig: 0.130000
+2015-08-04 13:13:49,596 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 13:13:49,597 - __main__ - DEBUG - i: 3, pmig: 0.140000
+2015-08-04 13:37:34,935 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 13:37:34,936 - __main__ - DEBUG - i: 4, pmig: 0.150000
+2015-08-04 14:00:36,456 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 14:00:36,456 - __main__ - DEBUG - i: 5, pmig: 0.160000
+2015-08-04 14:22:53,759 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 14:22:53,759 - __main__ - DEBUG - primeiro: 0.151000
+2015-08-04 14:22:53,759 - __main__ - DEBUG - ultimo: 0.159000
+2015-08-04 14:22:53,759 - __main__ - DEBUG - i: 0, pmig: 0.151000
+2015-08-04 14:44:56,015 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 14:44:56,015 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 14:44:56,015 - __main__ - INFO - m_c encontrado: 0.151000
+2015-08-04 14:44:56,145 - __main__ - INFO - C: 0.500000 	 BETA: 0.200000
+2015-08-04 14:44:56,145 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 14:44:56,145 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 14:44:56,145 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 14:45:01,861 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 14:45:01,861 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 14:45:56,853 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 14:45:56,853 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 14:48:01,374 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 14:48:01,375 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 14:53:08,234 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 14:53:08,234 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 15:17:49,282 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 15:17:49,282 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 15:43:29,572 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 15:43:29,573 - __main__ - DEBUG - primeiro: 0.410000
+2015-08-04 15:43:29,573 - __main__ - DEBUG - ultimo: 0.490000
+2015-08-04 15:43:29,573 - __main__ - DEBUG - i: 0, pmig: 0.410000
+2015-08-04 16:08:05,797 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 16:08:05,797 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 16:08:05,797 - __main__ - INFO - m_c encontrado: 0.410000
+2015-08-04 16:08:05,928 - __main__ - INFO - C: 0.500000 	 BETA: 0.300000
+2015-08-04 16:08:05,928 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 16:08:05,929 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 16:08:05,929 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 16:08:10,271 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:08:10,271 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 16:08:43,647 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:08:43,647 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 16:09:55,494 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:09:55,494 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 16:11:42,505 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:11:42,506 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 16:14:40,316 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:14:40,316 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 16:21:01,605 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:21:01,605 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 16:46:27,188 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-04 16:46:27,188 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 16:50:48,753 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 16:50:48,754 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 17:19:27,149 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 17:19:27,149 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 17:49:06,616 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 17:49:06,617 - __main__ - DEBUG - primeiro: 0.810000
+2015-08-04 17:49:06,617 - __main__ - DEBUG - ultimo: 0.890000
+2015-08-04 17:49:06,617 - __main__ - DEBUG - i: 0, pmig: 0.810000
+2015-08-04 18:20:28,148 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 18:20:28,148 - __main__ - DEBUG - i: 1, pmig: 0.820000
+2015-08-04 18:49:29,879 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 18:49:29,879 - __main__ - DEBUG - i: 2, pmig: 0.830000
+2015-08-04 19:19:18,495 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 19:19:18,496 - __main__ - DEBUG - i: 3, pmig: 0.840000
+2015-08-04 19:51:11,149 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 19:51:11,150 - __main__ - DEBUG - primeiro: 0.831000
+2015-08-04 19:51:11,150 - __main__ - DEBUG - ultimo: 0.839000
+2015-08-04 19:51:11,150 - __main__ - DEBUG - i: 0, pmig: 0.831000
+2015-08-04 20:23:50,424 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 20:23:50,424 - __main__ - DEBUG - i: 1, pmig: 0.832000
+2015-08-04 20:55:25,743 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 20:55:25,743 - __main__ - INFO - m_c encontrado: 0.832000
+2015-08-04 20:55:25,878 - __main__ - INFO - C: 0.500000 	 BETA: 0.400000
+2015-08-04 20:55:25,878 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 20:55:25,878 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 20:55:25,878 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 20:55:29,283 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 20:55:29,283 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 20:55:58,782 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 20:55:58,782 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 20:56:57,062 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 20:56:57,062 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 20:58:12,340 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 20:58:12,340 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 21:00:13,721 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:00:13,721 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 21:02:56,994 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:02:56,994 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 21:05:06,053 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:05:06,054 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 21:07:39,699 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:07:39,699 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 21:12:08,963 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:12:08,964 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 21:16:27,595 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:16:27,596 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 21:20:00,450 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:20:00,450 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 21:20:00,578 - __main__ - INFO - C: 0.500000 	 BETA: 0.500000
+2015-08-04 21:20:00,578 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 21:20:00,578 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 21:20:00,579 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 21:20:03,923 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:20:03,924 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 21:20:26,623 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:20:26,623 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 21:21:06,942 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:21:06,942 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 21:22:10,066 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:22:10,066 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 21:23:35,920 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:23:35,920 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 21:25:15,376 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:25:15,377 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 21:28:36,537 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:28:36,537 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 21:30:51,297 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:30:51,297 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 21:34:54,246 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:34:54,246 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 21:37:22,903 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:37:22,903 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 21:41:38,817 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:41:38,817 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 21:41:38,950 - __main__ - INFO - C: 0.500000 	 BETA: 0.600000
+2015-08-04 21:41:38,950 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 21:41:38,950 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 21:41:38,950 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 21:41:41,620 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:41:41,620 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 21:42:02,186 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:42:02,186 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 21:42:35,814 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:42:35,814 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 21:43:24,737 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:43:24,738 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 21:44:33,333 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:44:33,333 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 21:45:48,336 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:45:48,336 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 21:47:18,618 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:47:18,619 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 21:48:48,970 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:48:48,970 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 21:50:33,116 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:50:33,116 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 21:52:25,706 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:52:25,706 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 21:54:17,956 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:54:17,956 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 21:54:18,080 - __main__ - INFO - C: 0.500000 	 BETA: 0.700000
+2015-08-04 21:54:18,080 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 21:54:18,080 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 21:54:18,081 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 21:54:20,390 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:54:20,391 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 21:54:35,668 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:54:35,668 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 21:55:02,869 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:55:02,869 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 21:55:39,922 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:55:39,923 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 21:56:29,105 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:56:29,105 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 21:57:28,681 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:57:28,681 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 21:58:50,715 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 21:58:50,715 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 22:00:18,949 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:00:18,949 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 22:01:59,586 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:01:59,587 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 22:03:45,462 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:03:45,463 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 22:05:32,118 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:05:32,118 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 22:05:32,245 - __main__ - INFO - C: 0.500000 	 BETA: 0.800000
+2015-08-04 22:05:32,245 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 22:05:32,245 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 22:05:32,246 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 22:05:34,649 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:05:34,650 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 22:05:49,065 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:05:49,065 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 22:06:16,653 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:06:16,653 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 22:06:56,165 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:06:56,165 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 22:07:45,245 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:07:45,245 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 22:08:43,483 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:08:43,483 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 22:09:50,310 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:09:50,310 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 22:11:01,751 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:11:01,751 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 22:12:26,012 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:12:26,012 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 22:13:46,211 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:13:46,211 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 22:15:08,794 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:15:08,794 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 22:15:08,919 - __main__ - INFO - C: 0.500000 	 BETA: 0.900000
+2015-08-04 22:15:08,919 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 22:15:08,919 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 22:15:08,919 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 22:15:11,073 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:15:11,073 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 22:15:24,519 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:15:24,520 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 22:15:49,499 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:15:49,499 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 22:16:20,112 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:16:20,113 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 22:16:57,570 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:16:57,570 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 22:17:45,529 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:17:45,530 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 22:18:46,451 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:18:46,451 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 22:19:56,723 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:19:56,723 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 22:21:13,851 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:21:13,851 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 22:22:37,971 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:22:37,971 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 22:24:06,660 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:24:06,661 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 22:24:06,789 - __main__ - INFO - C: 0.500000 	 BETA: 1.000000
+2015-08-04 22:24:06,789 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 22:24:06,789 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 22:24:06,789 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 22:24:09,169 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:24:09,170 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 22:24:21,656 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:24:21,656 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 22:24:47,409 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:24:47,409 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-04 22:25:17,986 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:25:17,986 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-04 22:25:58,700 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:25:58,700 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-04 22:26:44,227 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:26:44,227 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-04 22:27:45,766 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:27:45,766 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-04 22:28:42,682 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:28:42,682 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-04 22:29:50,235 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:29:50,235 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-04 22:31:02,849 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:31:02,849 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-04 22:32:21,096 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:32:21,096 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-04 22:32:21,097 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26 b=0.0,      delta=0.001, 
+		mu=0.0001, alpha=0.2
+2015-08-04 22:32:21,380 - __main__ - INFO - C: 1.000000 	 BETA: 0.000000
+2015-08-04 22:32:21,380 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 22:32:21,381 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 22:32:21,381 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 22:43:42,419 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 22:43:42,419 - __main__ - DEBUG - Continua modificado: False
+2015-08-04 22:43:42,419 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-04 22:43:42,551 - __main__ - INFO - C: 1.000000 	 BETA: 0.100000
+2015-08-04 22:43:42,551 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-04 22:43:42,552 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-04 22:43:42,552 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-04 22:43:54,002 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:43:54,002 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-04 22:46:48,344 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 22:46:48,344 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-04 23:10:05,581 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-04 23:10:05,581 - __main__ - DEBUG - primeiro: 0.110000
+2015-08-04 23:10:05,581 - __main__ - DEBUG - ultimo: 0.190000
+2015-08-04 23:10:05,581 - __main__ - DEBUG - i: 0, pmig: 0.110000
+2015-08-04 23:13:44,207 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 23:13:44,207 - __main__ - DEBUG - i: 1, pmig: 0.120000
+2015-08-04 23:18:06,280 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-04 23:18:06,281 - __main__ - DEBUG - i: 2, pmig: 0.130000
+2015-08-04 23:41:27,316 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-04 23:41:27,317 - __main__ - DEBUG - i: 3, pmig: 0.140000
+2015-08-05 00:04:26,027 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 00:04:26,028 - __main__ - DEBUG - i: 4, pmig: 0.150000
+2015-08-05 00:27:30,868 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 00:27:30,868 - __main__ - DEBUG - i: 5, pmig: 0.160000
+2015-08-05 00:50:18,345 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 00:50:18,345 - __main__ - DEBUG - primeiro: 0.151000
+2015-08-05 00:50:18,345 - __main__ - DEBUG - ultimo: 0.159000
+2015-08-05 00:50:18,346 - __main__ - DEBUG - i: 0, pmig: 0.151000
+2015-08-05 01:14:01,534 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 01:14:01,534 - __main__ - DEBUG - Continua modificado: False
+2015-08-05 01:14:01,534 - __main__ - INFO - m_c encontrado: 0.151000
+2015-08-05 01:14:01,664 - __main__ - INFO - C: 1.000000 	 BETA: 0.200000
+2015-08-05 01:14:01,664 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 01:14:01,664 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 01:14:01,664 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 01:14:08,301 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 01:14:08,301 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 01:15:04,436 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 01:15:04,437 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 01:16:51,696 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 01:16:51,696 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 01:41:03,711 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-05 01:41:03,711 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 02:06:52,568 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 02:06:52,568 - __main__ - DEBUG - primeiro: 0.310000
+2015-08-05 02:06:52,568 - __main__ - DEBUG - ultimo: 0.390000
+2015-08-05 02:06:52,568 - __main__ - DEBUG - i: 0, pmig: 0.310000
+2015-08-05 02:10:21,006 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 02:10:21,006 - __main__ - DEBUG - i: 1, pmig: 0.320000
+2015-08-05 02:35:14,648 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 02:35:14,648 - __main__ - DEBUG - i: 2, pmig: 0.330000
+2015-08-05 03:00:50,311 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-05 03:00:50,311 - __main__ - DEBUG - i: 3, pmig: 0.340000
+2015-08-05 03:25:48,265 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 03:25:48,265 - __main__ - DEBUG - i: 4, pmig: 0.350000
+2015-08-05 03:50:24,094 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 03:50:24,094 - __main__ - DEBUG - i: 5, pmig: 0.360000
+2015-08-05 04:16:14,228 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 04:16:14,229 - __main__ - DEBUG - primeiro: 0.351000
+2015-08-05 04:16:14,229 - __main__ - DEBUG - ultimo: 0.359000
+2015-08-05 04:16:14,229 - __main__ - DEBUG - i: 0, pmig: 0.351000
+2015-08-05 04:42:28,244 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 04:42:28,244 - __main__ - DEBUG - Continua modificado: False
+2015-08-05 04:42:28,244 - __main__ - INFO - m_c encontrado: 0.351000
+2015-08-05 04:42:28,374 - __main__ - INFO - C: 1.000000 	 BETA: 0.300000
+2015-08-05 04:42:28,374 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 04:42:28,375 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 04:42:28,375 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 04:42:33,020 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:42:33,021 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 04:43:12,970 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:43:12,971 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 04:44:33,859 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:44:33,859 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 04:46:32,707 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:46:32,707 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 04:50:17,918 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:50:17,918 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 04:55:54,737 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 04:55:54,737 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 05:24:32,548 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-05 05:24:32,548 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 05:54:26,683 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 05:54:26,683 - __main__ - DEBUG - primeiro: 0.610000
+2015-08-05 05:54:26,683 - __main__ - DEBUG - ultimo: 0.690000
+2015-08-05 05:54:26,684 - __main__ - DEBUG - i: 0, pmig: 0.610000
+2015-08-05 05:59:44,005 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 05:59:44,006 - __main__ - DEBUG - i: 1, pmig: 0.620000
+2015-08-05 06:27:19,673 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 06:27:19,674 - __main__ - DEBUG - primeiro: 0.611000
+2015-08-05 06:27:19,674 - __main__ - DEBUG - ultimo: 0.619000
+2015-08-05 06:27:19,674 - __main__ - DEBUG - i: 0, pmig: 0.611000
+2015-08-05 06:57:04,101 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 06:57:04,101 - __main__ - DEBUG - Continua modificado: False
+2015-08-05 06:57:04,101 - __main__ - INFO - m_c encontrado: 0.611000
+2015-08-05 06:57:04,234 - __main__ - INFO - C: 1.000000 	 BETA: 0.400000
+2015-08-05 06:57:04,234 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 06:57:04,234 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 06:57:04,235 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 06:57:07,891 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 06:57:07,891 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 06:57:36,212 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 06:57:36,212 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 06:58:31,063 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 06:58:31,063 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 07:00:06,337 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:00:06,337 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 07:02:13,653 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:02:13,653 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 07:04:43,628 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:04:43,628 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 07:07:17,083 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:07:17,083 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 07:11:39,748 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:11:39,748 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 07:14:50,970 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:14:50,970 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 07:19:35,306 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:19:35,306 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 07:23:36,931 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:23:36,931 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 07:23:37,065 - __main__ - INFO - C: 1.000000 	 BETA: 0.500000
+2015-08-05 07:23:37,066 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 07:23:37,066 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 07:23:37,066 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 07:23:40,360 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:23:40,360 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 07:24:03,510 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:24:03,511 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 07:24:48,842 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:24:48,842 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 07:25:49,176 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:25:49,176 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 07:27:15,041 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:27:15,041 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 07:29:08,829 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:29:08,830 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 07:31:02,443 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:31:02,443 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 07:34:30,923 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:34:30,923 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 07:36:50,226 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:36:50,226 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 07:40:54,800 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:40:54,800 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 07:44:26,615 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:44:26,615 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 07:44:26,746 - __main__ - INFO - C: 1.000000 	 BETA: 0.600000
+2015-08-05 07:44:26,746 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 07:44:26,746 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 07:44:26,746 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 07:44:29,711 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:44:29,712 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 07:44:50,311 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:44:50,311 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 07:45:25,961 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:45:25,961 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 07:46:14,737 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:46:14,737 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 07:47:17,774 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:47:17,774 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 07:48:29,820 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:48:29,820 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 07:50:08,924 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:50:08,924 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 07:51:57,860 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:51:57,860 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 07:54:01,640 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:54:01,640 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 07:55:58,802 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:55:58,803 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 07:58:30,208 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:58:30,208 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 07:58:30,367 - __main__ - INFO - C: 1.000000 	 BETA: 0.700000
+2015-08-05 07:58:30,367 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 07:58:30,367 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 07:58:30,367 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 07:58:32,941 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:58:32,941 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 07:58:50,767 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:58:50,767 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 07:59:22,740 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 07:59:22,740 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 08:00:10,569 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:00:10,569 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 08:01:09,814 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:01:09,814 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 08:02:21,295 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:02:21,295 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 08:03:46,056 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:03:46,057 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 08:05:13,813 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:05:13,813 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 08:07:13,550 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:07:13,550 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 08:09:32,725 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:09:32,726 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 08:11:46,459 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:11:46,459 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 08:11:46,601 - __main__ - INFO - C: 1.000000 	 BETA: 0.800000
+2015-08-05 08:11:46,601 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 08:11:46,601 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 08:11:46,601 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 08:11:49,002 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:11:49,003 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 08:12:03,524 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:12:03,524 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 08:12:31,930 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:12:31,930 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 08:13:11,300 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:13:11,300 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 08:14:03,573 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:14:03,573 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 08:15:04,090 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:15:04,090 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 08:16:14,811 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:16:14,811 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 08:17:33,910 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:17:33,910 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 08:19:28,141 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:19:28,141 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 08:20:56,842 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:20:56,843 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 08:22:31,099 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:22:31,099 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 08:22:31,239 - __main__ - INFO - C: 1.000000 	 BETA: 0.900000
+2015-08-05 08:22:31,239 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 08:22:31,239 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 08:22:31,239 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 08:22:33,643 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:22:33,643 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 08:22:47,204 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:22:47,204 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 08:23:10,483 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:23:10,483 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 08:23:45,791 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:23:45,792 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 08:24:33,477 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:24:33,477 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 08:25:25,643 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:25:25,643 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 08:26:30,490 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:26:30,490 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 08:27:35,673 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:27:35,673 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 08:28:43,013 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:28:43,013 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 08:30:01,920 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:30:01,920 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 08:31:24,048 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:31:24,048 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 08:31:24,170 - __main__ - INFO - C: 1.000000 	 BETA: 1.000000
+2015-08-05 08:31:24,170 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 08:31:24,171 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 08:31:24,171 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 08:31:26,040 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:31:26,040 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 08:31:37,434 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:31:37,434 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 08:31:56,833 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:31:56,833 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 08:32:25,912 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:32:25,912 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 08:33:02,251 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:33:02,251 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 08:33:43,222 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:33:43,222 - __main__ - DEBUG - i: 6, pmig: 0.600000
+2015-08-05 08:34:32,302 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:34:32,303 - __main__ - DEBUG - i: 7, pmig: 0.700000
+2015-08-05 08:35:35,604 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:35:35,604 - __main__ - DEBUG - i: 8, pmig: 0.800000
+2015-08-05 08:36:42,113 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:36:42,113 - __main__ - DEBUG - i: 9, pmig: 0.900000
+2015-08-05 08:38:00,720 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:38:00,720 - __main__ - DEBUG - i: 10, pmig: 1.000000
+2015-08-05 08:39:19,644 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:39:19,644 - __main__ - INFO - m_c encontrado: 1.000000
+2015-08-05 08:39:19,645 - __main__ - INFO - Parâmetros fixos nessa simulação: N=5000, n=26 b=0.0,      delta=0.001, 
+		mu=0.0001, alpha=0.2
+2015-08-05 08:39:19,906 - __main__ - INFO - C: 2.000000 	 BETA: 0.000000
+2015-08-05 08:39:19,907 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 08:39:19,907 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 08:39:19,907 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 08:50:38,731 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 08:50:38,731 - __main__ - DEBUG - Continua modificado: False
+2015-08-05 08:50:38,731 - __main__ - INFO - m_c encontrado: 0.000000
+2015-08-05 08:50:39,447 - __main__ - INFO - C: 2.000000 	 BETA: 0.100000
+2015-08-05 08:50:39,447 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 08:50:39,447 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 08:50:39,447 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 08:50:52,019 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 08:50:52,020 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 09:12:33,753 - __main__ - DEBUG - Numero de simulacoes ate o fim: 4
+2015-08-05 09:12:33,753 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 09:36:58,814 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 09:36:58,814 - __main__ - DEBUG - primeiro: 0.110000
+2015-08-05 09:36:58,814 - __main__ - DEBUG - ultimo: 0.190000
+2015-08-05 09:36:58,815 - __main__ - DEBUG - i: 0, pmig: 0.110000
+2015-08-05 09:58:49,845 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-05 09:58:49,845 - __main__ - DEBUG - i: 1, pmig: 0.120000
+2015-08-05 10:22:31,843 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 10:22:31,844 - __main__ - DEBUG - primeiro: 0.111000
+2015-08-05 10:22:31,844 - __main__ - DEBUG - ultimo: 0.119000
+2015-08-05 10:22:31,844 - __main__ - DEBUG - i: 0, pmig: 0.111000
+2015-08-05 10:45:00,157 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 10:45:00,157 - __main__ - DEBUG - i: 1, pmig: 0.112000
+2015-08-05 11:08:23,609 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 11:08:23,610 - __main__ - INFO - m_c encontrado: 0.112000
+2015-08-05 11:08:23,745 - __main__ - INFO - C: 2.000000 	 BETA: 0.200000
+2015-08-05 11:08:23,745 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 11:08:23,745 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 11:08:23,745 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 11:08:29,528 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:08:29,528 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 11:09:45,214 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:09:45,215 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 11:11:53,510 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:11:53,510 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 11:37:09,840 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 11:37:09,840 - __main__ - DEBUG - primeiro: 0.210000
+2015-08-05 11:37:09,840 - __main__ - DEBUG - ultimo: 0.290000
+2015-08-05 11:37:09,840 - __main__ - DEBUG - i: 0, pmig: 0.210000
+2015-08-05 11:42:40,206 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:42:40,206 - __main__ - DEBUG - i: 1, pmig: 0.220000
+2015-08-05 11:45:07,951 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:45:07,951 - __main__ - DEBUG - i: 2, pmig: 0.230000
+2015-08-05 11:49:27,921 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 11:49:27,921 - __main__ - DEBUG - i: 3, pmig: 0.240000
+2015-08-05 12:14:08,626 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 12:14:08,626 - __main__ - DEBUG - i: 4, pmig: 0.250000
+2015-08-05 12:37:56,015 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 12:37:56,015 - __main__ - DEBUG - i: 5, pmig: 0.260000
+2015-08-05 13:01:09,988 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 13:01:09,988 - __main__ - DEBUG - i: 6, pmig: 0.270000
+2015-08-05 13:25:55,208 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 13:25:55,208 - __main__ - DEBUG - i: 7, pmig: 0.280000
+2015-08-05 13:50:08,267 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 13:50:08,267 - __main__ - DEBUG - primeiro: 0.271000
+2015-08-05 13:50:08,268 - __main__ - DEBUG - ultimo: 0.279000
+2015-08-05 13:50:08,268 - __main__ - DEBUG - i: 0, pmig: 0.271000
+2015-08-05 14:14:30,648 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 14:14:30,648 - __main__ - DEBUG - i: 1, pmig: 0.272000
+2015-08-05 14:38:00,408 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 14:38:00,408 - __main__ - INFO - m_c encontrado: 0.272000
+2015-08-05 14:38:00,538 - __main__ - INFO - C: 2.000000 	 BETA: 0.300000
+2015-08-05 14:38:00,538 - __main__ - DEBUG - primeiro: 0.000000
+2015-08-05 14:38:00,538 - __main__ - DEBUG - ultimo: 1.000000
+2015-08-05 14:38:00,539 - __main__ - DEBUG - i: 0, pmig: 0.000000
+2015-08-05 14:38:05,298 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 14:38:05,298 - __main__ - DEBUG - i: 1, pmig: 0.100000
+2015-08-05 14:38:48,629 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 14:38:48,629 - __main__ - DEBUG - i: 2, pmig: 0.200000
+2015-08-05 14:40:20,618 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 14:40:20,618 - __main__ - DEBUG - i: 3, pmig: 0.300000
+2015-08-05 14:42:14,954 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 14:42:14,955 - __main__ - DEBUG - i: 4, pmig: 0.400000
+2015-08-05 15:05:51,295 - __main__ - DEBUG - Numero de simulacoes ate o fim: 8
+2015-08-05 15:05:51,295 - __main__ - DEBUG - i: 5, pmig: 0.500000
+2015-08-05 15:32:55,724 - __main__ - DEBUG - Numero de simulacoes ate o fim: 0
+2015-08-05 15:32:55,725 - __main__ - DEBUG - primeiro: 0.410000
+2015-08-05 15:32:55,725 - __main__ - DEBUG - ultimo: 0.490000
+2015-08-05 15:32:55,725 - __main__ - DEBUG - i: 0, pmig: 0.410000
+2015-08-05 15:38:28,129 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 15:38:28,129 - __main__ - DEBUG - i: 1, pmig: 0.420000
+2015-08-05 16:02:27,285 - __main__ - DEBUG - Numero de simulacoes ate o fim: 3
+2015-08-05 16:02:27,285 - __main__ - DEBUG - i: 2, pmig: 0.430000
+2015-08-05 16:28:50,898 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 16:28:50,898 - __main__ - DEBUG - i: 3, pmig: 0.440000
+2015-08-05 16:32:45,793 - __main__ - DEBUG - Numero de simulacoes ate o fim: 1
+2015-08-05 16:32:45,793 - __main__ - DEBUG - i: 4, pmig: 0.450000
+2015-08-05 16:59:28,751 - __main__ - DEBUG - Numero de simulacoes ate o fim: 2
+2015-08-05 16:59:28,752 - __main__ - DEBUG - i: 5, pmig: 0.460000
