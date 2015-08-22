@@ -269,12 +269,14 @@ def beta_m2(w0, b, c, n, delta, alpha):
         vetor_m = np.append(vetor_m,[float(i)/r]*(r+1))
 
     print len(vetor_beta)
+    z = []
 
     for i in xrange(len(vetor_beta)):
 
         av = rho(vetor_m[i],w0,b,c,n,delta,alpha,vetor_beta[i])+1
 
-        z[i] = 'c' if av<1 else 'm'
+        cor = 'c' if av<1 else 'm'
+        z.append(cor)
 
     w, h = plt.figaspect(1)
     plt.figure(figsize=(w,h),dpi=100)
