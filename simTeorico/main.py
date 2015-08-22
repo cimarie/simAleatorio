@@ -12,6 +12,7 @@ from math import *
 from fitness import *
 from selmig import *
 from c_critico import *
+from beta_critico import *
 
 pylab.rcParams['text.usetex']=True
 pylab.rcParams['font.family'] = 'serif'
@@ -409,10 +410,14 @@ def main():
     #for c in [0.03, 0.15, 0.5, 1.0, 2.0, 5.0]:
     #    for beta in np.arange(0.1,1.1,0.1):
     #            autovetores(n,b,c,w0,alpha,beta)
-    autovetores(n,b,c,w0,alpha,beta)
+    #autovetores(n,b,c,w0,alpha,beta)
    # vb = [0., 1., 2., 10.]
    # nc = 4
    # Parallel(n_jobs=nc)(delayed(funcao)(b,delta,n) for b in vb)
 
+    #for m in [0.393, 0.176, 0.082]:
+    for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
+        #encontra_beta(1., 0., 0.03, n, delta, m)
+        encontra_alpha(w0, b, c, n, delta, m)
 if  __name__ =='__main__':
     main()

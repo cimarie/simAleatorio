@@ -11,6 +11,7 @@ import luigi
 import numpy as np
 from retest2 import gera_simulacao
 from simTeorico.main import m_critico, m_critico2
+from subprocess import Popen, PIPE
 
 LOG_FILENAME = 'teste_mc.log'
 logging.basicConfig(level=logging.DEBUG)
@@ -62,16 +63,23 @@ class RodaTodosTestes(luigi.Task):
     delta = luigi.Parameter(default=0.01)
     
     def requires(self):
-        return None
-    
-    def run(self):
         logger.info(u"Parâmetros fixos nessa simulação: N=%s, n=%s b=%s, \
      delta=%s, \n\t\tmu=%s, alpha=%s" \
         %(self.ngroup, self.nindiv, self.benefit, self.delta, self.mu, self.alpha))
         for c in ["0.03", "0.15", "0.5", "1.0", "2.0", "5.0"]:
             yield RodaTeste(self.benefit, self.alpha, self.ngroup, self.nindiv, self.mu, self.delta, c)
-   # def complete(self):
-   #     return False
+    
+    def run(self):
+
+        process = Popen('mv teste_mc\=*.txt figuras_mc && mv teste_mc.log figuras_mc', stdout=PIPE, stderr=PIPE)
+        stdout, stderr = process.communicate()
+        
+        print "alpha = %f \t b = %f" %(self.alpha, self.b)
+        print stdout, stderr
+        print "\n\n"
+    
+    def output(self):
+        return luigi.LocalTarget('figuras_mc/teste_mc.log')
 
 class RodaTeste(luigi.Task):
     
