@@ -416,8 +416,18 @@ def main():
    # Parallel(n_jobs=nc)(delayed(funcao)(b,delta,n) for b in vb)
 
     #for m in [0.393, 0.176, 0.082]:
-    for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
-        #encontra_beta(1., 0., 0.03, n, delta, m)
-        encontra_alpha(w0, b, c, n, delta, m)
+    #for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
+    #    #encontra_beta(1., 0., 0.03, n, delta, m)
+    #    encontra_alpha(w0, b, c, n, delta, m)
+
+    #for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
+    m=0.8
+    alpha=2.*delta
+    d = {0.207: "Murngin", 0.1: "Tiwi", 0.045: "Anbara"}
+    for beta in [0.207, 0.1, 0.045]:
+        print d[beta]
+        print c_critico(w0,b,m,n,delta,alpha,beta)
+    beta_c(w0, b, m, n, delta,alpha,opcao=0)
+
 if  __name__ =='__main__':
     main()

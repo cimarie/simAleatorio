@@ -2,7 +2,11 @@ from selmig import *
 import eigenvalue as eg
 from scipy.optimize import brentq
 import matplotlib.pyplot as plt
-import pylab
+from pylab import *
+
+rcParams['text.usetex'] = True
+rcParams['font.family'] = 'serif'
+rcParams['font.serif'] = 'cm'
 
 # Funcao rhoc: calcula (autovalor dominante - 1) a partir dos parametros
 def rhoc(c,w0,b,m,n,delta,alpha,beta):
@@ -10,7 +14,7 @@ def rhoc(c,w0,b,m,n,delta,alpha,beta):
     S,M = initSM(n,m,delta,alpha,b,c,w0,beta)
     return eg.av_dominante(np.dot(M,S))-1
 
-# Encontra m critico ate o qual todos os autovalores sao maiores que 1 (se 0<m<1, usa o metodo da secante para achar raizes)
+# Encontra c critico ate o qual todos os autovalores sao maiores que 1 (se 0<m<1, usa o metodo da secante para achar raizes)
 def c_critico(w0,b,m,n,delta,alpha,beta):
 
     fa = rhoc(0.,w0,b,m,n,delta,alpha,beta)
@@ -19,16 +23,17 @@ def c_critico(w0,b,m,n,delta,alpha,beta):
 
     if(fa*fb>0):
         if(fa>0):
-            return 1.
+            return 10.
         else:
             return 0.
 
     # brenth encontra o zero da funcao rhoc no intervalo 
     return brentq(rhoc, 0., 10., xtol=0.001, args=(w0,b,m,n,delta,alpha,beta))
 
-def encontra_cc(w0, alpha, beta, b, m):
-    pass
-
+#def encontra_cc(w0, alpha, beta, b, m):
+#    
+#    pass
+#
 
 def cc_delta(w0,alpha,beta,b,m,opcao):
 
@@ -48,7 +53,7 @@ def cc_delta(w0,alpha,beta,b,m,opcao):
 
         print(n)
 
-        label.append('n = ' + str(n))
+        label.append(r'$n = $' + str(n))
 
         contador2 = 0
 
@@ -74,25 +79,25 @@ def cc_delta(w0,alpha,beta,b,m,opcao):
             plt.plot(vetor_delta,vetor_custoc[i+1,:],label=label[i+1])
 
         # Label
-        plt.xlabel("delta")
-        plt.ylabel("c critico")
+        plt.xlabel(r"$delta$")
+        plt.ylabel(r"$critical c$")
 
         # Titulo
-        titulo = "Custo critico ("+"b = "+str(b)+", m = "+str(m) + ", beta = " + str(beta) + ")"
+        titulo = "Critical cost ("+"b = "+str(b)+", m = "+str(m) + ", beta = " + str(beta) + ")"
         plt.title(titulo)
 
         plt.autoscale()
 
         # Limite e intervalos do eixo x
-        #pylab.xlim([0.0,1.0])
-        #pylab.xticks(np.arange(0.0,1.1,0.1))
+        #xlim([0.0,1.0])
+        #xticks(np.arange(0.0,1.1,0.1))
 
         # Limite e intervalos do eixo y
-        #pylab.ylim([-0.01,0.5])
-        #pylab.yticks(np.arange(0.,0.5,0.05))
+        #ylim([-0.01,0.5])
+        #yticks(np.arange(0.,0.5,0.05))
 
         # Legenda
-        pylab.legend(loc='upper right')
+        legend(loc='upper right')
         plt.hold(False)
 
         # Grid
@@ -123,7 +128,7 @@ def cc_delta(w0,alpha,beta,b,m,opcao):
         arq.close()
 
 # Gera figura beta(m) sem as cores ciano magenta
-def beta_c(w0, b, m, n, delta,alpha,opcao):
+def beta_c(w0, b, m, n, delta,alpha,opcao=0):
 
     r = 5000
 
@@ -146,22 +151,22 @@ def beta_c(w0, b, m, n, delta,alpha,opcao):
         plt.plot(vetor_beta,vetor_custo)
 
         # Label
-        plt.xlabel("beta")
-        plt.ylabel("c_critico")
+        plt.xlabel(r"$\beta$")
+        plt.ylabel(r"critical $c$")
 
         # Titulo
-        titulo = "Custo critico x beta ("+"b = "+str(b)+", m = "+str(m) + ", n = " + str(n) + ", delta = " + str(delta) + ")"
+        titulo = "Critical cost vs. " + r"$\beta$" + "("+r"$b = $"+str(b)+r", $m$ = "+str(m) + r", $n$ = " + str(n) + r", $\delta$ = " + str(delta) + ")"
         plt.title(titulo)
 
         plt.autoscale()
 
         # Limite e intervalos do eixo x
-        #pylab.xlim([-0.1,1.1])
-        #pylab.xticks(np.arange(0.0,1.05,0.2))
+        #xlim([-0.1,1.1])
+        #xticks(np.arange(0.0,1.05,0.2))
 
         # Limite e intervalos do eixo y
-        #pylab.ylim([-0.1,1.1])
-        #pylab.yticks(np.arange(0.0,1.05,0.2))
+        #ylim([-0.1,1.1])
+        #yticks(np.arange(0.0,1.05,0.2))
 
         # Grid
         plt.grid(True)
