@@ -130,7 +130,7 @@ def cc_delta(w0,alpha,beta,b,m,opcao):
 # Gera figura beta(m) sem as cores ciano magenta
 def beta_c(w0, b, m, n, delta,alpha,opcao=0):
 
-    r = 5000
+    r = 100
 
     vetor_beta = np.arange(0.0,1.+1./r,1./r,dtype=float)
 

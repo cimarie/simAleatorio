@@ -18,42 +18,75 @@ pylab.rcParams['text.usetex']=True
 pylab.rcParams['font.family'] = 'serif'
 pylab.rcParams['font.serif'] = 'cm'
 
-def imprime_figura(data1, data2, label, tipo, titulo, nome):
+def imprime_figura(data1, data2, label, tipo, titulo, nome, params):
+   
+    str_params = "\n"
+    counter = 0
+    lista = list(params.keys())
+    lista.sort()
+    for nome_param in lista:
+        counter += 1
+        str_params += r"$%s = $%s, " %(nome_param, str(params[nome_param]))
+        if counter > 4 and nome_param != params.keys()[-1]:
+            str_params += "\n"
+    titulo = titulo + str_params[:-2]
 
-    if tipo == 'av' or tipo == 'mc':
+    if tipo == 'av':
+        w,h = plt.figaspect(1)
+        plt.figure(figsize=(w,h), dpi=300)
+        
+        plt.plot(data1,data2[0,:],label=r"$%s$"%label[0])
+        for i in xrange(1,len(label)):
+            plt.hold(True)
+            print i
+            plt.plot(data1,data2[i,:],label=r"$%s$"%label[i])
+        plt.title(titulo)
+    
+        plt.xlabel(r"$m$")
+        plt.ylabel(r"eigenvalue $\rho$")
+
+        #pylab.xlim([0.0,0.6])
+        #pylab.xticks(np.arange(0.0,0.6,0.1))
+        #pylab.ylim([0.0,1.8])
+        #pylab.yticks(np.arange(0.0,1.8,0.2))
+        pylab.legend(loc='upper right')
+        plt.grid(True)
+        plt.tight_layout()
+
+        plt.savefig(nome+".png")
+
+        plt.close()
+
+    elif tipo == 'mc':
+        w, h = plt.figaspect(1.2)
+        plt.figure(figsize=(w,h), dpi=300)
         plt.plot(data1,data2[0,:],label=label[0])
-        for i in range(len(label)-1):
+        for i in xrange(len(label)-1):
             plt.hold(True)
             plt.plot(data1,data2[i+1,:],label=label[i+1])
         plt.title(titulo)
-        
-        if tipo == 'av':
-            plt.xlabel("m")
-            plt.ylabel("Autovalor")
+    
+        plt.xlabel(r"$\delta$")
+        plt.ylabel(r"critical $m$")
+        plt.autoscale(True)
 
-            pylab.xlim([0.0,0.6])
-            pylab.xticks(np.arange(0.0,0.6,0.1))
-            pylab.ylim([0.0,1.8])
-            pylab.yticks(np.arange(0.0,1.8,0.2))
+        lgd = plt.legend(loc="center", bbox_to_anchor=(0.5,-0.13), fancybox=True, ncol=3)
+        #pylab.legend(loc='upper right')
+        plt.grid(True)
+        plt.tight_layout()
 
-        elif tipo == 'mc':
-            w, h = plt.figaspect(1.2)
-            plt.figure(figsize=(w,h),dpi=100)
-            plt.xlabel("delta")
-            plt.ylabel("m critico")
-            plt.autoscale(True)
+        plt.savefig(nome+".png", additional_artists = lgd, bbox_inches="tight")
 
-        pylab.legend(loc='upper right')
-        plt.hold(False)
+        plt.close()
 
     elif tipo == 'bm':
         w, h = plt.figaspect(1)
-        plt.figure(figsize=(w,h),dpi=100)
+        plt.figure(figsize=(w,h), dpi=300)
 
         plt.plot(data1, data2)
 
-        plt.xlabel("beta")
-        plt.ylabel("m_critico")
+        #plt.xlabel(r"$\beta$")
+        #plt.ylabel(r"critical $m$")
         plt.title(titulo)
         
         pylab.xlim([-0.1,1.1])
@@ -61,26 +94,26 @@ def imprime_figura(data1, data2, label, tipo, titulo, nome):
         pylab.ylim([-0.1,1.1])
         pylab.yticks(np.arange(0.0,1.05,0.2))
 
-    plt.grid(True)
-    plt.tight_layout()
+        plt.grid(True)
+        plt.tight_layout()
 
-    plt.savefig(nome+".png")
+        plt.savefig(nome+".png")
 
-    plt.close()
+        plt.close()
 
 
 def salva_txt(data1, data2, tipo, nome):
     arq = open(nome+".txt",'w')
     if tipo == 'av' or tipo == 'mc':
-        for cont in range(len(data1)):
+        for cont in xrange(len(data1)):
             arq.write(str(data1[cont]))
-            for i in range(data2.shape[0]):
+            for i in xrange(data2.shape[0]):
                 arq.write("\t")
                 arq.write(str(data2[i,cont]))
             arq.write("\n")
 
     elif tipo == 'bm':
-        for cont in range(len(data2)):
+        for cont in xrange(len(data2)):
             arq.write(str(data1[cont]))
             arq.write("\t")
             arq.write(str(data2[cont]))
@@ -89,10 +122,11 @@ def salva_txt(data1, data2, tipo, nome):
     arq.close()
 
 # Cria figura autovalores vs. m para diferentes deltas
-def autovalores_m(w0,b,c,n,beta,opcao):
+def autovalores_m(w0,b,c,n,alpha,beta,opcao=0):
 
     # Cria vetor com os valores de migracao que serao usados
     vetor_mig = np.arange(0,1.01,0.01,dtype=float)
+    #vetor_mig = np.arange(0,1.01,0.1,dtype=float)
 
     # Abre arquivo com os deltas
     with open('dados.txt', 'r') as f:
@@ -102,14 +136,15 @@ def autovalores_m(w0,b,c,n,beta,opcao):
     autovalores = np.empty((len(exemplos),len(vetor_mig)))
 
     # Cria vetor para receber labels
-    label = []
+    label = ["\\delta = %s" %delta for delta in exemplos]
+    
 
-    for i in range(len(vetor_mig)):
-        for j in range(len(exemplos)):
+    for i in xrange(len(vetor_mig)):
+        for j in xrange(len(exemplos)):
             m = vetor_mig[i]
             delta = exemplos[j]
             # label para colocar no grafico
-            label.append('delta = ' + str(delta) + ' m_c = %.3f' %(m_critico(w0,b,c,n,delta,alpha,beta)))
+            #label.append('delta = ' + str(delta) + ' m_c = %.3f' %(m_critico(w0,b,c,n,delta,alpha,beta)))
 
             S,M = initSM(n,m,delta,alpha,b,c,w0,beta)
             autovalores[j][i] = eg.av_dominante(np.dot(M,S))
@@ -118,8 +153,9 @@ def autovalores_m(w0,b,c,n,beta,opcao):
     
     nome = "bowles_delta_beta="+str(beta)
     if opcao==0:
-        titulo = "Autovalor ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ", beta = " + str(beta) + ")"
-        imprime_figura(vetor_mig,autovalores,label,titulo,'av',nome)
+        titulo = "Eigenvalue vs. Migration rate for different selection strength" #+"("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ", beta = " + str(beta) + ")"
+        params = {"b": b, "c": c, "n": n, "\\alpha": alpha, "\\beta": beta}
+        imprime_figura(vetor_mig,autovalores,label,'av', titulo,nome,params)
 
     else:
         salva_txt(vetor_mig,autovalores,'av',nome)
@@ -169,7 +205,7 @@ def m_critico2(w0,b,c,n,delta,alpha,beta):
 
     return vec_m[ind] 
 
-def encontra_mc(w0,beta,b,c,opcao):
+def encontra_mc(w0,alpha,beta,b,c,opcao=0):
 
     # Abre arquivo com os tamanhos dos grupos
     with open('ndados', 'r') as f:
@@ -179,39 +215,41 @@ def encontra_mc(w0,beta,b,c,opcao):
     vetor_migc = np.empty((len(exemplos),len(vetor_delta)))
     label = []
 
-    for i in range(len(exemplos)):
+    for i in xrange(len(exemplos)):
         n = exemplos[i]
         print n
         label.append('n = ' + str(n))
 
-        for j in range(len(vetor_delta)):
+        for j in xrange(len(vetor_delta)):
             delta = vetor_delta[j]
             vetor_migc[i][j] = m_critico(w0,b,c,n,delta,alpha,beta)
    
     nome = "bowles_m_critico_beta="+str(beta)
 
     if opcao == 0:
-        titulo = "Migracao critica ("+"b = "+str(b)+", c = "+str(c) + ", beta = " + str(beta) + ")"
-        imprime_figura(vetor_delta,vetor_migc,label,'mc',titulo,nome)
+        titulo = "Effect of group size on critical migration" # \n("+r"$b = $"+str(b)+r", $c = $"+str(c) + r", $\beta = $" + str(beta) + ")"
+        params = {"b": b, "c": c, "\\alpha": alpha, "\\beta": beta}
+        imprime_figura(vetor_delta,vetor_migc,label,'mc',titulo,nome,params)
 
     else:
         salva_txt(vetor_delta,vetor_migc,'mc',nome)
 
 # Gera figura beta(m) sem as cores ciano magenta
-def beta_m(w0, b, c, n, delta, alpha ,opcao):
+def beta_m(w0, b, c, n, delta, alpha ,opcao=0):
 
-    r = 5000
+    r = 500
     vetor_beta = np.arange(0.0,1.+1./r,1./r,dtype=float)
     vetor_m = np.empty(len(vetor_beta))
 
-    for i in range(len(vetor_beta)):
+    for i in xrange(len(vetor_beta)):
         vetor_m[i]=m_critico(w0,b,c,n,delta,alpha,vetor_beta[i])
         
-    nome = "mcritico_versus_beta_delta="+str(delta)
+    nome = "mcritico_versus_beta_delta="+str(delta)+"_alpha"+str(alpha)
     if opcao==0:
 
-        titulo = "m_critico x beta ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ",\ndelta = " + str(deltaf) + ", alpha = " + str(alpha) + ")"
-        imprime_figura(vetor_beta,vetor_m,[],'bm',titulo,nome)
+        titulo = "Critical migration vs. probability of war" #+"("+r"$b = $"+str(b)+r", $c = $"+str(c) + r", $n$ = " + str(n) + r",\n$\delta = $" + str(delta) + r", $\alpha = $" + str(alpha) + ")"
+        params = {"b": b, "c": c, "n": n, "\\delta": delta, "\\alpha": alpha}
+        imprime_figura(vetor_beta,vetor_m,[],'bm',titulo,nome,params)
 
     else:
         salva_txt(vetor_beta,vetor_m,'bm',nome)
@@ -219,12 +257,12 @@ def beta_m(w0, b, c, n, delta, alpha ,opcao):
 # gera figura beta(m) divisao nas cores ciano e magenta
 def beta_m2(w0, b, c, n, delta, alpha):
 
-    r = 100
+    r = 1000
 
     vetor_beta = []
     vetor_m = []
 
-    for i in range(r+1):
+    for i in xrange(r+1):
 
         vetor_beta = np.append(vetor_beta,np.arange(0.0,1.+1./r,1./r,dtype=float))
 
@@ -232,7 +270,7 @@ def beta_m2(w0, b, c, n, delta, alpha):
 
     print len(vetor_beta)
 
-    for i in range(len(vetor_beta)):
+    for i in xrange(len(vetor_beta)):
 
         av = rho(vetor_m[i],w0,b,c,n,delta,alpha,vetor_beta[i])+1
 
@@ -245,11 +283,11 @@ def beta_m2(w0, b, c, n, delta, alpha):
     plt.scatter(vetor_m,vetor_beta,c=z,edgecolors='none')
 
     # Label
-    plt.xlabel("m")
-    plt.ylabel("beta")
+    plt.xlabel("$m$")
+    plt.ylabel(r"$\beta$")
 
     # Titulo
-    titulo = "beta x m ("+"b = "+str(b)+", c = "+str(c) + ", n = " + str(n) + ", delta = " + str(delta) + ")"
+    titulo = "Critical migration vs. probability of war" + "("+r"$b = $"+str(b)+r", $c = $"+str(c) + r", $n$ = " + str(n) + r",\n$\delta = $" + str(delta) + r", $\alpha = $" + str(alpha) + ")"
     plt.title(titulo)
 
     # Limite e intervalos do eixo x
@@ -263,7 +301,7 @@ def beta_m2(w0, b, c, n, delta, alpha):
     plt.tight_layout()
 
     # Salva fig
-    nome = "bowles_m_beta_delta="+str(delta) 
+    nome = "bowles_betam2_delta="+str(delta)+"_alpha="+str(alpha)
     plt.savefig(nome+".png")
 
     # Fecha fig
@@ -419,15 +457,36 @@ def main():
     #for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
     #    #encontra_beta(1., 0., 0.03, n, delta, m)
     #    encontra_alpha(w0, b, c, n, delta, m)
+    #m=0.8
+    #delta = 0.1
+    #alpha=2.
+    #d = {0.207: "Murngin", 0.1: "Tiwi", 0.045: "Anbara"}
+    #for mortalidade in [0.207, 0.1, 0.045]:
+    #    print d[mortalidade]
+    #    beta = 2*mortalidade
+    #    print c_critico(w0,b,m,n,delta,alpha,beta)
+    #beta_c(w0, b, m, n, delta,alpha,opcao=0)
 
-    #for m in [0.393, 0.176, 0.082, 0.288, 0.103]:
-    m=0.8
-    alpha=2.*delta
-    d = {0.207: "Murngin", 0.1: "Tiwi", 0.045: "Anbara"}
-    for beta in [0.207, 0.1, 0.045]:
-        print d[beta]
-        print c_critico(w0,b,m,n,delta,alpha,beta)
-    beta_c(w0, b, m, n, delta,alpha,opcao=0)
+    c = 0.2
+    for alpha in [0.5, 1., 2.]:
+        try:
+            #beta_m(w0, b, c, n, delta, alpha)
+            beta_m2(w0, b, c, n, delta, alpha)
+        except:
+            pass
+    
+    for beta in [0.1, 0.5, 0.8]:
+    #for beta in [0.5,0.8]:
+        try:
+            encontra_mc(w0,alpha,beta,b,c)
+        except:
+            pass
+    
+    beta = 0.3 
+    try:   
+        autovalores_m(w0,b,c,n,alpha,beta,opcao=0)
+    except:
+        pass
 
 if  __name__ =='__main__':
     main()
