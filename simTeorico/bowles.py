@@ -55,24 +55,18 @@ def main():
         vbeta.append(beta)
         resmeu.append(c_critico(w0,b,m,n,delta,alpha,beta))
 
-    params = {"b":b, "n": n, "m": m, "\\alpha": alpha, "\\delta": delta}
-    str_params = "\n"
-    counter = 0
-    lista = list(params.keys())
-    lista.sort()
-    for nome_param in lista:
-        counter += 1
-        str_params += r"$%s = $%s, " %(nome_param, str(params[nome_param]))
-        if counter > 4 and nome_param != params.keys()[-1]:
-            str_params += "\n"
-    titulo = ""
-    titulo = titulo + str_params[:-2]
+    titulo = r"$b = %s$, $n = %s$, $m = %s$, $\alpha = %s$, $\delta = %s$" \
+                %(b, n, m, alpha, delta)
 
     w, h = plt.figaspect(1)
     plt.figure(figsize=(w,h), dpi=300)
 
     lw = 2.0
-    plt.plot(data1, data2, linewidth=lw)
+    plt.plot(vbeta, resbow, marker="o", label="Bowles")
+    plt.plot(vbeta, resmeu, marker="v", label="Two-level")
+
+    plt.xlabel(r"$\beta$")
+    plt.ylabel(r"critical $c$")
 
     plt.grid(True)
     plt.tight_layout()
