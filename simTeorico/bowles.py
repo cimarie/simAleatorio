@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 import pylab
 from c_critico import *
 
+pylab.rcParams['text.usetex']=True
+pylab.rcParams['font.family'] = 'serif'
+pylab.rcParams['font.serif'] = 'cm'
+pylab.rcParams['font.size'] = 16
+
 def devolve_lambda(mu, Fst, b, c, n):
 
     return (c-b/n)/(4*mu*((Fst/(1-Fst))+(1./n)))
@@ -41,12 +46,40 @@ def main():
     m = calcula_m(n,r)
     print u"\nO valor de m é:%.7f" %m
     w0, b, delta, alpha = 1, 0., 0.1, 2.
+    resbow = []
+    resmeu = []
+    vbeta = []
     for mort in [0.207, 0.100, 0.045]:
-        print devolve_cmax(fst,mort)
+        resbow.append(devolve_cmax(fst,mort))
         beta = 2*mort
-        print c_critico(w0,b,m,n,delta,alpha,beta)
+        vbeta.append(beta)
+        resmeu.append(c_critico(w0,b,m,n,delta,alpha,beta))
 
+    params = {"b":b, "n": n, "m": m, "\\alpha": alpha, "\\delta": delta}
+    str_params = "\n"
+    counter = 0
+    lista = list(params.keys())
+    lista.sort()
+    for nome_param in lista:
+        counter += 1
+        str_params += r"$%s = $%s, " %(nome_param, str(params[nome_param]))
+        if counter > 4 and nome_param != params.keys()[-1]:
+            str_params += "\n"
+    titulo = ""
+    titulo = titulo + str_params[:-2]
 
+    w, h = plt.figaspect(1)
+    plt.figure(figsize=(w,h), dpi=300)
+
+    lw = 2.0
+    plt.plot(data1, data2, linewidth=lw)
+
+    plt.grid(True)
+    plt.tight_layout()
+    plt.autoscale(True)
+
+    plt.title(titulo)
+    plt.savefig("max_cost_delta=%s.tif")
     #c = 3
     #b = 5 
     #Fst_vec = [0.022,0.075,0.170]
